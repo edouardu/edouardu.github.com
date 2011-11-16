@@ -1,6 +1,7 @@
 h1. edouardu.com
-This is the source code for my personal website.
 
-h2. License
+p. This is the source code for my personal website.
 
-The following directories and their contents are Copyright Edouard Urcadez. You may not reuse anything therein without my permission:
+h3. License
+
+p. The following directories and their contents are Copyright Edouard Urcadez. You may not reuse anything therein without my permission:
