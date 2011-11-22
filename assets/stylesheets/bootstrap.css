@@ -1790,7 +1790,7 @@ a.menu:after, .dropdown-toggle:after {
 }
 .hero-unit div > ul > li, .nav > li {
   display: block;
-  float: left;
+  float: center;
   margin: 0 20px 0 0;
 
 }
