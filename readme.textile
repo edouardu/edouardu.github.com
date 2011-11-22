@@ -1,6 +1,6 @@
 h1. edouardu.com
 
-p. This is the source code for my personal website.
+p. This is the source code for my personal portfolio.
 
 h3. License
 
