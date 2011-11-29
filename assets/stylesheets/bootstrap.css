@@ -1791,13 +1791,11 @@ a.menu:after, .dropdown-toggle:after {
   font-weight: 200;
   line-height: 27px;
 }
-.hero-unit div > ul > li, .nav > li {
+.hero-unit div > ul > li {
   display: block;
   float: left;
   margin: 0 20px 0 0;
   padding:0; width:95px;
-
-
 }
 footer {
   margin-top: 17px;
