@@ -1796,9 +1796,6 @@ a.menu:after, .dropdown-toggle:after {
   float: left;
   margin:0 auto 0 auto; 
   padding:0; width:95px;
-    display:inline;
-    margin:0;
-    padding:0.5em;
 }
 footer {
   margin-top: 17px;
