@@ -1782,6 +1782,7 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
   line-height: 1;
   letter-spacing: -1px;
+  text-shadow: 0 1px #fff;
 }
 .hero-unit p {
   font-size: 18px;
