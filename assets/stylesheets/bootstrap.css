@@ -1775,6 +1775,8 @@ a.menu:after, .dropdown-toggle:after {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  text-align: center;
+
 }
 .hero-unit h1 {
   margin-bottom: 0;
