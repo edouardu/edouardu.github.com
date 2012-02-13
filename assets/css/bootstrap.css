@@ -3332,11 +3332,13 @@ a.thumbnail:hover {
 }
 @font-face {
   font-family: "OstrichSans";
-  src: url("assets/fonts/OstrichSans/ostrich-regular-webfont.eot");
-  src: local("assets/fonts/OstrichSans/ostrich-regular-webfont.eot"),
-    url("assets/fonts/OstrichSans/ostrich-regular-webfont.woff") format("woff"),
-    url("assets/fonts/OstrichSans/ostrich-regular-webfont.ttf") format("opentype"),
-    url("assets/fonts/OstrichSans/ostrich-regular-webfont.svg") format("svg");
+  src: url("../fonts/OstrichSans/ostrich-regular-webfont.eot");
+  src: local("../fonts/OstrichSans/ostrich-regular-webfont.eot"),
+    url("../fonts/OstrichSans/ostrich-regular-webfont.woff") format("woff"),
+    url("../fonts/OstrichSans/ostrich-regular-webfont.ttf") format("truetype"),
+    url("../fonts/OstrichSans/ostrich-regular-webfont.svg") format("svg");
+   font-weight: 100;
+   font-style: normal;
   }
 .hero-unit {
   padding: 30px;
