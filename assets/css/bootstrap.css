@@ -3340,6 +3340,16 @@ a.thumbnail:hover {
    font-weight: 100;
    font-style: normal;
   }
+  @font-face {
+  font-family: "OstrichSansBold";
+  src: url("../fonts/OstrichSans/ostrich-black-webfont.eot");
+  src: local("../fonts/OstrichSans/ostrich-black-webfont.eot"),
+    url("../fonts/OstrichSans/ostrich-black-webfont.woff") format("woff"),
+    url("../fonts/OstrichSans/ostrich-black-webfont.ttf") format("truetype"),
+    url("../fonts/OstrichSans/ostrich-black-webfont.svg") format("svg");
+   font-weight: 100;
+   font-style: normal;
+  }
 .hero-unit {
   padding: 30px;
   margin-bottom: 30px;
@@ -3351,9 +3361,9 @@ a.thumbnail:hover {
 }
 .hero-unit h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 120px;
   line-height: 1;
-  letter-spacing: -1px;
+  letter-spacing: 5px;
   text-shadow: 0 1px #fff;
 }
 .hero-unit p {
