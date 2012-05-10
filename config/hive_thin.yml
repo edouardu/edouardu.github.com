@@ -1,0 +1,12 @@
+environment: production
+user: dude
+group: www-data
+port: 4567
+log: /var/www/hive/log/thin.log
+chdir: /var/www/hive
+rackup: /var/www/hive/config/rackup.ru
+servers: 1
+max_conns: 512
+timeout: 5
+max_persistent_conns: 25
+daemonize: true

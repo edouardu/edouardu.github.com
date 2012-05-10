@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <%= erb :assets %>
+  <title>Banned</title>
+</head>
+<body>
+<div id="content">
+<h2>You are banned</h2>
+<p>
+  Your ban was filed on <%= Time.at(@ban.timestamp).utc.strftime('%d/%m/%Y %R UTC') %> and will expire on <%= Time.at(@ban.expires_on).utc.strftime('%d/%m/%Y %R UTC') %>
+</p>
+<h3>Reason</h3>
+<p>
+  <%= @ban.reason %>
+</p>
+</div>
+</body>
+</html>
