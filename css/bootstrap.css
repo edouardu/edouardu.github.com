@@ -2,6 +2,10 @@
  * My Edits
  */
 
+ br.clear {
+  clear:left;
+}
+
  a,h1,h2,h3,h3,h5,section,article,ul,li,div,header,nav,footer,span {
   transition: all 0.15s ease-in;
   -webkit-transition: all 0.15s ease-in;
