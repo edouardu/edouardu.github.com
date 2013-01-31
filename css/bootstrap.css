@@ -1,10 +1,46 @@
-a,h1,h2,h3,h3,h5,section,article,ul,li,div,header,nav,footer,span {
+/*!
+ * My Edits
+ */
+
+ a,h1,h2,h3,h3,h5,section,article,ul,li,div,header,nav,footer,span {
   transition: all 0.15s ease-in;
   -webkit-transition: all 0.15s ease-in;
   -moz-transition: all 0.15s ease-in;
   -o-transition: all 0.15s ease-in;
 }
 
+section {
+  box-sizing: border-box;
+  padding: 1.5em 0 1.5em 0;
+  font-size: 1em;
+  width: 75%;
+  margin: 0 auto;
+}
+
+li {
+  width: 49%;
+  height: 0;
+  padding-bottom: 49%;
+  display: block;
+  margin: 0 1% 1% 0;
+  background-color: #dedede;
+  float: left;
+  overflow: hidden;
+}
+
+section ul li a {
+  display: block;
+  text-decoration:none;
+  color:#000;
+  font-size: 2em;
+  font-weight: 700;
+  width: 100%;
+  padding: 40% 0 80% 45%;
+}
+
+section ul li a:hover {
+  background-color: rgba(255, 116, 69, 0.8);
+}
 
 /*!
  * Bootstrap v2.2.2
