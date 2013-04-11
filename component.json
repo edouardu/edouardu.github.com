@@ -1,0 +1,7 @@
+{
+  "name": "edouardu.github.com",
+  "version": "0.0.0",
+  "dependencies": {
+    "960-grid-system": "latest"
+  }
+}
