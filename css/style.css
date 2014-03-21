@@ -9,6 +9,17 @@ body{
   	text-rendering: optimizeLegibility;
 }
 
+#logo{
+	width:80%;
+	position:absolute;
+	left:50%;margin-left:-40%;
+	top:50%;margin-top:-20%;
+}
+
+#logo img{
+	max-width:100%
+}
+
 a{
 	text-decoration: none;
     color: #111; 
