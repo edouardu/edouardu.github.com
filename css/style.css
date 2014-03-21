@@ -14,6 +14,7 @@ body{
 	position:absolute;
 	left:50%;margin-left:-25%;
 	top:50%;margin-top:-20%;
+	box-shadow: 10px 10px 20px #eeeeee;
 }
 
 #logo img{
