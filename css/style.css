@@ -1,12 +1,12 @@
 
 body{
 	font-family: "Reader Regular", Helvetica, sans-serif;
- 	font-weight: normal;
-  	font-size: 1em;
-  	line-height: 1.5em;
-  	color: #111;
-  	background: #FAF8F2;
-  	text-rendering: optimizeLegibility;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #111;
+	background: #FAF8F2;
+	text-rendering: optimizeLegibility;
 }
 
 #logo{
