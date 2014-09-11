@@ -1,5 +1,5 @@
-edouard.us
+[édouard.us](http://edouard.us/ "édouard.us")
 
 —
 
-Digital Labs
+digital lab, experimental zone, caution about the premises.
