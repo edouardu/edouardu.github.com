@@ -1,4 +1,5 @@
-edouardu.github.com
-===================
+edouard.us
 
-A test area for "personal web material" updates.
+—
+
+Digital Labs
