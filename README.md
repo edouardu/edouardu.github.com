@@ -1,4 +1,4 @@
-[édouard.us](http://edouard.us/ "édouard.us")
+[labs.édouard.us](http://labs.edouard.us/ "labs.édouard.us")
 
 —
 
