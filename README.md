@@ -10,7 +10,7 @@ Here lies the mess of what makes up the central hub of my digital-experimentatio
 
 As for myself, I'm a product designer in both the physical and digital domain — previously I've worked on simple medical devices, housewares for OXO, and environmental products for Henkel. Currently I'm building digital tools at IBM for the every-person.
 
-My various projects on github are a public effort to more-deelpy integrate technical foundations of digital design into my toolkit. I never once intended on crafting simple aesthetic sheathes to go over engineered designs. Good Design is Good Engineering.
+My various projects on github are a public effort to more-deeply integrate technical foundations of digital design into my toolkit. I never once intended on crafting simple aesthetic sheathes to go over engineered designs. Good Design is Good Engineering.
 
 —
 
