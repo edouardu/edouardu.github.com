@@ -16,4 +16,6 @@ My various projects on github are a public effort to more-deeply integrate techn
 
 Built with [Cactus](http://cactusformac.com/docs/).
 
+Deployed with [FTPloy](https://ftploy.com/).
+
 Hosted at [Linode](https://www.linode.com).
