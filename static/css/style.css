@@ -3,121 +3,16 @@ Reset
 =========================================== */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-.group:before,
 .group:before,
 .group:after { content: ""; display: table;} 
 .group:after { clear: both;}
 .group { zoom: 1;}
 
-body {
-	font:16px/1 "Helvetica Neue",Helvetica,Arial,sans-serif;
-	-webkit-font-smoothing:antialiased;
-	text-rendering:optimizeLegibility;
-	height: 100%;
-	color:#231E1E;
-	background-color:#FFFFFF;
-}
-
-/*=========================================
-Typography
-=========================================== */
-
-p {
-	line-height:1.8;
-}
-
-strong {
-	font-weight: 500;
-	color: #444;
-}
-
-ul {
-	text-decoration:none;
-	color: #ffffff;
-	list-style-type: none;
-	padding:0; 
-	margin:0;
-}
-
-a {
-	text-decoration:none;
-	color: #231E1E;
-}
-
-a:hover {
-	text-decoration:none;
-	border-bottom: 2px solid;
-}
-
-.logotype {
-	max-width:200px;
-	margin-top: -50px;
-	margin-left: -100px;
-	position: fixed;
-	left: 50%;
-}
-
-a#title {
-	position: fixed; top: 30px; left: 30px;
-	color: #231E1E;
-	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
-}
-
-p#titleright {
-	position: fixed; top: 30px; right: 30px;
-	color: #231E1E;
-	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
-	border-radius: 3px; z-index: 100;
-	max-width:200px;
-}
-
-ul#bottomleft {
-	position: fixed; bottom: 30px; left: 30px;
-	color: #231E1E;
-	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
-	border-radius: 3px; z-index: 100;
-	max-width:200px;
-}
-
-ul#bottomright {
-	position: fixed; bottom: 30px; right: 30px;
-	color: #231E1E;
-	font-size: 25px; font-weight: light; line-height: 1.35; letter-spacing: .05em;
-	border-radius: 3px; z-index: 100;
-	max-width:200px;
-}
-
-/*=================================================================
-Everything below this is deletable. '/posts' depends on most of it.
-=================================================================== */
-
-p.small { 
-	color: #bbb; font-size: 14px; line-height: 1.5; 
-	display: block;
-}
-
-.post-body, p { line-height:1.7; }
-
-h3 {
-	font-size:13px;
-	font-weight:bold;
-	color:#fff;
-	margin-bottom:6px;
-}
-
-h4 {
-	font-size: 13px;
-	font-weight: bold;
-	color: #666;
-	margin-bottom: 6px;
-}
-
 /*=========================================
 General Spacing
 =========================================== */
 .post p,.post ul {
-	max-width:800px;
+	max-width:600px;
 	margin:0 auto;
 }
 .post p {
@@ -126,25 +21,85 @@ General Spacing
 .post img {
 	margin:40px auto;
 	position:relative;
-	max-width:800px;
+	max-width:1000px;
 	width:100%;
 }
 .post img+img {
 	margin-top: -20px;
 }
 
+a#title {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  color: #231E1E;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em; }
+
+p#titleright {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  color: #231E1E;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em;
+  border-radius: 3px;
+  z-index: 100;
+  max-width: 200px; }
+
+ul#bottomleft {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  color: #231E1E;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em;
+  border-radius: 3px;
+  z-index: 100;
+  max-width: 200px; }
+
+ul#bottomright {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #231E1E;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em;
+  border-radius: 3px;
+  z-index: 100;
+  max-width: 200px; }
+
 /*=========================================
 Base
 =========================================== */
+html,body {
+	min-height:100%;
+}
+
+body {
+	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#777;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	position: relative;
+}
 
 #wrapper {
 	padding:100px 40px 100px 40px;
-	max-width: 880px;
+	max-width: 1000px;
 	margin:0 auto;
 }
 
 #wrapper.post {
-	max-width:880px;
+	max-width:1000px;
 }
 
 #header {
@@ -158,6 +113,7 @@ img {
 #thumbnails {
 	margin:0 auto;
 	margin-top:60px;
+	margin-bottom:60px;
 	text-align:center;
 }
 
@@ -205,7 +161,7 @@ img {
 }
 
 #thumbnails a:hover {
-	opacity:.85;
+	opacity:.50;
 }
 
 #thumbnails a:hover span {
@@ -224,12 +180,72 @@ img {
 }
 
 /*=========================================
+Typography
+=========================================== */
+/*Accent color*/
+
+strong {
+  font-weight: 500;
+  color: #444; 
+}
+
+ul {
+  text-decoration: none;
+  color: #ffffff;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+}
+
+a	{
+	text-decoration:none; 
+	color:#0000FF;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid;
+}
+
+/* Line Height */
+.post-body, p { line-height:1.8; }
+
+h1 {
+	display: inline-block;
+	line-height:100%;
+	color: #222;
+	font-weight: 500;
+	font-size: 19px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-size:13px;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:6px;
+}
+
+h4 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 6px;
+}
+
+p.small { 
+	color: #bbb; font-size: 14px; line-height: 1.5; 
+	display: block;
+}
+
+/*=========================================
 Post Page
 =========================================== */
-#header {
+/*#header {
 	border-bottom:1px solid #eee;
 	margin-bottom:20px;
-}
+}*/
 
 .post {
 	margin-bottom:60px;
@@ -290,7 +306,6 @@ Post Page
 /*=========================================
 Post Navigation
 =========================================== */
-
 #post-nav {
 	border-top:1px solid #eee;
 	text-align:center;

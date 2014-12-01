@@ -21,14 +21,14 @@ $(document).ready(function(){
 
 	// OKHOVER.JS
 	$.getScript('/static/js/okhover.min.js', function () {
-  	$(function(){
-    $('li').okhover({
-        fadeIn: true,
-        fadeOut: true,
-        fadeInDuration: 5000,
-        zIndex: 420,
-        el: 'body'
-    });
-});
-  });
+	  	$(function(){
+		    $('li').okhover({
+		        fadeIn: true,
+		        fadeOut: true,
+		        fadeInDuration: 5000,
+		        zIndex: 420,
+		        el: 'body'
+		    });
+		});
+	});
 })
