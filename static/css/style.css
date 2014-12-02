@@ -375,4 +375,53 @@ a#documentation { display: none; }
 #wrapper { padding:20px 20px 40px 20px; }
 .post { margin-bottom: 40px; }
 #footer { text-align: center; padding-bottom: 15px; }
+
+a#title {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  color: #231E1E;
+  font-size: 15px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em; }
+
+p#titleright {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  color: #231E1E;
+  font-size: 15px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em;
+  border-radius: 3px;
+  z-index: 100;
+  max-width: 200px; }
+
+ul#bottomleft {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  color: #231E1E;
+  font-size: 15px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em;
+  border-radius: 3px;
+  z-index: 100;
+  max-width: 200px; }
+
+ul#bottomright {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  color: #231E1E;
+  font-size: 15px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em;
+  border-radius: 3px;
+  z-index: 100;
+  max-width: 200px; }
 }
