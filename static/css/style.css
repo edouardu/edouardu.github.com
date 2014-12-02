@@ -182,6 +182,7 @@ img {
 /*=========================================
 Typography
 =========================================== */
+
 /*Accent color*/
 
 strong {
@@ -208,6 +209,7 @@ a:hover {
 }
 
 /* Line Height */
+
 .post-body, p { line-height:1.8; }
 
 h1 {
@@ -306,6 +308,7 @@ Post Page
 /*=========================================
 Post Navigation
 =========================================== */
+
 #post-nav {
 	border-top:1px solid #eee;
 	text-align:center;
@@ -352,6 +355,10 @@ Post Navigation
 	right: -3px;
 }
 
+/*=========================================
+Mobile Styling Shit
+=========================================== */
+
 @media screen and (max-width: 540px) {
 #wrapper { padding: 20px 40px; }
 #header { margin-bottom: 40px; }
@@ -378,8 +385,8 @@ a#documentation { display: none; }
 
 a#title {
   position: fixed;
-  top: 30px;
-  left: 30px;
+  top: 20px;
+  left: 20px;
   color: #231E1E;
   font-size: 15px;
   font-weight: light;
@@ -388,8 +395,8 @@ a#title {
 
 p#titleright {
   position: fixed;
-  top: 30px;
-  right: 30px;
+  top: 20px;
+  right: 20px;
   color: #231E1E;
   font-size: 15px;
   font-weight: light;
@@ -401,8 +408,8 @@ p#titleright {
 
 ul#bottomleft {
   position: fixed;
-  bottom: 30px;
-  left: 30px;
+  bottom: 20px;
+  left: 20px;
   color: #231E1E;
   font-size: 15px;
   font-weight: light;
@@ -414,8 +421,8 @@ ul#bottomleft {
 
 ul#bottomright {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   color: #231E1E;
   font-size: 15px;
   font-weight: light;
