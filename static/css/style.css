@@ -115,9 +115,6 @@ img {
 	margin-top:60px;
 	margin-bottom:60px;
 	text-align:center;
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	filter: grayscale(100%);
 }
 
 #thumbnails a {
@@ -203,7 +200,7 @@ ul {
 
 a	{
 	text-decoration:none; 
-	color:#001FFD;
+	color:#2244FF;
 }
 
 a:hover {
