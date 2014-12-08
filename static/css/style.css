@@ -115,6 +115,9 @@ img {
 	margin-top:60px;
 	margin-bottom:60px;
 	text-align:center;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 #thumbnails a {
@@ -161,7 +164,7 @@ img {
 }
 
 #thumbnails a:hover {
-	opacity:.50;
+	opacity:.80;
 }
 
 #thumbnails a:hover span {
@@ -200,12 +203,12 @@ ul {
 
 a	{
 	text-decoration:none; 
-	color:#0000FF;
+	color:#001FFD;
 }
 
 a:hover {
-  text-decoration: none;
-  border-bottom: 2px solid;
+  text-decoration: underline;
+/*  border-bottom: 2px solid;*/
 }
 
 /* Line Height */
