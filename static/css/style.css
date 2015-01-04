@@ -12,7 +12,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 General Spacing
 =========================================== */
 .post p,.post ul {
-	max-width:600px;
+	max-width:1000px;
 	margin:0 auto;
 }
 .post p {
@@ -82,13 +82,15 @@ Base
 =========================================== */
 html,body {
 	min-height:100%;
+	background-color: #FFF2F1;
 }
 
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:#777;
+	font:20px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#231E1E;
 	-webkit-font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
+	letter-spacing: .02em;
 	position: relative;
 }
 
@@ -112,8 +114,8 @@ img {
 
 #thumbnails {
 	margin:0 auto;
-	margin-top:60px;
-	margin-bottom:60px;
+	margin-top:40px;
+	margin-bottom:40px;
 	text-align:center;
 }
 
@@ -161,7 +163,7 @@ img {
 }
 
 #thumbnails a:hover {
-	opacity:.80;
+	opacity:.90;
 }
 
 #thumbnails a:hover span {
@@ -210,7 +212,9 @@ a:hover {
 
 /* Line Height */
 
-.post-body, p { line-height:1.8; }
+.post-body, p { 
+	line-height:1.4; 
+}
 
 h1 {
 	display: inline-block;
