@@ -59,6 +59,7 @@ ul#bottomleft {
   font-size: 25px;
   font-weight: light;
   line-height: 1.35;
+  list-style-type: none;
   letter-spacing: .05em;
   border-radius: 3px;
   z-index: 100;
@@ -72,6 +73,7 @@ ul#bottomright {
   font-size: 25px;
   font-weight: light;
   line-height: 1.35;
+  list-style-type: none;
   letter-spacing: .05em;
   border-radius: 3px;
   z-index: 100;
@@ -194,10 +196,9 @@ strong {
 
 ul {
   text-decoration: none;
-  color: #ffffff;
-  list-style-type: none;
-  padding: 0;
-  margin: 0; 
+  color: #231E1E;
+  line-height:1.4; 
+  /*list-style-type: none;*/
 }
 
 a	{
@@ -221,7 +222,7 @@ h1 {
 	line-height:100%;
 	color: #222;
 	font-weight: 500;
-	font-size: 19px;
+	font-size: 25px;
 	margin: 0;
 	padding-bottom: 20px;
 }
@@ -229,7 +230,7 @@ h1 {
 h3 {
 	font-size:13px;
 	font-weight:bold;
-	color:#fff;
+	color:#4a4a4a;
 	margin-bottom:6px;
 }
 
