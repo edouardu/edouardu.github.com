@@ -16,32 +16,27 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/posts/project-five.html</loc>
+        <loc>/posts/ibm.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/posts/project-four.html</loc>
+        <loc>/posts/pi.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/posts/project-one.html</loc>
+        <loc>/posts/ra.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/posts/project-six.html</loc>
+        <loc>/posts/smart-design.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>/posts/project-three.html</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>/posts/project-two.html</loc>
+        <loc>/posts/vs.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

@@ -22,7 +22,7 @@ General Spacing
 	margin:40px auto;
 	position:relative;
 	max-width:1000px;
-	width:100%;
+	width:100%;	
 }
 .post img+img {
 	margin-top: -20px;
@@ -30,8 +30,8 @@ General Spacing
 
 a#title {
   position: fixed;
-  top: 30px;
-  left: 30px;
+  top: 1em;
+  left: 1em;
   color: #231E1E;
   font-size: 25px;
   font-weight: light;
@@ -40,8 +40,8 @@ a#title {
 
 p#titleright {
   position: fixed;
-  top: 30px;
-  right: 30px;
+  top: 1em;
+  right: 1em;
   color: #231E1E;
   font-size: 25px;
   font-weight: light;
@@ -68,8 +68,8 @@ ul#bottomleft {
 
 ul#bottomright {
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 1em;
+  right: 1em;
   color: #231E1E;
   font-size: 25px;
   font-weight: light;
@@ -98,7 +98,7 @@ body {
 }
 
 #wrapper {
-	padding:100px 40px 100px 40px;
+	padding:6% 40px 5% 40px;
 	max-width: 1000px;
 	margin:0 auto;
 }
@@ -188,11 +188,16 @@ img {
 Typography
 =========================================== */
 
-/*Accent color*/
-
 strong {
   font-weight: 500;
   color: #444; 
+}
+
+blockquote {
+  font-style: italic;
+  color: #918f8f; 
+  border-left: 2px solid #918f8f;
+  padding-left: 1em;
 }
 
 ul {
@@ -235,10 +240,12 @@ h1 {
 }
 
 h3 {
+	font-family: Times, Times New Roman, serif;
+	font-style: italic;
 	font-size:13px;
 	font-weight:bold;
 	color:#4a4a4a;
-	margin-bottom:6px;
+	letter-spacing: .0125em;
 }
 
 h4 {
@@ -249,7 +256,9 @@ h4 {
 }
 
 p.small { 
-	color: #bbb; font-size: 14px; line-height: 1.5; 
+	color: #bbb; 
+	font-size: 14px; 
+	line-height: 1.5; 
 	display: block;
 }
 
@@ -271,7 +280,7 @@ Post Page
 	color:#aaa;
 	margin-bottom:40px;
 	line-height:1.4;
-	border-top:1px solid #eee;
+	border-top:1px solid #231e1e;
 	padding-top:40px;
 	color:#444;
 }
@@ -322,7 +331,7 @@ Post Navigation
 =========================================== */
 
 #post-nav {
-	border-top:1px solid #eee;
+	border-top:1px solid #231e1e;
 	text-align:center;
 	padding-top:20px;
 	font-size:13px;
