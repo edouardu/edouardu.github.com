@@ -415,8 +415,12 @@ Mobile Styling Shit
 	.post { 
 		margin-bottom: 40px; 
 	}
+	.post-body, p { 
+		margin-top: 30px;
+	}
 	#footer { 
-		text-align: center; padding-bottom: 15px; 
+		text-align: center; 
+		padding-bottom: 15px; 
 	}
 	a#title {
 	  position: fixed;
