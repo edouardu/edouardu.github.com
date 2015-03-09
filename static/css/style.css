@@ -19,7 +19,7 @@ General Spacing
 	margin-bottom:20px;
 }
 .post img {
-	margin:40px auto;
+	margin:0px auto 20px;
 	position:relative;
 	max-width:1000px;
 	width:100%;	
@@ -100,7 +100,7 @@ body {
 #wrapper {
 	padding:6% 40px 5% 40px;
 	max-width: 1000px;
-	margin:40px auto;
+	margin:0px auto;
 }
 
 #wrapper.post {
