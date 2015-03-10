@@ -238,6 +238,15 @@ h1 {
 	padding-bottom: 20px;
 }
 
+h2 {
+	display: inline-block;
+	font-style: italic;
+	line-height:100%;
+	color: #222;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
 h3 {
 	font-family: Times, Times New Roman, serif;
 	font-style: italic;
@@ -418,10 +427,18 @@ Mobile Styling Shit
 	.post-body, p { 
 		margin-top: 30px;
 	}
+	ol {
+		text-decoration: none;
+		color: #231E1E;
+		line-height:1.4;
+		margin-left: 1.5em;
+		/*list-style-type: none;*/
+	}
 	#footer { 
 		text-align: center; 
 		padding-bottom: 15px; 
 	}
+
 	a#title {
 	  position: fixed;
 	  top: 20px;
