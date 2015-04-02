@@ -38,7 +38,7 @@ a#title {
   line-height: 1.35;
   letter-spacing: .05em; }
 
-p#titleright {
+a#titleright {
   position: fixed;
   top: 1em;
   right: 1em;
@@ -190,6 +190,10 @@ Typography
 strong {
   font-weight: 500;
   color: #444; 
+}
+
+em {
+	font-style: italic;
 }
 
 blockquote {
