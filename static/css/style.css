@@ -9,81 +9,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .group { zoom: 1;}
 
 /*=========================================
-<<<<<<< Updated upstream
-General Spacing
-=========================================== */
-.post p,.post ul {
-	max-width:1000px;
-	margin:0 auto;
-}
-.post p {
-	margin-bottom:20px;
-}
-.post img {
-	margin:0px auto 20px;
-	position:relative;
-	max-width:1000px;
-	width:100%;	
-}
-.post img+img {
-	margin-top: -20px;
-}
-
-a#title {
-  position: fixed;
-  top: 1em;
-  left: 1em;
-  color: #231E1E;
-  font-size: 25px;
-  font-weight: light;
-  line-height: 1.35;
-  letter-spacing: .05em; }
-
-a#titleright {
-  position: fixed;
-  top: 1em;
-  right: 1em;
-  color: #231E1E;
-  font-size: 25px;
-  font-weight: light;
-  line-height: 1.35;
-  letter-spacing: .05em;
-  margin-top: 0;
-  margin-bottom: 0;
-  z-index: 100;
-  max-width: 200px; }
-
-ul#bottomleft {
-  position: fixed;
-  bottom: 30px;
-  left: 30px;
-  color: #231E1E;
-  font-size: 25px;
-  font-weight: light;
-  line-height: 1.35;
-  list-style-type: none;
-  letter-spacing: .05em;
-  border-radius: 3px;
-  z-index: 100;
-  max-width: 200px; }
-
-ul#bottomright {
-  position: fixed;
-  bottom: 1em;
-  right: 1em;
-  color: #231E1E;
-  font-size: 25px;
-  font-weight: light;
-  line-height: 1.35;
-  list-style-type: none;
-  letter-spacing: .05em;
-  border-radius: 3px;
-  z-index: 100;
-  max-width: 200px; }
-
-/*=========================================
-=======
->>>>>>> Stashed changes
 Base
 =========================================== */
 html,body {
@@ -191,41 +116,9 @@ img {
 Typography
 =========================================== */
 
-<<<<<<< Updated upstream
-strong {
-  font-weight: 500;
-  color: #444; 
-}
-
-em {
-	font-style: italic;
-}
-
-blockquote {
-  font-style: italic;
-  color: #918f8f; 
-  border-left: 2px solid #918f8f;
-  padding-left: 1em;
-}
-
-ul {
-  text-decoration: none;
-  color: #231E1E;
-  line-height:1.4; 
-  /*list-style-type: none;*/
-}
-
-ol {
-  text-decoration: none;
-  color: #231E1E;
-  line-height:1.4;
-  /*list-style-type: none;*/
-}
-=======
 /*===================
 Text
 ===================== */
->>>>>>> Stashed changes
 
 a	{
 	text-decoration:none; 
