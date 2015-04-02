@@ -9,6 +9,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .group { zoom: 1;}
 
 /*=========================================
+<<<<<<< Updated upstream
 General Spacing
 =========================================== */
 .post p,.post ul {
@@ -81,6 +82,8 @@ ul#bottomright {
   max-width: 200px; }
 
 /*=========================================
+=======
+>>>>>>> Stashed changes
 Base
 =========================================== */
 html,body {
@@ -101,6 +104,7 @@ body {
 	padding:6% 40px 5% 40px;
 	max-width: 1000px;
 	margin:0px auto;
+	line-height: 1.4;
 }
 
 #wrapper.post {
@@ -187,6 +191,7 @@ img {
 Typography
 =========================================== */
 
+<<<<<<< Updated upstream
 strong {
   font-weight: 500;
   color: #444; 
@@ -216,55 +221,23 @@ ol {
   line-height:1.4;
   /*list-style-type: none;*/
 }
+=======
+/*===================
+Text
+===================== */
+>>>>>>> Stashed changes
 
 a	{
 	text-decoration:none; 
 	color:#2244FF;
 }
-
 a:hover {
   text-decoration: underline;
 /*  border-bottom: 2px solid;*/
 }
 
-/* Line Height */
-
 .post-body, p { 
-	line-height:1.4; 
-}
-
-h1 {
-	display: inline-block;
-	line-height:100%;
-	color: #222;
-	font-size: 50px;
-	margin: 0;
-	padding-bottom: 20px;
-}
-
-h2 {
-	display: inline-block;
-	font-style: italic;
-	line-height:100%;
-	color: #222;
-	margin: 0;
-	padding-bottom: 20px;
-}
-
-h3 {
-	font-family: Times, Times New Roman, serif;
-	font-style: italic;
-	font-size:13px;
-	font-weight:bold;
-	color:#4a4a4a;
-	letter-spacing: .0125em;
-}
-
-h4 {
-	font-size: 13px;
-	font-weight: bold;
-	color: #666;
-	margin-bottom: 6px;
+	line-height: 1.4; 
 }
 
 p.small { 
@@ -274,17 +247,159 @@ p.small {
 	display: block;
 }
 
-/*=========================================
-Post Page
-=========================================== */
-/*#header {
-	border-bottom:1px solid #eee;
-	margin-bottom:20px;
-}*/
-
 .post {
 	margin-bottom:60px;
 }
+
+/*.post p, .post ul {
+	max-width:1000px;
+	margin:0 auto;
+	margin-bottom: 20px;
+}*/
+
+/*===================
+Headings
+===================== */
+
+h1 {
+	display: inline-block;
+	line-height:100%;
+	color: #222;
+	font-size: 50px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+h2 {
+	display: inline-block;
+	font-style: italic;
+	line-height:100%;
+	color: #222;
+	margin: 0;
+	padding-bottom: 20px;
+}
+h3 {
+	font-family: Times, Times New Roman, serif;
+	font-style: italic;
+	font-size:13px;
+	font-weight:bold;
+	color:#4a4a4a;
+	letter-spacing: .0125em;
+}
+h4 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 6px;
+}
+
+/*===================
+Text Styling
+===================== */
+
+strong {
+  font-weight: 500;
+  color: #444; 
+}
+
+em {
+	font-style: italic;
+}
+
+blockquote {
+  font-style: italic;
+  color: #918f8f; 
+  border-left: 2px solid #918f8f;
+  padding-left: 1em;
+}
+
+/*===================
+Lists
+===================== */
+
+ul {
+  text-decoration: none;
+  color: #231E1E;
+  line-height:1.4; 
+  /*list-style-type: none;*/
+}
+
+ol {
+  text-decoration: none;
+  color: #231E1E;
+  line-height:1.4;
+  /*list-style-type: none;*/
+}
+
+/*=========================================
+Images
+=========================================== */
+
+.post img {
+	margin: 0px auto 20px;
+	position: relative;
+	max-width: 1000px;	
+	width: 100%;	
+}
+.post img+img {
+	margin-top: -20px;
+}
+
+/*=========================================
+Navigation
+=========================================== */
+
+a#title {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  color: #231E1E;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em; }
+a#titleright {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  color: #231E1E;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 100;
+  max-width: 200px; }
+ul#bottomleft {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  color: #231E1E;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 1.35;
+  list-style-type: none;
+  letter-spacing: .05em;
+  border-radius: 3px;
+  z-index: 100;
+  max-width: 200px; }
+ul#bottomright {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  color: #231E1E;
+  font-size: 25px;
+  font-weight: light;
+  line-height: 1.35;
+  list-style-type: none;
+  letter-spacing: .05em;
+  border-radius: 3px;
+  z-index: 100;
+  max-width: 200px; }
+
+/*=========================================
+Post Page
+=========================================== */
 
 #post-meta {
 	font-size:13px;
