@@ -451,6 +451,10 @@ Mobile Styling Shit
 		padding-bottom: 15px; 
 	}
 
+	body {
+	font: 15px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
 	a#title {
 	  position: fixed;
 	  top: 20px;
@@ -464,19 +468,6 @@ Mobile Styling Shit
 	a#titleright {
 	  position: fixed;
 	  top: 20px;
-	  right: 20px;
-	  color: #231E1E;
-	  font-size: 15px;
-	  font-weight: light;
-	  line-height: 1.35;
-	  letter-spacing: .05em;
-	  border-radius: 3px;
-	  z-index: 100;
-	  max-width: 200px; }
-
-	ul#bottomright {
-	  position: fixed;
-	  bottom: 20px;
 	  right: 20px;
 	  color: #231E1E;
 	  font-size: 15px;
