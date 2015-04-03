@@ -461,23 +461,10 @@ Mobile Styling Shit
 	  line-height: 1.35;
 	  letter-spacing: .05em; }
 
-	p#titleright {
+	a#titleright {
 	  position: fixed;
 	  top: 20px;
 	  right: 20px;
-	  color: #231E1E;
-	  font-size: 15px;
-	  font-weight: light;
-	  line-height: 1.35;
-	  letter-spacing: .05em;
-	  border-radius: 3px;
-	  z-index: 100;
-	  max-width: 200px; }
-
-	ul#bottomleft {
-	  position: fixed;
-	  bottom: 20px;
-	  left: 20px;
 	  color: #231E1E;
 	  font-size: 15px;
 	  font-weight: light;
