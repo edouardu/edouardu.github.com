@@ -228,7 +228,7 @@ Images
 =========================================== */
 
 .post img {
-	margin: 0px auto 20px;
+	margin: 20px auto;
 	position: relative;
 	max-width: 1000px;	
 	width: 100%;	
