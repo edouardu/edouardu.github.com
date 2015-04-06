@@ -463,7 +463,9 @@ Mobile Styling Shit
 	  font-size: 15px;
 	  font-weight: light;
 	  line-height: 1.35;
-	  letter-spacing: .05em; }
+	  letter-spacing: .05em;
+	  z-index: 9999;
+	}
 
 	a#titleright {
 	  position: fixed;
@@ -475,6 +477,7 @@ Mobile Styling Shit
 	  line-height: 1.35;
 	  letter-spacing: .05em;
 	  border-radius: 3px;
-	  z-index: 100;
-	  max-width: 200px; }
+	  z-index: 9999;
+	  max-width: 200px; 
+	}
 }
