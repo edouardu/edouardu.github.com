@@ -237,6 +237,13 @@ Images
 	margin-top: -20px;
 }
 
+.post iframe {
+	margin: 20px auto;
+	position: relative;
+	max-width: 1000px;	
+	width: 100%;	
+}
+
 /*=========================================
 Navigation
 =========================================== */
