@@ -249,12 +249,13 @@ a#title {
   font-size: 25px;
   font-weight: light;
   line-height: 1.35;
-  letter-spacing: .05em; }
+  letter-spacing: .05em; 
+}
 a#titleright {
   position: fixed;
   top: 1em;
   right: 1em;
-  color: #231E1E;
+  color: #2244FF;
   font-size: 25px;
   font-weight: light;
   line-height: 1.35;
@@ -262,33 +263,8 @@ a#titleright {
   margin-top: 0;
   margin-bottom: 0;
   z-index: 100;
-  max-width: 200px; }
-ul#bottomleft {
-  position: fixed;
-  bottom: 30px;
-  left: 30px;
-  color: #231E1E;
-  font-size: 25px;
-  font-weight: light;
-  line-height: 1.35;
-  list-style-type: none;
-  letter-spacing: .05em;
-  border-radius: 3px;
-  z-index: 100;
-  max-width: 200px; }
-ul#bottomright {
-  position: fixed;
-  bottom: 1em;
-  right: 1em;
-  color: #231E1E;
-  font-size: 25px;
-  font-weight: light;
-  line-height: 1.35;
-  list-style-type: none;
-  letter-spacing: .05em;
-  border-radius: 3px;
-  z-index: 100;
-  max-width: 200px; }
+  max-width: 200px; 
+}
 
 /*=========================================
 Post Page
