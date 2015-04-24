@@ -13,7 +13,7 @@ Base
 =========================================== */
 html,body {
 	min-height:100%;
-	background-color: #FFF2F1;
+	background-color: #FAF3F0;
 }
 
 body {
@@ -84,21 +84,12 @@ img {
 }
 
 #thumbnails a span {
-	color:#999;
 	display:inline-block;
 	display: none;
-	font-size:15px;
-	font-weight:400;
-	margin:20px 0;
 }
 
 #thumbnails a:hover {
 	opacity:.90;
-}
-
-#thumbnails a:hover span {
-	opacity:1;
-	visibility:visible;
 }
 
 #footer { 
@@ -110,6 +101,35 @@ img {
 
 #footer p {
 	float: left;
+}
+
+/*=========================================
+Navigation
+=========================================== */
+
+a#title {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  color: #231E1E;
+  font-size: 20px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em; 
+}
+a#titleright {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  color: #2244FF;
+  font-size: 20px;
+  font-weight: light;
+  line-height: 1.35;
+  letter-spacing: .05em;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 100;
+  max-width: 200px; 
 }
 
 /*=========================================
@@ -242,35 +262,6 @@ Images
 	position: relative;
 	max-width: 1000px;	
 	width: 100%;	
-}
-
-/*=========================================
-Navigation
-=========================================== */
-
-a#title {
-  position: fixed;
-  top: 1em;
-  left: 1em;
-  color: #231E1E;
-  font-size: 25px;
-  font-weight: light;
-  line-height: 1.35;
-  letter-spacing: .05em; 
-}
-a#titleright {
-  position: fixed;
-  top: 1em;
-  right: 1em;
-  color: #2244FF;
-  font-size: 25px;
-  font-weight: light;
-  line-height: 1.35;
-  letter-spacing: .05em;
-  margin-top: 0;
-  margin-bottom: 0;
-  z-index: 100;
-  max-width: 200px; 
 }
 
 /*=========================================
