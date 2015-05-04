@@ -442,9 +442,9 @@ Mobile Styling Shit
 	}
 	a#titleright {
 	  position: fixed;
-	  top: 20px;
-	  right: 20px;
-	  color: #231E1E;
+	  top: 1em;
+	  right: 1em;
+	  color: #2244FF;
 	  font-size: 15px;
 	  font-weight: light;
 	  line-height: 1.35;
