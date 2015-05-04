@@ -431,8 +431,8 @@ Mobile Styling Shit
 
 	a#title {
 	  position: fixed;
-	  top: 20px;
-	  left: 20px;
+	  top: 1em;
+	  left: 1em;
 	  color: #231E1E;
 	  font-size: 15px;
 	  font-weight: light;
@@ -440,7 +440,6 @@ Mobile Styling Shit
 	  letter-spacing: .05em;
 	  z-index: 9999;
 	}
-
 	a#titleright {
 	  position: fixed;
 	  top: 20px;
@@ -450,7 +449,6 @@ Mobile Styling Shit
 	  font-weight: light;
 	  line-height: 1.35;
 	  letter-spacing: .05em;
-	  border-radius: 3px;
 	  z-index: 9999;
 	  max-width: 200px; 
 	}
