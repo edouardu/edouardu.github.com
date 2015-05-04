@@ -14,6 +14,8 @@ My various projects on github are a public effort to more-deeply integrate techn
 
 —
 
+Test bed for [édouard.us](http://edouard.us/)
+
 Built with [Cactus](http://cactusformac.com/docs/).
 
 Templated with [Django](https://www.djangoproject.com).
