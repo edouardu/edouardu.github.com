@@ -14,7 +14,7 @@ Base
 html,
 body {
 	min-height:100%;
-	b/*ackground-color: #FAF3F0;*/
+	/*background-color: #FAF3F0;*/
 }
 
 body {
@@ -142,12 +142,12 @@ Text
 ===================== */
 
 a {
-	text-decoration:none; 
+	text-decoration: none; 
 	color:#2244FF;
 }
 a:hover {
   text-decoration: underline;
-  /*border-bottom: 2px solid;*/
+  /*border-bottom: 1px solid;*/
 }
 
 .post-body, p { 
@@ -196,12 +196,7 @@ h2 {
 	letter-spacing: .02em;
 }
 h3 {
-	font-family: Times, Times New Roman, serif;
-	font-style: italic;
-	font-size:13px;
-	font-weight:bold;
-	color:#4a4a4a;
-	letter-spacing: .0125em;
+	font: 20px sans-serif;
 }
 h4 {
 	font-size: 13px;
@@ -215,9 +210,9 @@ h5 {
 h6 {
 	font-family: Times, Times New Roman, serif;
 	font-style: italic;
-	font-size:14px;
-	font-weight:bold;
-	color:#231E1E;
+	font-size: 14px;
+	font-weight: bold;
+	color: #BDBCBC;
 	letter-spacing: .0125em;
 }
 /*===================
@@ -420,13 +415,13 @@ Mobile Styling Shit
 		margin-bottom: 0; 
 	}
 	#wrapper { 
-		padding:20px .5em 40px .5em; 
+		padding:40px .5em 40px .5em; 
 	}
 	.post { 
 		margin-bottom: 40px; 
 	}
 	.post-body, p { 
-		margin-top: 30px;
+		margin-top: 0px;
 	}
 	ol {
 		text-decoration: none;
