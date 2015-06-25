@@ -27,23 +27,49 @@ body {
 	color: $black90;
 	-webkit-font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
-	letter-spacing: .0125em;
+	letter-spacing: .01em;
 	position: relative;
 	@media screen and (max-width:440px) {
 		font: 15px/1 "Neue Haas Unica W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
 }
 
+nav {
+	max-width: 920px;
+	z-index: 999;
+	height: 6em;
+	margin: 0 auto;
+	padding: 2em 0;
+	border-bottom: 1px solid $black30;
+	a {
+		&#title {
+			float: left;
+			@media screen and (max-width:440px) {
+				font-size: 15px;
+				line-height: 1.35;
+			}
+		}
+		&#titleright {
+			float: right;
+			color: $red;
+			@media screen and (max-width:440px) {
+				font-size: 15px;
+				line-height: 1.35;
+			}
+		}
+	}
+}
+
 #wrapper {
-	padding:6% 40px 5% 40px;
+	padding: 1em 2em 2em 2em;
 	max-width: 1000px;
-	margin:0px auto;
+	margin: 0px auto;
 	line-height: 1.4;
 	&.post {
 		max-width:1000px;
 	}
 	@media screen and (max-width: 540px) {
-		padding: 20px 40px;
+		padding: 40px 40px;
 	}
 	@media screen and (max-width:440px) {
 		padding: 40px .5em 40px .5em;
@@ -140,7 +166,9 @@ img {
 	}
 }
 
+//
 // Text
+//
 
 a {
 	text-decoration: none; 
@@ -149,39 +177,39 @@ a {
 		text-decoration: underline;
 		/*border-bottom: 1px solid;*/
 	}
-	&#title {
-		position: fixed;
-		top: 1em;
-		left: 1em;
-		color: $black;
-		font-size: 20px;
-		font-weight: light;
-		line-height: 1.4;
-		letter-spacing: .05em;
-		@media screen and (max-width:440px) {
-			font-size: 15px;
-			line-height: 1.35;
-			z-index: 9999;
-		}
-	}
-	&#titleright {
-		position: fixed;
-		top: 1em;
-		right: 1em;
-		font-size: 20px;
-		font-weight: light;
-		line-height: 1.4;
-		letter-spacing: .05em;
-		margin-top: 0;
-		margin-bottom: 0;
-		z-index: 100;
-		max-width: 200px;
-		@media screen and (max-width:440px) {
-			color: $blue;
-			font-size: 15px;
-			line-height: 1.35;
-		}
-	}
+	// &#title {
+	// 	position: fixed;
+	// 	top: 1em;
+	// 	left: 1em;
+	// 	color: $black;
+	// 	font-size: 20px;
+	// 	font-weight: light;
+	// 	line-height: 1.4;
+	// 	letter-spacing: .05em;
+	// 	@media screen and (max-width:440px) {
+	// 		font-size: 15px;
+	// 		line-height: 1.35;
+	// 		z-index: 9999;
+	// 	}
+	// }
+	// &#titleright {
+	// 	position: fixed;
+	// 	top: 1em;
+	// 	right: 1em;
+	// 	font-size: 20px;
+	// 	font-weight: light;
+	// 	line-height: 1.4;
+	// 	letter-spacing: .05em;
+	// 	margin-top: 0;
+	// 	margin-bottom: 0;
+	// 	z-index: 100;
+	// 	max-width: 200px;
+	// 	@media screen and (max-width:440px) {
+	// 		color: $blue;
+	// 		font-size: 15px;
+	// 		line-height: 1.35;
+	// 	}
+	// }
 }
 
 .post-body, 
@@ -206,13 +234,24 @@ p.small {
 	}
 }
 
+// .spoiler {
+// 	background: $black90;
+// }
+
+// .spoiler:hover {
+// 	background-color: $black90;
+// 	color: $white;
+// }
+
 ::selection,
 ::-moz-selection {
     color: $white; 
     background: $blue;
 }
 
+//
 // Header Text
+//
 
 h1,
 h2 {
@@ -232,7 +271,9 @@ h6 {
 	letter-spacing: .0125em;
 }
 
+//
 // Text Styling
+//
 
 strong {
 	font-family: "Neue Haas Unica W01 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -242,7 +283,6 @@ strong {
 
 em {
 	font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	// font-style: italic;
 }
 
 blockquote {
@@ -252,7 +292,9 @@ blockquote {
   padding-left: 1em;
 }
 
+//
 // Lists, Ordered and Unordered
+//
 
 ul,
 ol {
@@ -269,7 +311,9 @@ ol {
   }
 }
 
+//
 // Imagery, Pictures, Iframes
+//
 
 .post {
 	img {
@@ -289,7 +333,9 @@ ol {
 	}
 }
 
+//
 // Post Page metadata
+//
 
 #post-meta {
 	font-size:13px;
@@ -318,7 +364,9 @@ ol {
 	}	
 }
 
+//
 // Post Page navigation
+//
 
 #post-nav {
 	border-top:1px solid $black30;

@@ -39,16 +39,6 @@ table {
   zoom: 1; }
 
 @font-face {
-  font-family: "Neue Haas Unica W01 Light";
-  src: url("../fonts/001e59a9-197e-4fb1-9e72-cef21b186c03.eot?#iefix");
-  src: url("../fonts/001e59a9-197e-4fb1-9e72-cef21b186c03.eot?#iefix") format("eot"), url("../fonts/e5716290-d41e-4c97-a27c-7a20a46ddf45.woff2") format("woff2"), url("../fonts/b681571f-aab2-4935-a99c-6ee1063ce638.woff") format("woff"), url("../fonts/1d88a9b0-aac0-40df-baf7-a630cd19cc5d.ttf") format("truetype"), url("../fonts/40a247b1-2840-4953-b24b-8a82ace0673b.svg#40a247b1-2840-4953-b24b-8a82ace0673b") format("svg"); }
-
-@font-face {
-  font-family: "Neue Haas Unica W01 Lig1492560";
-  src: url("../fonts/b7efcac9-8856-44e9-aa4b-ddc054ecf711.eot?#iefix");
-  src: url("../fonts/b7efcac9-8856-44e9-aa4b-ddc054ecf711.eot?#iefix") format("eot"), url("../fonts/0e1c7b56-be29-4eec-b5fa-f7e29da05704.woff2") format("woff2"), url("../fonts/dd305109-19c2-45b3-b6e2-bcda814c27aa.woff") format("woff"), url("../fonts/e4f669d4-b0d1-4770-befa-06c56782a3eb.ttf") format("truetype"), url("../fonts/e67035a8-dfc1-42c5-bef8-80630321df05.svg#e67035a8-dfc1-42c5-bef8-80630321df05") format("svg"); }
-
-@font-face {
   font-family: "Neue Haas Unica W01 Regular";
   src: url("../fonts/0ebd7648-5847-404a-a88a-28a353c0921c.eot?#iefix");
   src: url("../fonts/0ebd7648-5847-404a-a88a-28a353c0921c.eot?#iefix") format("eot"), url("../fonts/e0d80810-f7e3-4fea-8c57-ef8116f0465d.woff2") format("woff2"), url("../fonts/27645c8a-608b-4abf-a2f1-c4407b576723.woff") format("woff"), url("../fonts/bd3b3439-8eff-445c-80ed-87064138ca7d.ttf") format("truetype"), url("../fonts/bf3731ee-64fe-49c1-b8a6-a4edbff3c74a.svg#bf3731ee-64fe-49c1-b8a6-a4edbff3c74a") format("svg"); }
@@ -57,11 +47,6 @@ table {
   font-family: "Neue Haas Unica W01 Hea1492559";
   src: url("../fonts/960b8d39-bee7-47a1-a258-c73f8aabab91.eot?#iefix");
   src: url("../fonts/960b8d39-bee7-47a1-a258-c73f8aabab91.eot?#iefix") format("eot"), url("../fonts/cc589c6c-1ce4-4279-8684-c378497d1c68.woff2") format("woff2"), url("../fonts/8546c78d-5a38-4c7b-9371-5a70d803922a.woff") format("woff"), url("../fonts/cb4a00d4-9830-4ba3-914c-8eae604824b6.ttf") format("truetype"), url("../fonts/611ebee3-c884-4580-86d4-d81a6180c188.svg#611ebee3-c884-4580-86d4-d81a6180c188") format("svg"); }
-
-@font-face {
-  font-family: "Neue Haas Unica W01 Medium It";
-  src: url("../fonts/56b738a7-54b9-4e8c-a470-d96972ab3303.eot?#iefix");
-  src: url("../fonts/56b738a7-54b9-4e8c-a470-d96972ab3303.eot?#iefix") format("eot"), url("../fonts/2418a824-3af2-42d7-a62e-f7a77cf487d1.woff2") format("woff2"), url("../fonts/86b76db5-9343-473a-a106-60683cec7626.woff") format("woff"), url("../fonts/2b883332-01dc-4b55-ac6a-d24c84f0e334.ttf") format("truetype"), url("../fonts/7de50dd1-4a4e-47bf-bb5d-33bf1450649a.svg#7de50dd1-4a4e-47bf-bb5d-33bf1450649a") format("svg"); }
 
 @font-face {
   font-family: "Neue Haas Unica W01 Bold";
@@ -78,14 +63,35 @@ body {
   color: rgba(35, 30, 30, 0.9);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  letter-spacing: .0125em;
+  letter-spacing: .01em;
   position: relative; }
   @media screen and (max-width: 440px) {
     body {
       font: 15px/1 "Neue Haas Unica W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; } }
 
+nav {
+  max-width: 920px;
+  z-index: 999;
+  height: 6em;
+  margin: 0 auto;
+  padding: 2em 0;
+  border-bottom: 1px solid rgba(35, 30, 30, 0.3); }
+  nav a#title {
+    float: left; }
+    @media screen and (max-width: 440px) {
+      nav a#title {
+        font-size: 15px;
+        line-height: 1.35; } }
+  nav a#titleright {
+    float: right;
+    color: #ff4621; }
+    @media screen and (max-width: 440px) {
+      nav a#titleright {
+        font-size: 15px;
+        line-height: 1.35; } }
+
 #wrapper {
-  padding: 6% 40px 5% 40px;
+  padding: 1em 2em 2em 2em;
   max-width: 1000px;
   margin: 0px auto;
   line-height: 1.4; }
@@ -93,7 +99,7 @@ body {
     max-width: 1000px; }
   @media screen and (max-width: 540px) {
     #wrapper {
-      padding: 20px 40px; } }
+      padding: 40px 40px; } }
   @media screen and (max-width: 440px) {
     #wrapper {
       padding: 40px .5em 40px .5em; } }
@@ -179,37 +185,6 @@ a {
   a:hover {
     text-decoration: underline;
     /*border-bottom: 1px solid;*/ }
-  a#title {
-    position: fixed;
-    top: 1em;
-    left: 1em;
-    color: #231e1e;
-    font-size: 20px;
-    font-weight: light;
-    line-height: 1.4;
-    letter-spacing: .05em; }
-    @media screen and (max-width: 440px) {
-      a#title {
-        font-size: 15px;
-        line-height: 1.35;
-        z-index: 9999; } }
-  a#titleright {
-    position: fixed;
-    top: 1em;
-    right: 1em;
-    font-size: 20px;
-    font-weight: light;
-    line-height: 1.4;
-    letter-spacing: .05em;
-    margin-top: 0;
-    margin-bottom: 0;
-    z-index: 100;
-    max-width: 200px; }
-    @media screen and (max-width: 440px) {
-      a#titleright {
-        color: #0066ff;
-        font-size: 15px;
-        line-height: 1.35; } }
 
 .post-body,
 p {
