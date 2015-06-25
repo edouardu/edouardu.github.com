@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block title %}{{ title }}{% endblock title %}
+{% block content %}
+<section id="wrapper" class="post group">
+  
+  <article class="post">
+  	<section class="post-body">
+  		{% block body %}
+  		This is where the post contents is.
+  		{% endblock body %}
+  	</section>
+  </article> <!-- Info Body -->
+
+</section> <!--wrapper-->
+{% endblock content %}

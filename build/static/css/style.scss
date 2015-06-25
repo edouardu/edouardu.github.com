@@ -1,0 +1,5 @@
+// Partials are OOCSS components not necessarily related to the site at a stylistic level.
+@import 'partials/all';
+
+// Modules are site- and style-specific rules.
+@import 'modules/all';

@@ -1,0 +1,47 @@
+title: Information
+
+{% extends "info.html" %}
+{% block body %}
+{% filter markdown %}
+
+Hey — I'm a physical–digital product designer and prototyper based in Austin, Texas.
+
+###### Here's some more —
+
+1. No-brainer social networking: [Facebook](https://www.facebook.com/edouerd), [Twitter](https://twitter.com/edouerd), and [Instagram](https://instagram.com/edouard.u/).
+
+2. [Github](https://github.com/edouerd?tab=repositories) is my favorite design tool and toolkit storage at the moment.
+
+3. [Dribbble](https://dribbble.com/edouard) is alright for posting in-progress work.
+
+4. I'm an aspiring noise and/or pop musician on [Soundcloud](https://soundcloud.com/girlhood).
+
+5. I like to [make](http://u-hh.tumblr.com/) / [revisit](http://a-hh.tumblr.com/archive) moodboards and [blog](http://blog.edouard.us/) sporadically on Tumblr.
+
+###### Image —
+
+This is me in my natural habitat:
+
+<img src="{% static '/images/eyes.jpg' %}"/>
+
+###### Colophon —
+
+This site is:
+
+Built with [Cactus](http://cactusformac.com/docs/). (weaning myself off this soon)
+
+Templated with [Django](https://www.djangoproject.com).
+
+Deployed with [FTPloy](https://ftploy.com/).
+
+Hosted at [Linode](https://www.linode.com).
+
+Set in Neue Haas Unica & Times New Roman.
+
+###### Copyright —
+
+© 2015 Édouard Urcadez, unless noted.
+
+
+{% endfilter %}
+{% endblock body %}
