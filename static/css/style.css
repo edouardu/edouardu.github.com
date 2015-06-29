@@ -53,69 +53,81 @@ table {
   src: url("../fonts/debbfa41-3ea8-466c-9174-de4e919598ed.eot?#iefix");
   src: url("../fonts/debbfa41-3ea8-466c-9174-de4e919598ed.eot?#iefix") format("eot"), url("../fonts/39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2") format("woff2"), url("../fonts/96fd4fb4-75db-412f-986d-d65380ee0ccf.woff") format("woff"), url("../fonts/d86863bd-a6e3-4cd0-abe7-a711edaaebc6.ttf") format("truetype"), url("../fonts/eea53212-4a22-464f-bb6f-5cd5b17467ff.svg#eea53212-4a22-464f-bb6f-5cd5b17467ff") format("svg"); }
 
-html,
-body {
-  min-height: 100%;
-  background-color: white; }
+h6 {
+  font-family: Times New Roman, Times, serif;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(35, 30, 30, 0.3);
+  letter-spacing: .0125em; }
 
-body {
-  font: 20px/1.5 "Neue Haas Unica W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: rgba(35, 30, 30, 0.9);
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  letter-spacing: .01em;
-  position: relative; }
+a {
+  text-decoration: none;
+  color: #0066ff; }
+  a:hover {
+    text-decoration: underline; }
+
+strong {
+  font-family: "Neue Haas Unica W01 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #444; }
+
+em {
+  font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+blockquote {
+  font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(35, 30, 30, 0.3);
+  border-left: 2px solid rgba(35, 30, 30, 0.3);
+  padding-left: 1em; }
+
+ul,
+ol {
+  text-decoration: none;
+  color: #231e1e;
+  line-height: 1.4;
+  /*list-style-type: none;*/ }
   @media screen and (max-width: 440px) {
-    body {
-      font: 15px/1 "Neue Haas Unica W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; } }
+    ul,
+    ol {
+      text-decoration: none;
+      color: #231e1e;
+      line-height: 1.4;
+      margin-left: 1.5em;
+      /*list-style-type: none;*/ } }
 
-nav {
-  max-width: 920px;
-  z-index: 999;
-  height: 6em;
-  margin: 0 auto;
-  padding: 2em 0;
-  border-bottom: 1px solid rgba(35, 30, 30, 0.3); }
-  nav a#title {
-    float: left; }
-    @media screen and (max-width: 440px) {
-      nav a#title {
-        font-size: 15px;
-        line-height: 1.35; } }
-  nav a#titleright {
-    float: right;
-    color: #ff4621; }
-    @media screen and (max-width: 440px) {
-      nav a#titleright {
-        font-size: 15px;
-        line-height: 1.35; } }
-
-#wrapper {
-  padding: 1em 2em 2em 2em;
-  max-width: 1000px;
-  margin: 0px auto;
+.post-body,
+p {
   line-height: 1.4; }
-  #wrapper.post {
-    max-width: 1000px; }
-  @media screen and (max-width: 540px) {
-    #wrapper {
-      padding: 40px 40px; } }
   @media screen and (max-width: 440px) {
-    #wrapper {
-      padding: 40px .5em 40px .5em; } }
+    .post-body,
+    p {
+      margin-top: 0px; } }
 
-#header {
-  border-bottom: 1px solid #eee; }
-  @media screen and (max-width: 540px) {
-    #header {
-      margin-bottom: 40px; } }
+p.small {
+  color: rgba(35, 30, 30, 0.3);
+  font-size: 14px;
+  line-height: 1.5;
+  display: block; }
+
+.post {
+  margin-bottom: 60px; }
   @media screen and (max-width: 440px) {
-    #header {
-      text-align: center;
-      margin-bottom: 0; } }
+    .post {
+      margin-bottom: 40px; } }
+
+.spoiler {
+  color: rgba(35, 30, 30, 0.9);
+  background-color: #231e1e; }
+  .spoiler:hover {
+    background-color: white; }
 
 img {
   max-width: 100%; }
+  img + img {
+    margin-top: 20px; }
+  img ~ iframe {
+    margin-bottom: 20px; }
 
 #thumbnails {
   margin: 0 auto;
@@ -163,103 +175,74 @@ img {
 #thumbnails a:hover {
   opacity: .90; }
 
-#footer {
-  box-shadow: inset 0 1px 0 #eee;
-  padding: 40px 0 0 0;
-  margin-top: 100px;
-  position: relative; }
-  #footer p {
-    float: left; }
-  @media screen and (max-width: 540px) {
-    #footer {
-      margin-top: 40px;
-      padding-bottom: 20px; } }
-  @media screen and (max-width: 440px) {
-    #footer {
-      text-align: center;
-      padding-bottom: 15px; } }
-
-a {
-  text-decoration: none;
-  color: #0066ff; }
-  a:hover {
-    text-decoration: underline;
-    /*border-bottom: 1px solid;*/ }
-
-.post-body,
-p {
-  line-height: 1.4; }
-  @media screen and (max-width: 440px) {
-    .post-body,
-    p {
-      margin-top: 0px; } }
-
-p.small {
-  color: rgba(35, 30, 30, 0.3);
-  font-size: 14px;
-  line-height: 1.5;
-  display: block; }
-
-.post {
-  margin-bottom: 60px; }
-  @media screen and (max-width: 440px) {
-    .post {
-      margin-bottom: 40px; } }
-
-::selection,
-::-moz-selection {
-  color: white;
-  background: #0066ff; }
-
-h6 {
-  font-family: Times, Times New Roman, serif;
-  font-style: italic;
-  font-size: 14px;
-  font-weight: bold;
-  color: rgba(35, 30, 30, 0.3);
-  letter-spacing: .0125em; }
-
-strong {
-  font-family: "Neue Haas Unica W01 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  color: #444; }
-
-em {
-  font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-blockquote {
-  font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: rgba(35, 30, 30, 0.3);
-  border-left: 2px solid rgba(35, 30, 30, 0.3);
-  padding-left: 1em; }
-
-ul,
-ol {
-  text-decoration: none;
-  color: #231e1e;
-  line-height: 1.4;
-  /*list-style-type: none;*/ }
-  @media screen and (max-width: 440px) {
-    ul,
-    ol {
-      text-decoration: none;
-      color: #231e1e;
-      line-height: 1.4;
-      margin-left: 1.5em;
-      /*list-style-type: none;*/ } }
-
 .post img {
   margin: 20px auto;
   position: relative;
   max-width: 1000px;
   width: 100%; }
   .post img + img {
-    margin-top: -20px; }
+    margin-top: 20px; }
 .post iframe {
   margin: 20px auto;
   position: relative;
   max-width: 1000px;
   width: 100%; }
+  .post iframe + img {
+    margin-top: 20px; }
+
+html,
+body {
+  min-height: 100%;
+  background-color: white; }
+
+body {
+  font: 20px/1.5 "Neue Haas Unica W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(35, 30, 30, 0.9);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .01em;
+  position: relative; }
+  @media screen and (max-width: 440px) {
+    body {
+      font: 15px/1 "Neue Haas Unica W01 Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; } }
+
+#wrapper {
+  padding: 1em 2em 2em 2em;
+  max-width: 1000px;
+  margin: 0px auto;
+  line-height: 1.4; }
+  #wrapper.post {
+    max-width: 1000px; }
+  @media screen and (max-width: 540px) {
+    #wrapper {
+      padding: 40px 40px; } }
+  @media screen and (max-width: 440px) {
+    #wrapper {
+      padding: 40px .5em 40px .5em; } }
+
+nav {
+  max-width: 920px;
+  z-index: 999;
+  height: 6em;
+  margin: 0 auto;
+  padding: 2em 0;
+  border-bottom: 1px solid rgba(35, 30, 30, 0.1); }
+  @media screen and (max-width: 440px) {
+    nav {
+      margin: 0 .5em; } }
+  nav a#title {
+    float: left; }
+    @media screen and (max-width: 440px) {
+      nav a#title {
+        font-size: 15px;
+        line-height: 1.35; } }
+  nav a#titleright {
+    float: right;
+    color: #ff4621; }
+    @media screen and (max-width: 440px) {
+      nav a#titleright {
+        font-size: 15px;
+        line-height: 1.35; } }
 
 #post-meta {
   font-size: 13px;
@@ -310,3 +293,19 @@ ol {
     #post-nav span .arrow {
       position: relative;
       padding: 1px; }
+
+#footer {
+  box-shadow: inset 0 1px 0 #eee;
+  padding: 40px 0 0 0;
+  margin-top: 100px;
+  position: relative; }
+  #footer p {
+    float: left; }
+  @media screen and (max-width: 540px) {
+    #footer {
+      margin-top: 40px;
+      padding-bottom: 20px; } }
+  @media screen and (max-width: 440px) {
+    #footer {
+      text-align: center;
+      padding-bottom: 15px; } }

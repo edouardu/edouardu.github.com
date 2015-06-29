@@ -1,5 +1,5 @@
 //
-// Header and Navigation
+// Header, Navigation
 //
 
 nav {
@@ -8,7 +8,10 @@ nav {
 	height: 6em;
 	margin: 0 auto;
 	padding: 2em 0;
-	border-bottom: 1px solid $black30;
+	border-bottom: 1px solid $black10;
+	@media screen and (max-width:440px) {
+		margin: 0 .5em;
+	}
 	a {
 		&#title {
 			float: left;
@@ -25,16 +28,5 @@ nav {
 				line-height: 1.35;
 			}
 		}
-	}
-}
-
-#header {
-	border-bottom:1px solid #eee;
-	@media screen and (max-width: 540px) {
-		margin-bottom: 40px; 
-	}
-	@media screen and (max-width:440px) {
-		text-align: center; 
-		margin-bottom: 0; 
 	}
 }

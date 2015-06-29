@@ -16,9 +16,9 @@ h4 {
 h5 {
 }
 h6 {
-	font-family: Times, Times New Roman, serif;
+	font-family: Times New Roman, Times, serif;
 	font-style: italic;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
 	color: $black30;
 	letter-spacing: .0125em;
@@ -84,7 +84,6 @@ ol {
 .post-body, 
 p { 
 	line-height: 1.4;
-	
 	@media screen and (max-width:440px) {
 		margin-top: 0px;
 	}
@@ -99,8 +98,19 @@ p.small {
 
 .post {
 	margin-bottom:60px;
-	
 	@media screen and (max-width:440px) {
 		margin-bottom: 40px;
+	}
+}
+
+//
+// Miscellaneous
+//
+
+.spoiler {
+	color: $black90; 
+	background-color: $black;
+	&:hover {
+		background-color: $white;
 	}
 }

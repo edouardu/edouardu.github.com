@@ -4,6 +4,12 @@
 
 img {
 	max-width:100%;
+	& + img {
+		margin-top: 20px;
+	}
+	& ~ iframe {
+		margin-bottom: 20px;
+	}
 }
 
 #thumbnails {
@@ -70,8 +76,8 @@ img {
 		position: relative;
 		max-width: 1000px;	
 		width: 100%;	
-		&+img {
-			margin-top: -20px;
+		& + img {
+			margin-top: 20px;
 		}
 	}
 
@@ -80,5 +86,8 @@ img {
 		position: relative;
 		max-width: 1000px;	
 		width: 100%;	
+		& + img {
+			margin-top: 20px;
+		}
 	}
 }
