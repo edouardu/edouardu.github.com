@@ -2,19 +2,31 @@
 // Footer
 //
 
-#footer { 
-	box-shadow: inset 0 1px 0 #eee;
-	padding: 40px 0 0 0;
-	margin-top: 100px; 
-	position: relative;
-	p {
-		float: left;
-	}
-	@media screen and (max-width: 540px) {
-		margin-top: 40px; padding-bottom: 20px;
-	}
+footer {
+	max-width: 920px;
+	z-index: 999;
+	height: 6em;
+	margin: 0 auto;
+	padding: 2em 0;
+	border-bottom: 1px solid $black10;
 	@media screen and (max-width:440px) {
-		text-align: center; 
-		padding-bottom: 15px; 
+		margin: 0 .5em;
+	}
+	a {
+		&#title {
+			float: left;
+			@media screen and (max-width:440px) {
+				font-size: 15px;
+				line-height: 1.35;
+			}
+		}
+		&#titleright {
+			float: right;
+			color: $red;
+			@media screen and (max-width:440px) {
+				font-size: 15px;
+				line-height: 1.35;
+			}
+		}
 	}
 }

@@ -61,7 +61,7 @@ Real content begins beneath em dash.
 
 — -->
 
-<p>Hey — I'm a physical–digital product designer and prototyper based in Austin, Texas.</p>
+<p>Hey — I'm a physical–digital product designer and prototyper based in Austin, Texas, USA.</p>
 
 <h6>Currently —</h6>
 
@@ -70,7 +70,7 @@ Real content begins beneath em dash.
 <li><p>I'm tending to my experimental project–studio, <a href="http://mornings.co/">Mornings</a>.</p></li>
 </ol>
 
-<p>Thanks for visiting. <a href="mailto:mail@edouard.us">꒰ • ̫ • ꒱</a> ← If you want, press the fluffy face to send me an email.</p>
+<p>Thanks for visiting and stay a while. If you want, <a href="mailto:mail@edouard.us">send me a letter</a> or <a href="https://twitter.com/edouerd">tweet at me</a>.</p>
 
 <h6>Some work in brief —</h6>
 
@@ -144,9 +144,29 @@ Real content begins beneath em dash.
 </section>
 
 	
-  	<script src="//code.jquery.com/jquery.min.js"></script>
+  	<script src="//code.jquery.com/jquery.min.js"></script> <!-- JQuery -->
   	<script src="/static/js/main.js"></script>
-  	<script src="/static/js/effects.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+            // FADETO.JS
+            $.getScript('/static/js/jquery.text.fadeto.js', function () {
+              $(function () {
+                var
+                  $demo = $('#titleright'),
+                  strings = JSON.parse($demo.attr('data-strings')).targets,
+                  randomString;
+                randomString = function () {
+                  return strings[Math.floor(Math.random() * strings.length)];
+                };
+                $demo.fadeTo(randomString());
+                setInterval(function () {
+                  $demo.fadeTo(randomString());
+                }, 3000);
+              });
+            });
+        // WHATEVER.JS GOES HERE, FOR LATER
+      })
+    </script> <!-- Formerly known as 'effects.js' inlining for performance reasons -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -84,7 +84,7 @@ blockquote {
 ul,
 ol {
   text-decoration: none;
-  color: #231e1e;
+  color: rgba(35, 30, 30, 0.9);
   line-height: 1.4;
   /*list-style-type: none;*/ }
   @media screen and (max-width: 440px) {
@@ -294,18 +294,26 @@ nav {
       position: relative;
       padding: 1px; }
 
-#footer {
-  box-shadow: inset 0 1px 0 #eee;
-  padding: 40px 0 0 0;
-  margin-top: 100px;
-  position: relative; }
-  #footer p {
-    float: left; }
-  @media screen and (max-width: 540px) {
-    #footer {
-      margin-top: 40px;
-      padding-bottom: 20px; } }
+footer {
+  max-width: 920px;
+  z-index: 999;
+  height: 6em;
+  margin: 0 auto;
+  padding: 2em 0;
+  border-bottom: 1px solid rgba(35, 30, 30, 0.1); }
   @media screen and (max-width: 440px) {
-    #footer {
-      text-align: center;
-      padding-bottom: 15px; } }
+    footer {
+      margin: 0 .5em; } }
+  footer a#title {
+    float: left; }
+    @media screen and (max-width: 440px) {
+      footer a#title {
+        font-size: 15px;
+        line-height: 1.35; } }
+  footer a#titleright {
+    float: right;
+    color: #ff4621; }
+    @media screen and (max-width: 440px) {
+      footer a#titleright {
+        font-size: 15px;
+        line-height: 1.35; } }
