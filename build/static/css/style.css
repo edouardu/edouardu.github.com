@@ -238,7 +238,7 @@ nav {
         line-height: 1.35; } }
   nav a#titleright {
     float: right;
-    color: #ff4621; }
+    color: #e65a2d; }
     @media screen and (max-width: 440px) {
       nav a#titleright {
         font-size: 15px;
