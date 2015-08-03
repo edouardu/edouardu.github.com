@@ -222,7 +222,6 @@ body {
 
 nav {
   max-width: 920px;
-  z-index: 999;
   height: 6em;
   margin: 0 auto;
   padding: 2em 0;
@@ -243,6 +242,44 @@ nav {
       nav a#titleright {
         font-size: 15px;
         line-height: 1.35; } }
+
+header {
+  background: white;
+  z-index: 9999;
+  top: -4em;
+  left: 0em;
+  height: 3em;
+  width: 100%;
+  position: fixed;
+  padding: .75em 1em;
+  border-bottom: 1px solid rgba(35, 30, 30, 0.1);
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease; }
+  header a#title {
+    padding-right: 2em;
+    float: left; }
+    @media screen and (max-width: 440px) {
+      header a#title {
+        font-size: 15px;
+        line-height: 1.35; } }
+  header a#titleright {
+    float: right;
+    color: #e65a2d; }
+    @media screen and (max-width: 440px) {
+      header a#titleright {
+        font-size: 15px;
+        line-height: 1.35; } }
+  header a#outbound {
+    padding-right: 1em; }
+    @media screen and (max-width: 440px) {
+      header a#outbound {
+        font-size: 15px;
+        line-height: 1.35; } }
+
+.summoned {
+  top: 0; }
 
 #post-meta {
   font-size: 13px;
