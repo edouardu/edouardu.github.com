@@ -243,43 +243,45 @@ nav {
         font-size: 15px;
         line-height: 1.35; } }
 
-header {
-  background: white;
-  z-index: 9999;
-  top: -4em;
-  left: 0em;
-  height: 3em;
+.scroll-menu {
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 45px;
+  margin-top: -45px;
+  box-sizing: border-box;
   position: fixed;
-  padding: .75em 1em;
+  z-index: 99;
+  background: white;
   border-bottom: 1px solid rgba(35, 30, 30, 0.1);
+  padding: 7px 40px;
+  transition: all .2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease; }
-  header a#title {
+  .scroll-menu a#title {
+    margin-left: 10em;
     padding-right: 2em;
     float: left; }
     @media screen and (max-width: 440px) {
-      header a#title {
+      .scroll-menu a#title {
         font-size: 15px;
         line-height: 1.35; } }
-  header a#titleright {
+  .scroll-menu a#titleright {
+    margin-right: 10em;
     float: right;
     color: #e65a2d; }
     @media screen and (max-width: 440px) {
-      header a#titleright {
+      .scroll-menu a#titleright {
         font-size: 15px;
         line-height: 1.35; } }
-  header a#outbound {
+  .scroll-menu a#outbound {
     padding-right: 1em; }
     @media screen and (max-width: 440px) {
-      header a#outbound {
+      .scroll-menu a#outbound {
         font-size: 15px;
         line-height: 1.35; } }
-
-.summoned {
-  top: 0; }
 
 #post-meta {
   font-size: 13px;
