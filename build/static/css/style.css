@@ -254,23 +254,36 @@ nav {
   z-index: 99;
   background: white;
   border-bottom: 1px solid rgba(35, 30, 30, 0.1);
-  padding: 7px 40px;
+  padding: 7px 1em;
   transition: all .2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease; }
+  @media screen and (max-width: 440px) {
+    .scroll-menu {
+      padding: 12px 0; } }
+  .scroll-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .scroll-menu li {
+    padding: 0 4.25em; }
+    @media screen and (max-width: 440px) {
+      .scroll-menu li {
+        padding: 0 0em; } }
   .scroll-menu a#title {
-    margin-left: 10em;
-    padding-right: 2em;
+    margin-left: 8%;
+    padding-right: 1em;
     float: left; }
     @media screen and (max-width: 440px) {
       .scroll-menu a#title {
         font-size: 15px;
         line-height: 1.35; } }
   .scroll-menu a#titleright {
-    margin-right: 10em;
-    float: right;
     color: #e65a2d; }
     @media screen and (max-width: 440px) {
       .scroll-menu a#titleright {
