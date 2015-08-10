@@ -268,9 +268,13 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
+    display: -webkit-flex;
     flex-direction: row;
-    justify-content: center; }
+    -webkit-flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content: center; }
   .scroll-menu li {
+    display: inline;
     padding: 0 4.25em; }
     @media screen and (max-width: 440px) {
       .scroll-menu li {
