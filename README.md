@@ -33,6 +33,8 @@ Templated with [Django](https://www.djangoproject.com).
 
 Distributed with [Cloudflare](https://www.cloudflare.com/a/overview/edouard.us).
 
+Responsive Image Optimization by [ReSRC](https://my.resrc.it/domain/1768).
+
 Hosted at [Linode](https://www.linode.com).
 
 —
