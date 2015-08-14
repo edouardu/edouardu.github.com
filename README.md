@@ -25,11 +25,13 @@ These various projects on github are a public effort to more-deeply integrate te
 
 Test bed for [édouard.us](http://edouard.us/)
 
-Built with [Cactus](http://cactusformac.com/docs/).
+Built with [Cactus](http://cactusformac.com/docs/). (Weaning myself off this soon)
 
 Templated with [Django](https://www.djangoproject.com).
 
-Deployed with [FTPloy](https://ftploy.com/).
+~~Deployed with [FTPloy](https://ftploy.com/).~~
+
+Distributed with [Cloudflare](https://www.cloudflare.com/a/overview/edouard.us).
 
 Hosted at [Linode](https://www.linode.com).
 
