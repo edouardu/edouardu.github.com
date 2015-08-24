@@ -7,27 +7,79 @@ date: 2-1-2015
 {% block body %}
 {% filter markdown %}
 
-Since this project is *Ongoing*, and things change rapidly all the time, this page will adopt a structure of short n' snippy updates in descending* order.
+Since this project is *Ongoing*, and things change rapidly all the time, this page will adopt a structure of short n' snippy updates in descending<sup><a href="#fn1" id="ref1">1</a></sup> order. Expect this stuff to be rather raw! (For now.)
 
-*That is, most recent updates will be at the top of the page, right under this text. To see how this project has progressed, scroll on down.
+<p id="fn1">1. That is, most recent updates will be at the top of the page, right under this text. To see how this project has progressed, scroll on down. Click <a href="#begin">here</a> to start at the beginning of this project.<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></p>
 
-###### — Most Recently
+###### — Most Recently (Week of August 3rd)
 
-Last week, we've seen huge updates to the navigational structure of PI that are finally being pushed into the actual product. Here's a comparison of what it *was* like, and what it is now:
+This week some huge updates to PI's navigational structure finally got pushed into the actual product. Here's a comparison of what it *was* like, and what it is now:
 
-Large strides were also seen in the style guide, which is gaining further definition under Jess and I's eyes.
+Before:
+<img src="{% static '/images/pi-3.png' %}"/>
 
+After:
+<img src="{% static '/images/pi-4.png' %}"/>
 
+Although this was a much-needed visual overhaul (that has yet to be fully implemented), there are many info-architectural edits that have yet to be applied given the wide area of effect they cover. Most of these changes regard the flattening of navigable interfaces to simplify PI's mental model (and remove unsightly nav breadcrumbs) and the consolidation and simplification of experiences that are arbitrarily broken apart.
 
-###### — Most Recently
+~
+
+PI's style guide has seen good progress and is gaining further definition under Jess (PI's visual designer) and I's eyes. At the moment, we are in the unique position of defining the overall visual language for the *entirety* of IBM MobileFirst's product design efforts.
+
+No pressure right? Here's a snapshot of the very barebone prototype guidelines:
+<img src="{% static '/images/pi-5.png' %}"/>
+
+In IBM-speak, what Jess and I are doing is defining a ‘Dialect’ of IBM's primary [design language](http://www.ibm.com/design/language/), essentially taking the general principles outlined by the language and tailoring them to MobileFirst's portfolio — given the fluid context of working across devices inherent to a platform literally dedicated to mobile product design, a huge part of our job (as far as the style guide is concerned) is making sure experiences scale across product lines *and* device types.
+
+###### — Lab Jammin' (July 2015)
+
+Mid-July, we flew out to meet our dev team in Raleigh. It was a very rad time full of working in the same room(!), drinking after work, and getting to know the people behind the telephone lines and chat interfaces. All this alone was worth the trip.
+
+<img src="{% static '/images/pi-6.jpg' %}"/>
+
+My primary focus around this time however was to 1.) attend a technical sales workshop and absorb the nitty-gritty of PI's nuts and bolts and 2.) understand how PI resonated with our Sales team. Essentially, the format of the workshop was delineated by short conversations on various aspects of PI's technical architecture, points of integration, and future-facing capability. Between certain lectures we were treated to hands-on demos on how to set up example PI instances via Raspberry Pi, among other things. The output of our work can be found [here](#), on Github.
+
+Here's one of the small demo systems we built:
+
+<img src="{% static '/images/pi-7.jpg' %}"/>
+
+I was able to dive right into all of this stuff from a great vantage point as both first-time user and designer/researcher — the amount learned that I was able to relay back to my team and into the product was incredible, and there are many quick-turnaround improvements to be made.
+
+###### — Demo Sprints (May 2015)
+
+We took a couple weeks in May to step outside our normal sprint-to-sprint work stream and figure out some of the further-flung aspects of what PI could possibly and/or eventually do.
+
+Along with some of the more conceptual work, we had time to finally address some of the pervasive problem areas in PI's interface design, those namely being the controls associated with data visualization, and the data visualizations themselves. Ever since we had been introduced to the product, it was very apparent that these controls needed significant polish, so it was great to finally address them around this time.
+
+Here's a few examples of what I mean:
+
+<img src="{% static '/images/image-full@2x.jpg' %}"/>
+
+With the complete lack of cohesion between dataviz controls being the most glaring issue, Jess and I took to task the structuring of these controls in a modular fashion.
+
+###### — How does Site Setup Work? (April 2015)
+
+I've been embroiled in learning in ins–and–outs of setting up physical and digital infrastructure so that a sensing mesh network can actually function properly.
+
+I've been tailing and speaking with people representative of the “IT Operations Staff” whom typically find themselves doing the setup work for projects of this kind. It's generally very painful.
+
+I mean, this is what I'm dealing with right now:
+<img src="{% static '/images/pi-2.jpg' %}"/>
+
+I have my work cut out for me.
+
+###### — Opportunities Abounding (March 2015)
+
+###### — Heavy Ethnography (Feburary 2015)
+
+###### — <span id="begin">Starting</span> Off (January 2015)
 
 At the moment, my job is to take this powerful (and quite ugly) research project —
 
 <img src="{% static '/images/pi-1.png' %}"/>
 
 — and (re)form it into a platform that empowers the people who use it to learn more about the “invisible sysyems in their surrounding environment” in a rich and pragmatic way.
-
-###### As it stands —
 
 Our current description of Presence Insights from a business-value perspective is as such:
 
@@ -36,20 +88,6 @@ Our current description of Presence Insights from a business-value perspective i
 > “A Physical–Digital System by which a Brick & Mortar Establishment can Optimise their services/offerings/supply chain and Give tangible value back to their customers.”
 
 Our team is currently undergoing a heavy research phase, but if you'd like to chat about what this project comprises of, I'm only a keystroke away.
-
-###### Currently —
-
-I've been embroiled in learning in ins–and–outs of setting up physical and digital infrastructure so that a sensing mesh network can actually function properly.
-
-I've been tailing and speaking with people representative of the “IT Operations Staff” whom typically find themselves doing the setup work for projects of this kind. It's generally very painful.
-
-I mean, this is what I'm dealing with right now:
-
-<img src="{% static '/images/pi-2.jpg' %}"/>
-
-I have my work cut out for me.
-
-###### More Soon !
 
 {% endfilter %}
 {% endblock body %}

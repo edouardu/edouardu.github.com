@@ -51,6 +51,11 @@ em {
 	font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+sup { 
+    vertical-align: super;
+    font-size: .5em;
+}
+
 blockquote {
   font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $black30; 
@@ -113,4 +118,12 @@ p.small {
 	&:hover {
 		background-color: $white;
 	}
+}
+
+.mornings {
+	color: $red;
+}
+
+.public-services {
+	color: $yellow-soft;
 }

@@ -4,29 +4,15 @@
 
 footer {
 	max-width: 920px;
-	z-index: 999;
 	height: 6em;
 	margin: 0 auto;
-	padding: 2em 0;
-	border-bottom: 1px solid $black10;
+	padding: 0em 0;
 	@media screen and (max-width:440px) {
 		margin: 0 .5em;
 	}
-	a {
-		&#title {
-			float: left;
-			@media screen and (max-width:440px) {
-				font-size: 15px;
-				line-height: 1.35;
-			}
-		}
-		&#titleright {
-			float: right;
-			color: $red;
-			@media screen and (max-width:440px) {
-				font-size: 15px;
-				line-height: 1.35;
-			}
-		}
-	}
+}
+
+.prev a,
+.next a {
+	text-decoration: none;
 }
