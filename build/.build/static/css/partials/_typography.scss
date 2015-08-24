@@ -28,6 +28,14 @@ h6 {
 // Hyperlinks
 //
 
+.mornings {
+		color: $red;
+	}
+
+.public-services {
+		color: $yellow-soft;
+	}
+
 a {
 	text-decoration: none; 
 	color: $blue;
@@ -118,12 +126,4 @@ p.small {
 	&:hover {
 		background-color: $white;
 	}
-}
-
-.mornings {
-	color: $red;
-}
-
-.public-services {
-	color: $yellow-soft;
 }
