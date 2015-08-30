@@ -67,9 +67,27 @@ nav {
     }
     & li {
     	display: inline;
-    	padding: 0 4.25em;
-    	@media screen and (max-width:440px) {
-			padding: 0 0em;
+    	padding: 0 6vw;
+    	@media screen and (max-width:850px) {
+			padding: 0 5.5vw;
+		}
+		@media screen and (max-width:790px) {
+			padding: 0 5vw;
+		}
+		@media screen and (max-width:737px) {
+			padding: 0 4.5vw;
+		}
+		@media screen and (max-width:690px) {
+			padding: 0 4vw;
+		}
+		@media screen and (max-width:650px) {
+			padding: 0 3.5vw;
+		}
+		@media screen and (max-width:615px) {
+			padding: 0 3vw;
+		}
+		@media screen and (max-width:582px) {
+			padding: 0 2.5vw;
 		}
     }
     a {

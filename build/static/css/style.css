@@ -285,10 +285,28 @@ nav {
     -webkit-justify-content: center; }
   .scroll-menu li {
     display: inline;
-    padding: 0 4.25em; }
-    @media screen and (max-width: 440px) {
+    padding: 0 6vw; }
+    @media screen and (max-width: 850px) {
       .scroll-menu li {
-        padding: 0 0em; } }
+        padding: 0 5.5vw; } }
+    @media screen and (max-width: 790px) {
+      .scroll-menu li {
+        padding: 0 5vw; } }
+    @media screen and (max-width: 737px) {
+      .scroll-menu li {
+        padding: 0 4.5vw; } }
+    @media screen and (max-width: 690px) {
+      .scroll-menu li {
+        padding: 0 4vw; } }
+    @media screen and (max-width: 650px) {
+      .scroll-menu li {
+        padding: 0 3.5vw; } }
+    @media screen and (max-width: 615px) {
+      .scroll-menu li {
+        padding: 0 3vw; } }
+    @media screen and (max-width: 582px) {
+      .scroll-menu li {
+        padding: 0 2.5vw; } }
   .scroll-menu a#title {
     margin-left: 8%;
     padding-right: 1em;
