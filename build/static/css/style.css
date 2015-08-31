@@ -264,7 +264,7 @@ nav {
   z-index: 99;
   background: white;
   border-bottom: 1px solid rgba(35, 30, 30, 0.1);
-  padding: 7px 1em;
+  padding: 7px 0;
   transition: all .2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -276,6 +276,7 @@ nav {
   .scroll-menu ul {
     list-style: none;
     margin: 0;
+    margin-left: -27em;
     padding: 0;
     display: flex;
     display: -webkit-flex;
@@ -283,48 +284,26 @@ nav {
     -webkit-flex-direction: row;
     justify-content: center;
     -webkit-justify-content: center; }
-  .scroll-menu li {
-    display: inline;
-    padding: 0 6vw; }
-    @media screen and (max-width: 850px) {
-      .scroll-menu li {
-        padding: 0 5.5vw; } }
-    @media screen and (max-width: 790px) {
-      .scroll-menu li {
-        padding: 0 5vw; } }
-    @media screen and (max-width: 737px) {
-      .scroll-menu li {
-        padding: 0 4.5vw; } }
-    @media screen and (max-width: 690px) {
-      .scroll-menu li {
-        padding: 0 4vw; } }
-    @media screen and (max-width: 650px) {
-      .scroll-menu li {
-        padding: 0 3.5vw; } }
-    @media screen and (max-width: 615px) {
-      .scroll-menu li {
-        padding: 0 3vw; } }
-    @media screen and (max-width: 582px) {
-      .scroll-menu li {
-        padding: 0 2.5vw; } }
-  .scroll-menu a#title {
-    margin-left: 8%;
-    padding-right: 1em;
-    float: left; }
+    @media screen and (max-width: 1024px) {
+      .scroll-menu ul {
+        margin-left: -20em; } }
+    @media screen and (max-width: 880px) {
+      .scroll-menu ul {
+        margin-left: -17em; } }
+    @media screen and (max-width: 754px) {
+      .scroll-menu ul {
+        margin-left: 0; } }
     @media screen and (max-width: 440px) {
-      .scroll-menu a#title {
-        font-size: 15px;
-        line-height: 1.35; } }
-  .scroll-menu a#titleright {
+      .scroll-menu ul {
+        margin-left: -3.5em; } }
+  .scroll-menu li {
+    display: list-item;
+    float: left;
+    padding-left: 2em; }
+  .scroll-menu a#info {
     color: #e65a2d; }
     @media screen and (max-width: 440px) {
-      .scroll-menu a#titleright {
-        font-size: 15px;
-        line-height: 1.35; } }
-  .scroll-menu a#outbound {
-    padding-right: 1em; }
-    @media screen and (max-width: 440px) {
-      .scroll-menu a#outbound {
+      .scroll-menu a#info {
         font-size: 15px;
         line-height: 1.35; } }
 
