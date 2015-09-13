@@ -16,9 +16,9 @@ h4 {
 h5 {
 }
 h6 {
-	font-family: Times New Roman, Times, serif;
+	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
-	font-size: 15px;
+	font-size: .8em;
 	font-weight: bold;
 	color: $black30;
 	letter-spacing: .0125em;
@@ -52,7 +52,7 @@ a {
 strong {
 	font-family: "Neue Haas Unica W01 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 500;
-	color: #444; 
+	color: $black90; 
 }
 
 em {
@@ -83,7 +83,7 @@ ol {
   /*list-style-type: none;*/
   @media screen and (max-width:440px) {
   	text-decoration: none;
-	color: $black;
+	color: $black90;
 	line-height:1.4;
 	margin-left: 1.5em;
 	/*list-style-type: none;*/
