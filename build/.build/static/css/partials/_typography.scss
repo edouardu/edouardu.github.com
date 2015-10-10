@@ -3,6 +3,21 @@
 //
 
 //
+// Body Typography
+//
+
+body {
+	font: 20px/1.5 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif;
+	color: $black90;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	position: relative;
+	@media screen and (max-width:440px) {
+		font: 15px/1 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif;
+	}
+}
+
+//
 // Headers
 //
 
@@ -50,13 +65,13 @@ a {
 //
 
 strong {
-	font-family: "Neue Haas Unica W01 Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Neue Haas Unica W01 Bold", Helvetica, Arial, sans-serif;
 	font-weight: 500;
 	color: $black90; 
 }
 
 em {
-	font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Neue Haas Unica W01 Hea1492559", Helvetica, Arial, sans-serif;
 }
 
 sup { 
@@ -65,7 +80,7 @@ sup {
 }
 
 blockquote {
-  font-family: "Neue Haas Unica W01 Hea1492559", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Neue Haas Unica W01 Hea1492559", Helvetica, Arial, sans-serif;
   color: $black30; 
   border-left: 2px solid $black30;
   padding-left: 1em;
