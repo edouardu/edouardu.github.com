@@ -43,13 +43,21 @@ h6 {
 // Hyperlinks
 //
 
+.tumblr {
+	color: #529ecc;
+}
+
 .mornings {
-		color: $red;
-	}
+	color: $red;
+}
 
 .public-services {
-		color: $yellow-soft;
-	}
+	color: $yellow-soft;
+}
+
+.old {
+	color: $black30;
+}
 
 a {
 	text-decoration: none; 
