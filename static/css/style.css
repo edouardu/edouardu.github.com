@@ -70,11 +70,17 @@ h6 {
   color: rgba(35, 30, 30, 0.3);
   letter-spacing: .0125em; }
 
+.tumblr {
+  color: #529ecc; }
+
 .mornings {
   color: #ff4621; }
 
 .public-services {
   color: #ffc864; }
+
+.old {
+  color: rgba(35, 30, 30, 0.3); }
 
 a {
   text-decoration: none;
