@@ -1,61 +1,57 @@
 <!doctype html>
 <!--
 
- ▄▀▀█▄▄▄▄  ▄▀▀█▄▄   ▄▀▀▀▀▄   ▄▀▀▄ ▄▀▀▄  ▄▀▀█▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▄▄       ▄▀▀▄ ▄▀▀▄  
-▐  ▄▀   ▐ █ ▄▀   █ █      █ █   █    █ ▐ ▄▀ ▀▄ █   █   █ █ ▄▀   █     █   █    █  
-  █▄▄▄▄▄  ▐ █    █ █      █ ▐  █    █    █▄▄▄█ ▐  █▀▀█▀  ▐ █    █     ▐  █    █   
-  █    ▌    █    █ ▀▄    ▄▀   █    █    ▄▀   █  ▄▀    █    █    █       █    █    
- ▄▀▄▄▄▄    ▄▀▄▄▄▄▀   ▀▀▀▀      ▀▄▄▄▄▀  █   ▄▀  █     █    ▄▀▄▄▄▄▀        ▀▄▄▄▄▀ ▄ 
- █    ▐   █     ▐                      ▐   ▐   ▐     ▐   █     ▐                  
- ▐        ▐                                              ▐                        
+ ▄▀▀█▄▄▄▄  ▄▀▀█▄▄   ▄▀▀▀▀▄   ▄▀▀▄ ▄▀▀▄  ▄▀▀█▄   ▄▀▀▄▀▀▀▄  ▄▀▀█▄▄       ▄▀▀▄ ▄▀▀▄
+▐  ▄▀   ▐ █ ▄▀   █ █      █ █   █    █ ▐ ▄▀ ▀▄ █   █   █ █ ▄▀   █     █   █    █
+  █▄▄▄▄▄  ▐ █    █ █      █ ▐  █    █    █▄▄▄█ ▐  █▀▀█▀  ▐ █    █     ▐  █    █
+  █    ▌    █    █ ▀▄    ▄▀   █    █    ▄▀   █  ▄▀    █    █    █       █    █
+ ▄▀▄▄▄▄    ▄▀▄▄▄▄▀   ▀▀▀▀      ▀▄▄▄▄▀  █   ▄▀  █     █    ▄▀▄▄▄▄▀        ▀▄▄▄▄▀ ▄
+ █    ▐   █     ▐                      ▐   ▐   ▐     ▐   █     ▐
+ ▐        ▐                                              ▐
 
 —
 
-1. If happiness spreads from what I am doing, then I am happy.
+1. If happiness spreads from what I'm doing, then I'm happy.
 
-2.  I'm with you on the Internet 
-    in my dreams you walk dripping from a sea- 
-    journey on the information super highway across the Atlantic in tears
-    to the door of my apartment in the Eastern night.
+2. Products◠designer → Tumblr — ex IBM
+
+3. Tucson → Austin → New York City. Desert Rat Life!
 
 -->
 <html>
 
 <head>
   {% block header %}<title>{% block title %}Édouard Urcades{% endblock %}</title>{% endblock header %}
-  
+
   <!-- Meta Shit -->
   <meta charset="utf-8">
-  <meta name="keywords" content="edouard, urcadez, product, design, industrial, interaction, mornings, public services, smart design, ibm, austin, emoji, internet, supply chain" />
   <meta name="description" content="Édouard U. is a physical–digital product designer." />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
-  
+
   <!-- Favorite Icon -->
   <link rel="shortcut icon" href="{% static '/images/favicon.ico' %}">
-  
   <!-- Pinned Tab Icon -->
   <link rel="mask-icon" href="{% static '/images/favicon.svg' %}" color="ghost">
-  
+
   <!-- Stylesheet -->
   <link rel="stylesheet" href="{% static '/css/style.css' %}">
-
 </head>
 
 <body>
   {% include 'nav.html' %} <!-- navigation -->
-	
+
   {% block content %}
 	   Main content
 	{% endblock content %}
-	
+
   {% block scripts %}
 
     <!-- Initial Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- Fonts.com Javascript -->
-    <script type="text/javascript"> 
+    <script type="text/javascript">
     var MTIProjectId='dbc21244-67cb-4239-9522-f34d84cd2996';
     (function() {
           var mtiTracking = document.createElement('script');
@@ -86,7 +82,7 @@
               });
             });
       })
-    </script> 
+    </script>
 
     <!-- Formerly known as 'main.js' inlining for performance reasons -->
     <script type="text/javascript">
@@ -104,7 +100,7 @@
           return true;
         if (window.matchMedia && window.matchMedia(mediaQuery).matches)
           return true;
-       
+
         return false;
       };
       function retina() {
@@ -119,7 +115,20 @@
       };
       $(document).ready(retina);
     </script>
-
+    <!-- Artsy Engineering Blog Gradient Header -->
+    <script type="text/javascript">
+      $(function() {
+        var $window = $(window);
+        var $header = $('#banner');
+        var updateBackgroundPosition = function(e) {
+          scrollPosition = $window.scrollTop();
+          $header.css({
+            'background-position': "0px -" + (scrollPosition - 100) + "px"
+          });
+        };
+      $window.scroll(updateBackgroundPosition);
+      });
+    </script>
     <!-- Scroller Header (Ripped via Eric Hu's sick implementation) -->
     <script type="text/javascript">
       var headerOffset = $(window).height(),
