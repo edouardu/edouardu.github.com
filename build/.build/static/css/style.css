@@ -52,16 +52,6 @@ table {
   src: url("../fonts//debbfa41-3ea8-466c-9174-de4e919598ed.eot?#iefix");
   src: url("../fonts//debbfa41-3ea8-466c-9174-de4e919598ed.eot?#iefix") format("eot"), url("../fonts//39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2") format("woff2"), url("../fonts//96fd4fb4-75db-412f-986d-d65380ee0ccf.woff") format("woff"), url("../fonts//d86863bd-a6e3-4cd0-abe7-a711edaaebc6.ttf") format("truetype"), url("../fonts//eea53212-4a22-464f-bb6f-5cd5b17467ff.svg#eea53212-4a22-464f-bb6f-5cd5b17467ff") format("svg"); }
 
-body {
-  font: 20px/1.5 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif;
-  color: rgba(35, 30, 30, 0.9);
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  position: relative; }
-  @media screen and (max-width: 440px) {
-    body {
-      font: 15px/1 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif; } }
-
 h6 {
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
@@ -217,7 +207,16 @@ img {
 
 html,
 body {
-  min-height: 100%; }
+  min-height: 100%;
+  font: 20px/1.5 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif;
+  color: rgba(35, 30, 30, 0.9);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  position: relative; }
+  @media screen and (max-width: 440px) {
+    html,
+    body {
+      font: 15px/1 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif; } }
 
 #wrapper {
   padding: 1em 2em 2em 2em;
@@ -240,7 +239,7 @@ body {
   margin-right: auto;
   z-index: -999;
   top: 0px;
-  background-image: url(/static/images/gradient.png);
+  background-image: url(/static/images/gradient-beige.png);
   background-repeat: repeat-x;
   background-position: 0px 0px;
   position: fixed; }
