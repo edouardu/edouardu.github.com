@@ -11,7 +11,9 @@
   margin-right: auto;
   z-index: -999;
   top: 0px;
-  background-image: url(/static/images/gradient-beige.png);
+  background-image: linear-gradient(top, #FFF4E9 0%,#ffffff 100%);
+  background: -moz-linear-gradient(top, #FFF4E9 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #FFF4E9 0%,#ffffff 100%);
   background-repeat: repeat-x;
   background-position: 0px 0px;
   position: fixed;
@@ -21,7 +23,7 @@
 
 .main-menu {
 	max-width: 920px;
-	height: 6em;
+	height: 5.5em;
 	margin: 0 auto;
 	padding: 2em 0;
 	border-bottom: 1px solid $black10;

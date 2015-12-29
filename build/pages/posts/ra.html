@@ -7,9 +7,9 @@ date: 30-12-2014
 {% block body %}
 {% filter markdown %}
 
-RapidApps, originally known as “Project 10X”, was a project I began working on in the winter of 2013. It was the first “real” project I tackled at IBM, and would end up taking over a year and a half to reach its' final resting state. 
+RapidApps, originally known as “Project 10X”, was a project I began working on in the winter of 2013. It was the first “real” project I tackled at IBM, and would end up taking over a year and a half to reach its' final resting state.
 
-This project was incredibly special to me, as it was the first digital product I've worked end-to-end on. You can play with it and build an app yourself here: [https://developer.ibm.com/rapidapps/](https://developer.ibm.com/rapidapps/) 
+This project was incredibly special to me, as it was the first digital product I've worked end-to-end on. You can play with it and build an app yourself here: [https://developer.ibm.com/rapidapps/](https://developer.ibm.com/rapidapps/)
 
 (as of 2015/8/1, the link above no longer works.)
 
@@ -31,7 +31,7 @@ Delving into the world of [long-tail](http://en.wikipedia.org/wiki/Long_tail#Use
 
 Here's an example of one. Note the many sheets, columns, and rows, all interconnected by an invisible network of custom macros:
 
-<img src="{% static '/images/ra-1.png' %}"/>
+<img src="{% static '/images/ra/ra-1.png' %}"/>
 
 Not very pretty eh?
 
@@ -39,7 +39,7 @@ This is one of dozens of spreadsheets we collected over several weeks in an effo
 
 After some time, it turned out that despite the perceived ugliness of what we dubbed 'the spreadsheet app', a good deal of the people we interviewed lauded the flexibility and portability and sheer understandability of spreadsheets for hosting and inputting data.
 
-<img src="{% static '/images/ra-7.jpg' %}"/>
+<img src="{% static '/images/ra/ra-7.jpg' %}"/>
 
 Veronica, for example (whom you see above during a usability test), was a master spreadsheet user. She proclaimed herself to be the "All-Knowing Spreadsheet Nerd".
 
@@ -51,23 +51,23 @@ As early-stage user research winded down, and converging design effort picked up
 
 Here's a few examples of earlier systems we came up with:
 
-<img src="{% static '/images/ra-2.png' %}"/>
+<img src="{% static '/images/ra/ra-2.png' %}"/>
 
  The image above is illustrating the concept of 'depth' to surface more technical interfaces 'deeper' in the interface. As the surrounding environment gets darker, a user will realize they are digging in the 'plumbing of their app', so to speak.
 
-<img src="{% static '/images/ra-3.png' %}"/>
+<img src="{% static '/images/ra/ra-3.png' %}"/>
 
 With both leading UX designers having a background in industrial design, it was clear we tended towards utilizing spatial relationships in the interface to orient a user in our system.
 
-<img src="{% static '/images/ra-4.jpg' %}"/>
+<img src="{% static '/images/ra/ra-4.jpg' %}"/>
 
 Noodle-based data modeling and logic writing were heavily utilized in some of the earlier interface design.
 
-<img src="{% static '/images/ra-5.jpg' %}"/>
+<img src="{% static '/images/ra/ra-5.jpg' %}"/>
 
 "With such an easy-to-parse visual system," we claimed, "our users would _simply have to_ understand the mechanics at play."
 
-<img src="{% static '/images/ra-6.jpg' %}"/>
+<img src="{% static '/images/ra/ra-6.jpg' %}"/>
 
 ###### —
 
@@ -81,15 +81,15 @@ Several rounds of usability tests conducted alongside our design work enabled us
 
 The situation called for a weeks' worth of high-intensity A/B testing to prove our point. We utilized a concise system of scoring known as [System Usability Scale](http://en.wikipedia.org/wiki/System_usability_scale) to gauge the performance of our two designs. We proceeded to find as many out-of-studio testers as possible.
 
-<img src="{% static '/images/ra-8.png' %}"/>
+<img src="{% static '/images/ra/ra-8.png' %}"/>
 
 Above was a record of a few of the earlier tests we conducted, below is an early draft of an 'assist document' we gave to our test users.
 
-<img src="{% static '/images/ra-9.png' %}"/>
+<img src="{% static '/images/ra/ra-9.png' %}"/>
 
 In the end, we were able to present the following scores to our various stakeholders::
 
-<img src="{% static '/images/ra-10.png' %}"/>
+<img src="{% static '/images/ra/ra-10.png' %}"/>
 
 This information, coupled with quotes/outtakes from our test users, documentation of the necessary design changes and how they'd affect development, and a roadmap to an eventual 'Version Two' release, was able to convince our stakeholders that an immediate shift in strategy was necessary.
 
@@ -101,11 +101,11 @@ Our previous efforts evoked an 'open' system that gave an incredible amount of p
 
 This comparison is best illustrated by how our users' dashboard evolved after the pivot:
 
-<img src="{% static '/images/ra-11.png' %}"/>
+<img src="{% static '/images/ra/ra-11.png' %}"/>
 
 Old ☝︎ and New ☟
 
-<img src="{% static '/images/ra-12.png' %}"/>
+<img src="{% static '/images/ra/ra-12.png' %}"/>
 
 After all was said and done, we ended up producing an easily sharable video which illustrated the various use cases for RapidApps, given our research and ideal product capability.
 
@@ -116,59 +116,59 @@ Skip to 0:45 to get to the juicy part.
 
 ###### —
 
-Throughout the development of RapidApps, I served as point designer on the Logic/Rules composer that enabled our users to specify: 
+Throughout the development of RapidApps, I served as point designer on the Logic/Rules composer that enabled our users to specify:
 
 “If *something* happens to my data, do *something* in response.”
 
 Here's the evolution of the “Rules” interface:
 
-<img src="{% static '/images/ra-13.png' %}"/>
+<img src="{% static '/images/ra/ra-13.png' %}"/>
 
 Initial takes on what was initially called the 'Logic' experience of RapidApps were clearly burdened by loads of unneeded complexity.
 
-<img src="{% static '/images/ra-14.png' %}"/>
+<img src="{% static '/images/ra/ra-14.png' %}"/>
 
 As the team realized that educating our users was a huge aspect of the interface design, the Logic experience reflected the ethos of clearly delineating that each part of the Logic structure performed a specific task.
 
-<img src="{% static '/images/ra-15.png' %}"/>
+<img src="{% static '/images/ra/ra-15.png' %}"/>
 
 The card-like nature of Logic/Rules disappeared over time, reflecting the textual nature of our redesigning efforts. In order to better serve our users' perception of how this system came together, we opted for design metaphors that relied less on spatial/physical quality.
 
-<img src="{% static '/images/ra-16.png' %}"/>
+<img src="{% static '/images/ra/ra-16.png' %}"/>
 
 The screen above heralds the very linear approach to application development we proposed switching to after our SUS Score usability testing initiative. Our users could now build Application Rules in a step-by-step manner.
 
-<img src="{% static '/images/ra-17.png' %}"/>
+<img src="{% static '/images/ra/ra-17.png' %}"/>
 
 In somewhat of a departure to the previous design, the above Rules editor opted to keep linear rules composing intact until a user needed to enact a more detailed Trigger Action, such as sending an email. The screen would react in such a way so that more real estate was diverted to a task that required the extra space, such as writing an email.
 
 The final iterations of the Rules Composer interface remained text-centric, given that the phrasings and action nouns were primarily defined by the user. The pattern of updating specific words in sentences and phrases for the purpose of defining business Logic permeated the RapidApps platform, and has since been utilized in other IBM products.
 
-<img src="{% static '/images/ra-18.png' %}"/>
+<img src="{% static '/images/ra/ra-18.png' %}"/>
 
-<img src="{% static '/images/ra-19.png' %}"/>
+<img src="{% static '/images/ra/ra-19.png' %}"/>
 
 Throughout the development of the Rules experience, I turned towards interactive prototyping whenever I could. Here's a few sketches I built with [Framer](http://framerjs.com/).
 
-<img src="{% static '/images/ra-23.gif' %}"/>
+<img src="{% static '/images/ra/ra-23.gif' %}"/>
 
 ☝︎ Adding another action
 
-<img src="{% static '/images/ra-20.gif' %}"/>
+<img src="{% static '/images/ra/ra-20.gif' %}"/>
 
 ☝︎ Rules target selectors
 
-<img src="{% static '/images/ra-21.gif' %}"/>
+<img src="{% static '/images/ra/ra-21.gif' %}"/>
 
 ☝︎ Deleting a Condition (later opted to nix the mouseover effect)
 
-<img src="{% static '/images/ra-22.gif' %}"/>
+<img src="{% static '/images/ra/ra-22.gif' %}"/>
 
 ☝︎ Opening the Rules Console
 
 ###### Postmortem —
 
-After approximately spending a year in development, RapidApps lost its development and design team (all of whom have been distributed to other projects). A skeleton team currently maintains the service and keeps it running, but I've likened RapidApps to the Voyager Spacecraft that has been left to cruise the universe. 
+After approximately spending a year in development, RapidApps lost its development and design team (all of whom have been distributed to other projects). A skeleton team currently maintains the service and keeps it running, but I've likened RapidApps to the Voyager Spacecraft that has been left to cruise the universe.
 
 What happened?
 
@@ -184,17 +184,17 @@ A great way to paraphrase this notion:
 
 When it came down to it, the type of people who were orchestrating relatively complex tasks in spreadsheets would probably end up sticking with their spreadsheets as their primary interface, RapidApps or not.
 
-<img src="{% static '/images/ra-24.png' %}"/>
+<img src="{% static '/images/ra/ra-24.png' %}"/>
 
 Several times throughout the process of designing RapidApps, we proposed scrapping the product, taking its constituent componentry, and baking it into other IBM Product, but each effort was met with intense pushback. The example above displays one of these concepts (a storage solution for business documents which would allow you to 'appify' each document) which would ideally be used on a tablet-sized device.
 
-<img src="{% static '/images/ra-25.png' %}"/>
+<img src="{% static '/images/ra/ra-25.png' %}"/>
 
 The above image was another proposal to completely re-architect the flow of building and interacting with RapidApps applications.
 
 ###### —
 
-Despite the eventual failure of this product from a business standpoint, I can't really emphasize enough that it was a process _laden_ in learning. My prior teammates and I still speak to the lessons learned from RapidApps in workshops we teach on prototyping and the product development process. 
+Despite the eventual failure of this product from a business standpoint, I can't really emphasize enough that it was a process _laden_ in learning. My prior teammates and I still speak to the lessons learned from RapidApps in workshops we teach on prototyping and the product development process.
 
 All-in-all, RapidApps' patterns, ethos, and idealistic spirit lives on.
 
