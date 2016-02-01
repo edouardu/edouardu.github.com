@@ -53,12 +53,9 @@ table {
   src: url("../fonts//debbfa41-3ea8-466c-9174-de4e919598ed.eot?#iefix") format("eot"), url("../fonts//39bb8fb3-84a4-4ab8-ae45-db1834f5d807.woff2") format("woff2"), url("../fonts//96fd4fb4-75db-412f-986d-d65380ee0ccf.woff") format("woff"), url("../fonts//d86863bd-a6e3-4cd0-abe7-a711edaaebc6.ttf") format("truetype"), url("../fonts//eea53212-4a22-464f-bb6f-5cd5b17467ff.svg#eea53212-4a22-464f-bb6f-5cd5b17467ff") format("svg"); }
 
 h6 {
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-size: .8em;
-  font-weight: normal;
-  color: rgba(35, 30, 30, 0.3);
-  letter-spacing: .0125em; }
+  font: italic normal .8em/1.4 "Times New Roman", Times, serif;
+  letter-spacing: .0125em;
+  color: rgba(35, 30, 30, 0.3); }
 
 .tumblr {
   color: #529ecc; }
@@ -96,28 +93,15 @@ blockquote {
   border-left: 2px solid rgba(35, 30, 30, 0.3);
   padding-left: 1em; }
 
-ul,
-ol {
-  text-decoration: none;
-  color: rgba(35, 30, 30, 0.9);
-  line-height: 1.4;
-  /*list-style-type: none;*/ }
-  @media screen and (max-width: 440px) {
-    ul,
-    ol {
-      text-decoration: none;
-      color: rgba(35, 30, 30, 0.9);
-      line-height: 1.4;
-      margin-left: 1.5em;
-      /*list-style-type: none;*/ } }
+@media screen and (max-width: 440px) {
+  ul,
+  ol {
+    margin-left: 1.5em; } }
 
-.post-body,
-p {
-  line-height: 1.4; }
-  @media screen and (max-width: 440px) {
-    .post-body,
-    p {
-      margin-top: 0px; } }
+@media screen and (max-width: 440px) {
+  .post-body,
+  p {
+    margin-top: 0px; } }
 
 p.small {
   color: rgba(35, 30, 30, 0.3);
@@ -144,52 +128,6 @@ img {
   img ~ iframe {
     margin-bottom: 20px; }
 
-#thumbnails {
-  margin: 0 auto;
-  text-align: center; }
-  #thumbnails a {
-    width: 49%;
-    float: left;
-    position: relative;
-    margin-right: 2%;
-    margin-top: 2%; }
-
-#thumbnails a:nth-child(1),
-#thumbnails a:nth-child(2) {
-  margin-top: 0; }
-
-#thumbnails a:nth-child(2n) {
-  margin-right: 0; }
-
-@media screen and (max-width: 440px) {
-  #thumbnails a:nth-child(n) {
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 40px;
-    display: inline-block;
-    float: none; }
-
-  #thumbnails a:first-child {
-    margin-top: 0; } }
-#thumbnails a,
-#thumbnails a span {
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
-
-#thumbnails a img {
-  display: block;
-  background: #fff;
-  width: 100%;
-  height: auto; }
-#thumbnails a span {
-  display: inline-block;
-  display: none; }
-#thumbnails a:hover {
-  opacity: .90; }
-
 .post img {
   margin: 20px auto;
   position: relative;
@@ -207,8 +145,8 @@ img {
 
 html,
 body {
-  margin: 0;
   min-height: 100%;
+  margin: 0;
   font: 20px/1.5 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif;
   color: rgba(35, 30, 30, 0.9);
   -webkit-font-smoothing: antialiased;
@@ -220,18 +158,15 @@ body {
       font: 15px/1 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif; } }
 
 #wrapper {
-  padding: 1em 2em 2em 2em;
+  padding: 1em 2em 2em;
   max-width: 920px;
-  margin: 0px auto;
-  line-height: 1.4; }
-  #wrapper.post {
-    max-width: 920px; }
+  margin: 0px auto; }
   @media screen and (max-width: 540px) {
     #wrapper {
-      padding: 40px 40px; } }
+      padding: 40px; } }
   @media screen and (max-width: 440px) {
     #wrapper {
-      padding: 40px .5em 40px .5em; } }
+      padding: 40px .5em; } }
 
 #banner {
   width: 100%;
@@ -240,85 +175,36 @@ body {
   margin-right: auto;
   z-index: -999;
   top: 0px;
-  background-image: linear-gradient(top, #fff2f1 0%, white 100%);
-  background: -moz-linear-gradient(top, #fff2f1 0%, white 100%);
-  background: -webkit-linear-gradient(top, #fff2f1 0%, white 100%);
+  left: 0px;
+  background-image: linear-gradient(top, #fffaf5 0%, white 100%);
+  background: -moz-linear-gradient(top, #fffaf5 0%, white 100%);
+  background: -webkit-linear-gradient(top, #fffaf5 0%, white 100%);
   background-repeat: repeat-x;
   position: fixed; }
 
 .main-menu {
   max-width: 840px;
-  height: 5.5em;
+  height: 7.5em;
   margin: 0 auto;
-  padding: 2em 0;
+  padding: 3em 0;
   border-bottom: 1px solid rgba(35, 30, 30, 0.1); }
   @media screen and (max-width: 440px) {
     .main-menu {
       margin: 0 .5em; } }
-  .main-menu a#title {
-    float: left;
-    color: rgba(35, 30, 30, 0.9); }
-    @media screen and (max-width: 440px) {
-      .main-menu a#title {
-        font-size: 15px;
-        line-height: 1.35; } }
-  .main-menu a#titleright {
-    float: right;
-    color: rgba(35, 30, 30, 0.9); }
-    @media screen and (max-width: 440px) {
-      .main-menu a#titleright {
-        font-size: 15px;
-        line-height: 1.35; } }
 
-.scroll-menu {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 45px;
-  margin-top: -45px;
-  box-sizing: border-box;
-  position: fixed;
-  z-index: 99;
-  background: white;
-  border-bottom: 1px solid rgba(35, 30, 30, 0.1);
-  padding: 7px 0;
-  transition: all .2s ease;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease; }
+#title {
+  float: left;
+  color: rgba(35, 30, 30, 0.9); }
   @media screen and (max-width: 440px) {
-    .scroll-menu {
-      padding: 12px 0; } }
-  .scroll-menu ul {
-    list-style: none;
-    margin: 0;
-    margin-left: -27em;
-    padding: 0;
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    justify-content: center;
-    -webkit-justify-content: center; }
-    @media screen and (max-width: 1024px) {
-      .scroll-menu ul {
-        margin-left: -20em; } }
-    @media screen and (max-width: 880px) {
-      .scroll-menu ul {
-        margin-left: -17em; } }
-    @media screen and (max-width: 754px) {
-      .scroll-menu ul {
-        margin-left: 0; } }
-    @media screen and (max-width: 440px) {
-      .scroll-menu ul {
-        margin-left: -3.5em; } }
-  .scroll-menu li {
-    display: list-item;
-    float: left;
-    padding-left: 2em; }
+    #title {
+      font-size: 15px;
+      line-height: 1.35; } }
+
+#titleright {
+  float: right;
+  color: rgba(35, 30, 30, 0.9); }
   @media screen and (max-width: 440px) {
-    .scroll-menu a#info {
+    #titleright {
       font-size: 15px;
       line-height: 1.35; } }
 

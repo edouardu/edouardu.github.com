@@ -7,8 +7,8 @@
 
 html,
 body {
-	margin: 0;
 	min-height:100%;
+	margin: 0;
 	font: 20px/1.5 "Neue Haas Unica W01 Regular", Helvetica, Arial, sans-serif;
 	color: $black90;
 	-webkit-font-smoothing:antialiased;
@@ -20,17 +20,13 @@ body {
 }
 
 #wrapper {
-	padding: 1em 2em 2em 2em;
+	padding: 1em 2em 2em;
 	max-width: 920px;
 	margin: 0px auto;
-	line-height: 1.4;
-	&.post {
-		max-width:920px;
-	}
 	@media screen and (max-width: 540px) {
-		padding: 40px 40px;
+		padding: 40px;
 	}
 	@media screen and (max-width:440px) {
-		padding: 40px .5em 40px .5em;
+		padding: 40px .5em;
 	}
 }
