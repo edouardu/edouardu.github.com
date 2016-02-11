@@ -82,13 +82,13 @@
 <p>( Click on either .gif to view the Framer prototype )</p>
 
 <p><a href="http://share.framerjs.com/a3bp2r3syrem/">
-<img src="/static/images/pi/pi-18.gif"/>
+<img src="/images/pi/pi-18.gif"/>
 </a></p>
 
 <p>The views above depict a possible interface for viewing a list of sites you manage. The one you're located within/near is placed at the top along with a preview of the site map associated with it.</p>
 
 <p><a href="http://share.framerjs.com/3utf9ake58bk/">
-<img src="/static/images/pi/pi-19.gif"/>
+<img src="/images/pi/pi-19.gif"/>
 </a></p>
 
 <p>This simple prototype just shows how we might adapt our nav into a mobile format.</p>
@@ -98,10 +98,10 @@
 <p>This week some huge updates to PI's navigational structure finally got pushed into the actual product. Here's a comparison of what it <em>was</em> like, and what it is now:</p>
 
 <p>Before:
-<img src="/static/images/pi/pi-3.png"/></p>
+<img src="/images/pi/pi-3.png"/></p>
 
 <p>After:
-<img src="/static/images/pi/pi-4.png"/></p>
+<img src="/images/pi/pi-4.png"/></p>
 
 <p>Although this was a much-needed visual overhaul (that has yet to be fully implemented), there are many info-architectural edits that have yet to be applied given the wide area of effect they cover. Most of these changes regard the flattening of navigable interfaces to simplify PI's mental model (and remove unsightly nav breadcrumbs) and the consolidation and simplification of experiences that are arbitrarily broken apart.</p>
 
@@ -110,11 +110,11 @@
 <p>PI's style guide has seen good progress and is gaining further definition under Jess (PI's visual designer) and I's eyes. At the moment, we are in the unique position of defining the overall visual language for the <em>entirety</em> of IBM MobileFirst's product design efforts.</p>
 
 <p>No pressure right? Here's a few snapshots of our initial prototype guidelines and their application:
-<img src="/static/images/pi/pi-5.png"/></p>
+<img src="/images/pi/pi-5.png"/></p>
 
-<p><img src="/static/images/pi/pi-10.png"/></p>
+<p><img src="/images/pi/pi-10.png"/></p>
 
-<p><img src="/static/images/pi/pi-11.png"/></p>
+<p><img src="/images/pi/pi-11.png"/></p>
 
 <p>In IBM-speak, what Jess and I are doing is defining a ‘Dialect’ of IBM's primary <a href="http://www.ibm.com/design/language/">design language</a>, essentially taking the general principles outlined by the language and tailoring them to MobileFirst's portfolio — given the fluid context of working across devices inherent to a platform literally dedicated to mobile product design, a huge part of our job (as far as the style guide is concerned) is making sure experiences scale across product lines <em>and</em> device types.</p>
 
@@ -122,13 +122,13 @@
 
 <p>Mid-July, we flew out to meet our dev team in Raleigh. It was a very rad time full of working in the same room(!), drinking after work, and getting to know the people behind the telephone lines and chat interfaces. All this alone was worth the trip.</p>
 
-<p><img src="/static/images/pi/pi-6.jpg"/></p>
+<p><img src="/images/pi/pi-6.jpg"/></p>
 
 <p>My primary focus around this time however was to 1.) attend a technical sales workshop and absorb the nitty-gritty of PI's nuts and bolts and 2.) understand how PI resonated with our Sales team. Essentially, the format of the workshop was delineated by short conversations on various aspects of PI's technical architecture, points of integration, and future-facing capability. Between certain lectures we were treated to hands-on demos on how to set up example PI instances on Raspberry Pis installed with specially flashed SD cards, among other things. The output of our work will eventually be made available on our <a href="https://github.com/presence-insights">public-facing Github organization</a>.</p>
 
 <p>Here's one of the small demo systems we built — it's a bit scrappy:</p>
 
-<p><img src="/static/images/pi/pi-7.jpg"/></p>
+<p><img src="/images/pi/pi-7.jpg"/></p>
 
 <p>I was able to dive right into all of this stuff from a great vantage point as both first-time user and designer/researcher — the amount learned that I was able to relay back to my team and into the product was incredible, and there are many quick-turnaround improvements to be made.</p>
 
@@ -139,17 +139,17 @@
 <p>Along with some of the more conceptual work, we had time to finally address some of the pervasive problem areas in PI's interface design, those namely being the controls associated with data visualization, and the data visualizations themselves. Ever since we had been introduced to the product, it was very apparent that these controls needed significant polish, so it was great to finally address them around this time.</p>
 
 <p>Here's a few examples of some of the horribly-constructed visualization controls:
-<img src="/static/images/pi/pi-14.png"/></p>
+<img src="/images/pi/pi-14.png"/></p>
 
-<p><img src="/static/images/pi/pi-16.png"/></p>
+<p><img src="/images/pi/pi-16.png"/></p>
 
-<p><img src="/static/images/pi/pi-17.png"/></p>
+<p><img src="/images/pi/pi-17.png"/></p>
 
 <p>You can see that there's literally no means of controlling the data displayed in the heatmap, and the other two place some of the crucial controls completely out of the way, and in grey <em>on</em> grey. These aren't just damning crops, patterns like these were seen across most of the analytics interfaces.</p>
 
 <p>With the complete lack of cohesion between dataviz controls being the most glaring issue, Jess and I took to task the structuring of these controls in a modular fashion, as so:</p>
 
-<p><img src="/static/images/pi/pi-15.png"/></p>
+<p><img src="/images/pi/pi-15.png"/></p>
 
 <p>Our primary improvement to these components resided in simply placing the controls closer to their context, retaining a sense of linear progression when selection options and making choices, and universally applying these controls to every data view. We additionally included the ability to view ‘Snapshots’ of data within our design, which extrapolated useful insights of the data in front of our users against the greater system at large.</p>
 
@@ -160,12 +160,12 @@
 <p>I've been tailing and speaking with people representative of the “IT Operations Staff” whom typically find themselves doing the setup work for projects of this kind. It's generally very painful.</p>
 
 <p>I mean, this is what our users are dealing with right now:
-<img src="/static/images/pi/pi-2.jpg"/></p>
+<img src="/images/pi/pi-2.jpg"/></p>
 
 <p>I have my work cut out for me!</p>
 
 <p>Thanks to our brilliant architects however, I've been able to learn about the actual endpoints/connectors/etc. PI is made up of and formulate a few visual models to teach the rest of my team how all this stuff works. Here's one of the scribbles I'm most proud of:
-<img src="/static/images/pi/pi-13.png"/></p>
+<img src="/images/pi/pi-13.png"/></p>
 
 <p>What we're looking at here is a <em>very</em> simplified model of what exactly constitutes a fully-functioning Presence Insights instance. Essentially, starting from the center of the diagram, we're able to take note of what's required, and what order it might be set up in — obviously we need a physical space to gather data (insights) from first, a collection of ‘dumb’ sensing equipment second, a means of linking together or meshing or grouping these sensors into spatial zones third, and last but not least, the ability to actually derive value from the system in the form of business-logic-driven events, and people-to-people interaction.</p>
 
@@ -176,7 +176,7 @@
 <p>After our large bout of research and resulting synthesis, we had a huge amount of raw material for potential designing. Our research, coupled with workshops and interlocks with our design/research team in Israel, gave us a huge amount of momentum in tackling some of the larger issues at hand with PI, the primary ones being 1.) the setting up of physical sensing infrastructure, 2.) the setting up of the software, and 3.) visualizing data ingestion to make sure the system was running smoothly, and doing what it's advertised as doing.</p>
 
 <p>Figuring out most of this required us to lay out the entire system and reconsider everything:
-<img src="/static/images/pi/pi-12.gif"/></p>
+<img src="/images/pi/pi-12.gif"/></p>
 
 <p>Digital boards such as the ones shown above were printed out and scribbled over, scrapped, and reconfigured many times. Some of the obvious problems we ran into quickly and identified as needing attention were rapidly prioritized.</p>
 
@@ -189,10 +189,10 @@
 <p>With our entire design team involved in active research, we were able to split tasks accordingly and maintain a wide net of input, with each person taking on a focus for a particular type of research. At the time, I was assisting our ethnographic research efforts, gathering information from teams around our studio who had worked in similar contexts, and led our ingestion of competitor products/platforms that also operated in the Location Analytics field.</p>
 
 <p>Most of the artifact-archiving and synthesis in the early stages of research occured digitally, due to the many remote teammates we needed to relay information to. We utilized <a href="https://mural.ly">Murally</a> pretty heavily at this point, and created tons of boards similar to the examples below:
-<img src="/static/images/pi/pi-8.gif"/></p>
+<img src="/images/pi/pi-8.gif"/></p>
 
 <p>Later, when our period of research was tapering off and we primarily needed to synthesize captured data like recorded interviews and ethnographic insights derived from photography/written notes, we used the nearby space and hashed out design guidelines and recommendations for future design efforts in an IRL manner:
-<img src="/static/images/pi/pi-9.jpg"/></p>
+<img src="/images/pi/pi-9.jpg"/></p>
 
 <p>Thanks to our extended stay in research-mode, we had a well-defined set of functional design principles we could apply towards experiences aimed at both end-use consumers and the people actually using PI day-to-day.</p>
 
@@ -200,7 +200,7 @@
 
 <p>At the moment, my job is to take this powerful (and quite ugly) research project —</p>
 
-<p><img src="/static/images/pi/pi-1.png"/></p>
+<p><img src="/images/pi/pi-1.png"/></p>
 
 <p>— and (re)form it into a platform that empowers the people who use it to learn more about the “invisible sysyems in their surrounding environment” in a rich and pragmatic way.</p>
 

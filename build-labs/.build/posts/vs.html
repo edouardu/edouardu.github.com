@@ -21,7 +21,7 @@
 <html>
 
   <head>
-    <title>Édouard Urcades — Labs</title>
+    <title>Virtual Studio</title>
 
     <!-- Meta Shit -->
     <meta charset="utf-8">
@@ -66,28 +66,112 @@
  <!-- navigation -->
 
     
-<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<section id="wrapper" class="post group">  
 
-<script type="text/javascript" charset="utf-8">
-	$(document).ready(function() {
-		
-		// Add the missing url to the text
-		$("#url").text(window.location.pathname);
-		
-		// Fix the css locations dynamically
-		$("head link").each(function() {
-			for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
-				$(this).attr("href", "../" + $(this).attr("href"));
-		});
-		
-	})
-</script>
+  <article class="post">
+  	<section class="post-body">
+  		
+<p>“Virtual Studio”</p>
 
-<p>
-	A cold wind blows through the page. ⁽⁽(ᵕ≀ ̠ᵕ )
-	</br>
-	Sorry! <b id="url"></b> is broken, or doesn't exist — go back home!
-</p>
+<p>What do you think of when you hear/say this phrase?</p>
+
+<p><img src="/images/vs/vs-1.png"/></p>
+
+<p>What does it mean?</p>
+
+<p>It couldn't be this, right?</p>
+
+<p><img src="/images/vs/vs-2.png"/></p>
+
+<h3>Intro</h3>
+
+<p>The Virtual Studio project was seen as a possible solution to a situation that IBM had been dealing with for a long time — how can remote collaboration and levelsetting on projects be made better?</p>
+
+<p>Most people at IBM will tell you straight up that our communication and collaboration platforms are leaving much to be desired (until <a href="https://www.ibm.com/social-business/us/en/newway/">this</a> arrives, that is.). The archival and retreival of crucial project artifacts and documentation as of early 2015 is as rough around the edges as it can get.</p>
+
+<p>For example, here's a nice error one might frequently run into while receiving build-system email:</p>
+
+<p><img src="/images/vs/vs-3.png"/></p>
+
+<p>Not pretty, is it?</p>
+
+<p>Now check out this slide I made:</p>
+
+<p><img src="/images/vs/vs-4.jpg"/></p>
+
+<p>What we're seeing here is a shorthand visualization of the problem at hand — designers, product managers, and developers are all scrambling to get work done in a way that suits each specialty best, all on platforms and tooling that muddle up various mediums in a not-so-great way.</p>
+
+<p>In a company of just under 400,000 people, systems that attempt to offer a 'universal truth' in the form of tooling and knowledge-sharing are bound to fall short.</p>
+
+<p>That's where we come in!</p>
+
+<h3>Approach</h3>
+
+<p>Outside of IBM, the world of consumer productivity tools is an incredibly rich place. No matter what work you find yourself doing or what medium you utilize to best engage with your work, there's most likely a solution for you, the individual.</p>
+
+<p>When the scale of productivity tooling is increased to cover the use cases of dozens, hundreds, or thousands of people, issues begin to crop up, primarily due to the varying means of organizing information people come up with.</p>
+
+<p>For the Virtual Studio project team, our utmost priority in the beginning was to figure out how people worked together on complex projects.</p>
+
+<p><img src="/images/vs/vs-5.jpg"/></p>
+
+<p>One of the simplest means of gathering qualitative data quickly was to start in our own studio.</p>
+
+<p><img src="/images/vs/vs-6.jpg"/></p>
+
+<p>My colleague Eunice placed four large posters around our studio with open prompts. The idea was to generate a conversation regarding the various topics.</p>
+
+<p><img src="/images/vs/vs-7.jpg"/></p>
+
+<p>The prompts were kept up for about a week before we took them down to synthesize the information.</p>
+
+<p><img src="/images/vs/vs-8.jpg"/></p>
+
+<p>The idea was to gather up the insights from the various prompts and begin to craft a user experience mapping of the general sentiment of our own studio to inspire our design work. Later on, we realized that in order to gain a better sense of the working environment at hand, we needed to reach out to the remote population that we constantly worked with.</p>
+
+<p><img src="/images/vs/vs-9.jpg"/></p>
+
+<p>Above are the initial stabs at affinity mapping the various sentiments recorded with our prompts.</p>
+
+<p>—</p>
+
+<p>While research was unfolding, I set to work on developing prototypes inspired by previous blue sky brainstorming that had occured earlier:</p>
+
+<p><img src="/images/vs/vs-10.png"/></p>
+
+<p>I developed a means of <a href="http://labs.edouard.us/prototyping/Framer/Teams.framer/index.html">viewing and chatting with teams</a>, as well as a <a href="http://labs.edouard.us/prototyping/Framer/Stickies.framer/index.html">means of active mobile collaboration</a>.</p>
+
+
+  	</section>
+  </article> <!-- Post Body -->
+  
+  <footer id="post-meta" class="group">
+    <div class="date">Oct 27</div>
+    
+    <div><span>Category</span> Project </div>
+    
+  </footer> <!--Post Meta-->
+  
+  <footer class="post-footer">
+  <div id="post-nav">
+  	<span class="prev">
+  		
+  			<a href='/posts/thesis.html'>
+  				<span class="arrow">&larr;</span> Mobility and Catheter
+  			</a>
+  		
+  	</span>
+  	<span class="next">
+  		
+  			<a href='/posts/ra.html'>
+  				RapidApps <span class="arrow">&rarr;</span>
+  			</a>
+  		
+  	</span>
+  </div>
+  </footer> <!-- Post Footer and Nav -->
+
+</section> <!--wrapper-->
 
 
     

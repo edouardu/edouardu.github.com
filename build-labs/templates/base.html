@@ -21,7 +21,7 @@
 <html>
 
   <head>
-    <title>Édouard Urcades — Labs</title>
+    {% block header %}<title>{% block title %}Édouard Urcades — Labs{% endblock %}</title>{% endblock header %}
 
     <!-- Meta Shit -->
     <meta charset="utf-8">
@@ -30,67 +30,22 @@
     <meta name="viewport" content="width=device-width">
 
     <!-- Favorite Icon -->
-    <link rel="shortcut icon" href="/static/images/favicon.ico">
+    <link rel="shortcut icon" href="{% static '/images/favicon.ico' %}">
     <!-- Pinned Tab Icon -->
-    <link rel="mask-icon" href="/static/images/favicon.svg" color="ghost">
+    <link rel="mask-icon" href="{% static '/images/favicon.svg' %}" color="ghost">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
   </head>
 
   <body>
-    <header id="banner"></header>
+    {% include 'nav.html' %} <!-- navigation -->
 
-<nav class="main-menu">
-	<a id="title" href="/">É. U. Labs</a>
-	<a id="titleright" href="/info.html" data-strings='{"targets":[
-	"♥︎♥︎♥︎♥︎♥︎♥︎♥︎♥︎",
-	"Info + Links",
-	"★ ～ ☆",
-	"Info + Links",
-	"★彡 ☆彡",
-	"ミミミ彡彡彡",
-	"░░▒▓█",
-	"Click Me!"
-	]}'>Info</a>
-</nav>
+    {% block content %}
+  	   Main content
+  	{% endblock content %}
 
-<!-- <nav class="scroll-menu">
-	<ul>
-	    <li><a id="home" href="/">Édouard Urcades</a></li>
-	    <li><a href="mailto:mail@edouard.us" id="email">Email</a></li>
-	    <li><a href="https://twitter.com/edouerd" id="twitter">Twitter</a></li>
-		<li><a href="/info.html" id="info">Info</a></li>
-	</ul>
-</nav> -->
- <!-- navigation -->
-
-    
-<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-
-<script type="text/javascript" charset="utf-8">
-	$(document).ready(function() {
-		
-		// Add the missing url to the text
-		$("#url").text(window.location.pathname);
-		
-		// Fix the css locations dynamically
-		$("head link").each(function() {
-			for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
-				$(this).attr("href", "../" + $(this).attr("href"));
-		});
-		
-	})
-</script>
-
-<p>
-	A cold wind blows through the page. ⁽⁽(ᵕ≀ ̠ᵕ )
-	</br>
-	Sorry! <b id="url"></b> is broken, or doesn't exist — go back home!
-</p>
-
-
-    
+    {% block scripts %}
 
       <!-- Initial Script -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -186,7 +141,7 @@
         ga('send', 'pageview');
       </script>
 
-  	
+  	{% endblock scripts %}
   </body>
 
 </html>
