@@ -1,0 +1,41 @@
+<!--
+Header Navigation
+
+Hi! This is the
+-->
+
+<section class="fl w-100">
+  <div class="fl w-100 w-50-m w-25-l pa3-m pv2-l ph4-l">
+    <p class="f4 lh-copy measure">
+      Learning Gardens is a meta-organization to support grassroots non-institutional learning, exploration, and community-building.<br><br>
+      At its simplest, it is advice on how to start a reading group. At its most complex, you and your friends can achieve nirvana.
+    </p>
+  </div>
+  <div class="fl w-100 w-50-m w-25-l pa3-m pv2-l ph4-l">
+    <p class="f4 lh-copy measure">
+      <!-- <a class="link" href="https://lg-slack-automate.herokuapp.com/">Join our slack</a><br> -->
+      <a class="link dim black" href="{% url '/info.html' %}">Learn more</a><br>
+      <a class="link dim blue" href="{% url '/join.html' %}">Join our slack</a><br>
+      <a class="link dim black" href="https://github.com/learning-gardens" target="_blank">Visit our github</a><br>
+      <!-- <a class="link dim black" href="support.html">Support Learning Gardens</a><br> -->
+      <a class="link dim black" href="mailto:hello@learning-gardens.co">Send us a message</a><br>
+    </p>
+  </div>
+  <div class="fl w-100 w-50-m w-25-l pa3-m pv1-l ph4-l">
+      <form action="sign-up_submit" method="get" accept-charset="utf-8">
+      <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+        <legend class="ph0 mh0 fw6 clip">Send Invite</legend>
+        <div class="mt3">
+          <label class="pb2 db fw4 lh-copy f4" for="email-address">Email address</label>
+          <input class="pa2 input-reset ba bg-transparent w-100 measure" type="email" name="email-address"  id="email-address">
+        </div>
+      </fieldset>
+      <div class="mt3"><input class=" ph3 pv2 input-reset ba b--black bg-transparent pointer f6" type="submit" value="Send Invite"></div>
+    </form>
+  </div>
+  <div class="fl w-100 w-50-m w-25-l pa3-m pv2-l ph4-l">
+    <p class="f4 lh-copy measure">
+      “Étudiants sans Frontières”
+    </p>
+  </div>
+</section>
