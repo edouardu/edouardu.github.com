@@ -1,4 +1,22 @@
 <!DOCTYPE html>
+<!--
+      _
+ ___/__)                ,
+(, /    _  _   __ __     __   _
+  /   _(/_(_(_/ (_/ (__(_/ (_(_/_
+ (_____                     .-/
+        )                  (_/
+     _____)
+   /                  /)
+  /   ___   _   __  _(/  _ __   _
+ /     / ) (_(_/ (_(_(__(/_/ (_/_)_
+(____ /
+
+    —
+
+    2016 — Ongoing
+
+-->
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -8,56 +26,59 @@
 	<title>
 	Getting started at Learning Gardens
 </title>
+	<meta name="description" content="Learning Gardens is a meta-organization to support grassroots non-institutional learning, exploration, and community-building.">
+
+	<meta property="og:title" content="Learning Gardens"/>
+	<meta property="og:description" content="Learning Gardens is a meta-organization to support grassroots non-institutional learning, exploration, and community-building."/>
+	<meta property="og:url" content="http://learning-gardens.co/"/>
+	<meta property="og:image" content="http://learning-gardens.co/static/images/card.png"/>
+
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:title" content="Learning Gardens"/>
+	<meta name="twitter:description" content="Learning Gardens is a meta-organization to support grassroots non-institutional learning, exploration, and community-building."/>
+	<meta name="twitter:url" content="http://learning-gardens.co"/>
+	<meta name="twitter:image" content="http://learning-gardens.co/static/images/twtr-card.png"/>
+
+
 	<link rel="shortcut icon" href="/static/images/favicon.ico">
+
 	<link rel="stylesheet" href="/static/css/tachyons.css">
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-	<link rel="alternate" type="application/rss+xml" title="Learning Gardens" href="/rss.xml">
 
+	<link rel="alternate" type="application/rss+xml" title="Learning Gardens" href="/rss.xml">
 </head>
 <body>
 	<article class="cf pa4 mw9 center">
-	<header class="fl w-100 w-50-l">
+		<header id="banner"></header>
+
+<header class="fl w-100 w-50-l">
   <h2 class="lh-title normal f4 pa2 pa4-l">
     <a class="link black" href="/">Learning Gardens</a>
   </h2>
 </header>
 
 
-  
+	  
 <section id="wrapper" class="group fl w-100">
 
 	<header class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
 		<h2 class="lh-title normal f4 lh-copy measure">Getting started at Learning Gardens</h2>
 		<h2 class="black-50 lh-title normal f4 lh-copy measure headline">A lil&#39; written introduction of sorts </h2>
 	</header>
-	<section id="post-body" class="fn fl-ns pv2-l w-50-ns f4 lh-copy measure">
+	<section id="post-body" class="fl w-100 w-50-m w-75-l pa2 pv2-l ph4-l f4 lh-copy measure-wide">
 		
 
-<p>Github is for Lovers</p>
+<p>Hi, welcome to this place.</p>
 
-<hr />
+<p>If you're reading this, you’re probably wondering where to start!</p>
 
-<p>Cactus templates are set up using the <a href="https://docs.djangoproject.com/en/dev/topics/templates/"> Django Template Language.</a> Django’s template language is both powerful and easy to use. A template is simply a HTML file. Let's take a look at how to use the blog template.</p>
+<p>If you're tired of reading docs and this website in general, we’d highly recommend you <a class="link dim green" href="#">join our lively community in real time chat</a>. We're using Slack for this. It's great.</p>
 
-<h3>General file structure</h3>
+<p>When you enter the chat, you’ll be dumped in a channel called <code>#_general</code>. One of us will probably say “Hi!”, and you can talk about whatever you’d like in here.</p>
 
-<p>The <strong>pages</strong> folder contains the index and the archive template, along with the <strong>posts</strong> folder. The posts folder is where each of your individual posts are located. CSS, Javascript and image files are located within the <strong>static</strong> folder. The templates folder contains the base and post template.</p>
+<p>We’ve recently started a system where we append any ”Learning Gardens”-related channels with an underscore, so it's easy to tell which channels are <em>meta</em>, and which are related to actual learning groups.</p>
 
-<hr />
-
-<h4>What do these files represent?</h4>
-
-<p>The <em>base.html</em> file is your HTML skeleton document. We can consider it the parent template, and all others child templates. The <em>index.html</em> file  defines the content of your home page. The <em>post.html</em> file is the skeleton of each post. It defines the structure of each post, but not the content within.</p>
-
-<p>The content of each post is set within each individual post file. Within this file you can set the posts metadata, such as its title, author, date and headline. The <em>archive.html</em> file contains an overview of all of your posts, arranged by month. We can format blog posts using the <a href="http://daringfireball.net/projects/markdown/syntax">Markdown Syntax.</a> To get a good impression of how Markdown works, have a look at the .html files of the default blog posts.</p>
-
-<hr />
-
-<h4>Basic customization</h4>
-
-<p>To define the title of your blog, head into the base.html and find the title block. You'll also want to change the footer information in this file. You can replace the avatar.jpg image (located in /static/images) with your own. To get started on your first blog post, it might be best to use one of the default posts as your starting point.</p>
-
-<p><em>Happy writing!</em></p>
+<p>We’ll see if this system works in the long run.</p>
 
 
 	</section>
@@ -83,9 +104,34 @@
 </footer> -->
 </section>
 
-
-  
-  
 	</article>
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Artsy Engineering Blog Gradient Header -->
+  <script type="text/javascript">
+    $(function() {
+      var $window = $(window);
+      var $header = $('#banner');
+      var updateBackgroundPosition = function(e) {
+        scrollPosition = $window.scrollTop();
+        $header.css({
+          'background-position': "0px -" + (scrollPosition - 100) + "px"
+        });
+      };
+    $window.scroll(updateBackgroundPosition);
+    });
+  </script>
+
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-59560755-6', 'auto');
+	  ga('send', 'pageview');
+	</script>
+  
 </body>
 </html>
