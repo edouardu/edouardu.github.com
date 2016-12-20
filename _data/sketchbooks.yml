@@ -1,0 +1,27 @@
+- name: Sketchbook 1
+  link: /sketchbooking/1
+  cover: ../images/sb1/1.jpg
+
+- name: Sketchbook 2
+  link: /sketchbooking/2
+  cover: ../images/sb2/1.jpg
+
+- name: Sketchbook 3
+  link: /sketchbooking/3
+  cover: ../images/sb3/1.jpg
+
+- name: Sketchbook 4
+  link: /sketchbooking/4
+  cover: ../images/sb4/1.jpg
+
+- name: Sketchbook 5
+  link: /sketchbooking/5
+  cover: ../images/sb5/1.jpg
+
+- name: Sketchbook 6
+  link: /sketchbooking/6
+  cover: ../images/sb6/1.jpg
+
+- name: Sketchbook 7
+  link: /sketchbooking/7
+  cover: ../images/sb7/1.jpg

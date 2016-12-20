@@ -1,0 +1,20 @@
+# Site settings
+title: Édouard U.
+version: "v1"
+description: "Hello, I’m a physical–digital product designer né industrial designer based in New York City. ( ˘ﮦ ᴖ ˘ﮦ)"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://id.edouard.us" # the base hostname & protocol for your site
+
+# Tachyons Version
+tv: "4.5.3"
+
+# Build settings
+markdown: kramdown
+
+# Exclude this stuff
+exclude: [node_modules, gulpfile.js]
+
+# Jekyll Get TK
+jekyll_get:
+  data: team
+  json: 'https://18f.gsa.gov/hub/api/team/'

@@ -1,0 +1,33 @@
+- name: Future Works
+  link: /future
+  description: "Often, I think about the future — The future of our planet, the future of humanity, my future, etc. Sometimes these thoughts resolve into small one-off expressions in the form of a sketch, and other times I begin larger projects that express ideal future states for a given topic. At the moment I'm thinking a lot about death, Mars and space travel, new movements in interface design, cybernetics, and the union of hardware and software design into a cohesive whole."
+
+- name: Tumblr
+  link: /tumblr
+  description: "At the moment, I'm working on making Tumblr a little bit less introverted. Currently designing how messaging works across all scales, from the one–to–one to the many–to–many. There's also lots of other things happening, but more about that later."
+  icon: images/f-tumblr-0.png
+
+- name: IBM Community Radio
+  link: /ibm-radio
+  description: "Co-founded and branded IBM Community Radio, a side–project–turned–platform for critical thought, culture renewal, and good music. Prototyped the initial front–end player/schedule interfaces, co-ordinated formative on-air content, and educated folks on how to get up and running quickly on the network. Guerilla advertised the hell out of the first live broadcasts."
+  icon: images/f-srx-0.png
+
+- name: IBM Presence Insights
+  link: /ibm-pi
+  description: "An IoT platform/product that helps people get a deeper sense of their physical space and the individuals moving through it. I took point on the design of the PI's info–architecture, interaction models, and physical–digital infrastructure setup."
+  icon: images/f-pi-0.gif
+
+- name: IBM RapidApps
+  link: /ibm-ra
+  description: "An idealistic product built to empower and educate non-technical people to build applications using filetypes they knew best. I designed and utilized “spatially-concrete” interface/interaction models to simplify abstract software development concepts and led the design of RA's Rules/Logic composing interface."
+  icon: images/f-ra-0.png
+
+- name: Mobility and Catheter
+  link: /mobility
+  description: "With a small and independently-funded team, designed and engineered a “catheter management experience” for paraplegics and quadraplegics focusing on ease of use, cleanliness, reduction of UTI, accessibility, discreetness, and a user’s dignity. Coordinated research efforts with the local Veteran's Association and led the design of the physical product and user experience."
+  icon: images/f-thesis-0.jpg
+
+- name: Smart Design, OXO
+  link: /2012
+  description: "Built prototypes, conducted user research, and produced visuals for various clients. Co-led the design of various OXO consumer housewares, a few of which are in production."
+  icon: images/f-smart-0.jpg
