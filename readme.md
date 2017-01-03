@@ -1,4 +1,4 @@
-##### id.edouard.us
+##### labs.edouard.us
 ###### A personal web site, always under construction
 
 —
