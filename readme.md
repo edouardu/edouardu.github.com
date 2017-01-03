@@ -5,7 +5,7 @@
 
 Hi!
 
-This is the source for [labs.edouard.us](http://labs.edouard.us/), which is in turn the staging-area-of-sorts for [edouard.us](https://edouard.us/). Some day these will be seperate entities, but for now, they are the same.
+This is the source for [labs.edouard.us](http://labs.edouard.us/), which is in turn the staging-area-of-sorts for [edouard.us](https://edouard.us/). Some day these will be seperate entities, but for now, they are the same. This site was built with [Jekyons](https://tinychime.github.io/jekyons/), my favorite way (so far) to rapidly stand up a static website.
 
 —
 
