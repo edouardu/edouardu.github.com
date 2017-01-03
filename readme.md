@@ -9,7 +9,7 @@ This is the source for [labs.edouard.us](http://labs.edouard.us/), which is in t
 
 —
 
-If you'd like to view this site locally, or base your own work off of it, simply make sure you have [npm](https://www.npmjs.com/) and [Gulp](http://gulpjs.com/) and [Jekyll](https://jekyllrb.com/) on your machine, and proceed with the following:
+If you'd like to view this site locally, or base your own work off of it, simply make sure you have [npm](https://www.npmjs.com/) and [Gulp](http://gulpjs.com/) and [Jekyll](https://jekyllrb.com/) on your machine, and proceed with the following in your terminal of choice:
 
 1. `git clone` this repository
 2. `cd` to the cloned directory
