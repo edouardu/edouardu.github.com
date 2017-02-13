@@ -1,0 +1,22 @@
+---
+layout: default
+title: Writing
+permalink: /writing/
+---
+
+<section class="center w-90 w-70-ns mw8 mt4 mh4 mv5-ns f6 f3-ns">
+
+  <p class="lh-copy pl2">Writing</p>
+  
+  <ul class="lh-copy pl2 w-50-ns mb6" id="post-list">
+    <li class="list"> {% for post in site.posts %}
+      <a class="db black-50 link hover-black" href='{{ post.url }}'>{{ post.title }}
+        <aside class="f6 mt0">{{ post.date | date: "%-d %B %Y" }}</aside>
+        <p class="lh-copy">{{ post.headline }}</p>
+      </a>
+    </li> {% endfor %}
+  </ul>
+
+  {% include header.html %}
+
+</section>

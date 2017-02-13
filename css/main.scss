@@ -2,6 +2,20 @@
 # Overwrite Tachyons here. Don't go overboard!
 ---
 
+img.inline {
+    height: 1em;
+    width: 1em;
+    margin-bottom: -0.2em;
+    cursor: zoom-in;
+}
+
+.popover {
+    display: none;
+    position: fixed;
+    pointer-events: none;
+    max-width: 500px;
+}
+
 .cf {
   clear: both;
 }
@@ -33,9 +47,9 @@
   z-index: -999;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(top, #fffaf5 0%,#ffffff 100%);
-  background: -moz-linear-gradient(top, #fffaf5 0%, #ffffff 100%);
-  background: -webkit-linear-gradient(top, #fffaf5 0%,#ffffff 100%);
+  background-image: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
   background-repeat: repeat-x;
   position: absolute;
 }
