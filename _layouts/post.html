@@ -7,14 +7,14 @@
     <div id="banner"></div>
     <div class="page-content">
       <div class="wrapper">
-        <article class="post center w-90 w-70-ns mw8 mt4 mh4 mb6 mv5-ns f6 f3-ns" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="post center w-90-ns w-70-ns w-90-xl mw8 mw9-xl mt4 mh4 mb6 mv5-ns f6 f3-ns f2-xl" itemscope itemtype="http://schema.org/BlogPosting">
 
           <header class="lh-copy pl2 post-header">
             <p class="post-title" itemprop="name headline">{{ page.title }}</p>
             <p class="post-meta black-20"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
           </header>
 
-          <section class="lh-copy pl2 post-content mb6 measure georgia" itemprop="articleBody">
+          <section class="lh-copy pl2 post-content pb5 measure georgia" itemprop="articleBody">
             {{ content }}
           </section>
           {% include header.html %}

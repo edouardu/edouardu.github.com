@@ -32,12 +32,12 @@ img.inline {
 .lg-green {color: #76C865;}
 
 .navshadow {text-shadow:
-  1px 1px 30px #fffaf5,
-  1px 1px 20px #fffaf5,
-  1px 1px 10px #fffaf5,
-  2px 2px 10px #fffaf5,
-  3px 3px 10px #fffaf5,
-  1px 1px 5px #fffaf5,;}
+  1px 1px 30px #fff,
+  1px 1px 20px #fff,
+  1px 1px 10px #fff,
+  2px 2px 10px #fff,
+  3px 3px 10px #fff,
+  1px 1px 5px #fff;}
 
 #banner {
   width: 100%;
@@ -52,4 +52,16 @@ img.inline {
   background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
   background-repeat: repeat-x;
   position: absolute;
+}
+
+@media screen and (min-width: 95em) {
+    .f2-xl {
+        font-size: 3rem;
+    }
+    .w-90-xl {
+        width: 90%;
+    }
+    .mw9-xl {
+      max-width: 96rem;
+    }
 }
