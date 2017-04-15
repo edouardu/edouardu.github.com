@@ -8,7 +8,7 @@ url: "http://labs.edouard.us" # the base hostname & protocol for your site
 permalink: pretty
 
 # Tachyons Version
-tv: "4.6.1"
+tv: "4.7.0"
 
 # Build settings
 markdown: kramdown

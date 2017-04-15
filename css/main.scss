@@ -56,7 +56,7 @@ img.inline {
 
 @media screen and (min-width: 95em) {
     .f2-xl {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .w-90-xl {
         width: 90%;
@@ -64,4 +64,17 @@ img.inline {
     .mw9-xl {
       max-width: 96rem;
     }
+}
+
+.stretch {
+  transform: scale(1,1.2);
+  -webkit-transform: scale(1,1.2);
+}
+
+.f3-vw {
+  font-size: 1.7vw;
+}
+
+.f2-vw {
+  font-size: 2.7vw;
 }

@@ -14,7 +14,8 @@ permalink: /writing/
 
   <ul class="lh-copy pl2 w-50-ns mb6 pb5" id="post-list">
     <li class="list"> {% for post in site.posts %}
-      <a class="db black-50 link hover-black" href='{{ post.url }}'>{{ post.title }}
+      <a class="db black-50 link hover-black f3" href='{{ post.url }}'>
+        <p class="mb0 serif stretch">{{ post.title }}</p>
         <aside class="f6 mt0">{{ post.date | date: "%-d %B %Y" }}</aside>
         <p class="lh-copy">{{ post.headline }}</p>
       </a>
