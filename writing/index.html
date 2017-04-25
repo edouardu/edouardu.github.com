@@ -4,7 +4,7 @@ title: Writing
 permalink: /writing/
 ---
 
-<section class="center w-90-ns w-70-ns w-90-xl mw8 mw9-xl mt4 mh4 mv5-ns f6 f3-ns f2-xl">
+<section class="center w-90-ns w-70-ns w-90-xl mw8 mw9-xl mt4 mh4 mv5-ns f6 f3-vw f2-xl">
 
   <!-- {% include intro.html %} -->
 
@@ -14,7 +14,7 @@ permalink: /writing/
 
   <ul class="lh-copy pl2 w-50-ns mb6 pb5" id="post-list">
     <li class="list"> {% for post in site.posts %}
-      <a class="db black-50 link hover-black f3" href='{{ post.url }}'>
+      <a class="db black-50 link hover-black f6 f3-vw f2-xl" href='{{ post.url }}'>
         <p class="mb0 serif stretch">{{ post.title }}</p>
         <aside class="f6 mt0">{{ post.date | date: "%-d %B %Y" }}</aside>
         <p class="lh-copy">{{ post.headline }}</p>

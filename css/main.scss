@@ -71,10 +71,16 @@ img.inline {
   -webkit-transform: scale(1,1.2);
 }
 
-.f3-vw {
-  font-size: 1.7vw;
+@media screen and (min-width: 50em) {
+  .f3-vw {
+    font-size: 1.7vw;
+  }
 }
 
 .f2-vw {
   font-size: 2.7vw;
+}
+
+.fx-ns {
+  font-size:1.4rem;
 }
