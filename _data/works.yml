@@ -1,0 +1,39 @@
+- name: On Mobility
+  link: /works
+  description: ""
+  img-link: https://d2w9rnfcy7mm78.cloudfront.net/291182/large_076776c3169df9c86643b283d937ab6f.jpeg
+  ratio: 4x3
+  display: dt
+
+- name:
+  description:
+  ratio: 4x3
+  display: dt
+
+- name:
+  description:
+  ratio: 1x1
+  noshow: dn
+  display: dn
+
+- name: 2012
+  link: /works
+  description: ""
+  img-link: https://d2w9rnfcy7mm78.cloudfront.net/291182/large_076776c3169df9c86643b283d937ab6f.jpeg
+  ratio: 1x1
+  display: dt
+
+- name:
+  link: /works
+  description:
+  img-link: https://d2w9rnfcy7mm78.cloudfront.net/291182/large_076776c3169df9c86643b283d937ab6f.jpeg
+  noshow: dn
+  ratio: 1x1
+  display: dn
+
+- name: 2012
+  link: /works
+  description: ""
+  img-link: https://d2w9rnfcy7mm78.cloudfront.net/291182/large_076776c3169df9c86643b283d937ab6f.jpeg
+  ratio: 1x1
+  display: dt
