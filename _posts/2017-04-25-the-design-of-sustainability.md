@@ -7,7 +7,13 @@ date:   2017-04-15 03:05:32 -0400
 
 ![Interface](https://d2w9rnfcy7mm78.cloudfront.net/769527/large_80b101cb7dc3cb61c621010c2a60e623.png)
 
-In recent years, the world has come to view the environment as something significantly more delicate than anything our ancestors could have imagined. Since the times of the industrial revolution, it’s been found that the end results of our breakthroughs in technology have been negatively impacting our environment in countless ways, ranging from the obviousness of pure waste being dumped into water to changes in deep ocean currents, a problem that has only just been discovered in the last couple of years. With the majority of the American population attuned to the scientific, political, and business aspects of the modern-day environmental situation, it seems as if all the bases of concern have been met.
+—
+
+_An essay written in my second year of undergraduate studies, reposted here while exploring personal archives_
+
+—
+
+In recent years, the world has come to view the environment as something significantly more delicate than anything our ancestors could have imagined. Since around the time of the first industrial revolution, it has been discovered that the end results of our breakthroughs in technology have been negatively impacting our environment in countless ways, ranging from the obviousness of pure waste being dumped into water to changes in deep ocean currents, a problem that has only just been discovered in the last couple of years. With the majority of the American population attuned to the scientific, political, and business aspects of the modern-day environmental situation, it seems as if all the bases of concern have been met.
 
 Design practices in general have been extremely low key for the last twenty or so years, only recently being made widely recognized by the onset of many high-profile companies selling incredibly designed products with sustainable aspects to them. What most people don’t know is that designers and architects have been pushing for sustainable-minded thinking and condemning wasteful design as early as the 60s and 20s respectively, long before scientists really knew about climate change. These concepts were exemplified in many modernist practices, such as chairs built using as little material as possible, or the entire line of Braun products designed along the principles Dieter Rams created. With sustainability being an important issue to face at present and in upcoming years, design practices have become the forefront of the push to achieve sustainability on all levels of human – environmental interaction.
 

@@ -32,4 +32,12 @@ I'd like to think that building your own reading networks can foster a method of
 
 —
 
-Brooklyn
+Here are a few reading networks I've been building during the time of this posting:
+
+[Donald Judd Writings](https://www.are.na/edouard-u/donald-judd-writings)
+
+[Permutation City](https://www.are.na/edouard-u/permutation-city)
+
+[The Stack: On Software and Sovereignty](https://www.are.na/edouard-u/the-stack-on-software-and-sovereignty)
+
+[Thinking, Fast and Slow](https://www.are.na/edouard-u/thinking-fast-and-slow)
