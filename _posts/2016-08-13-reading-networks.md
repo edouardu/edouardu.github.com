@@ -13,7 +13,7 @@ The headspace I find myself often as I read is that of _connecting_, _relating_.
 
 Another strong compulsion of mine is to name and I have come to internally refer to this method of personal reference-building as "Book Networking", or "Reading Networks". While texts often build and maintain an internal and pre-set collection of references in the form of footnotes, or prior foundational texts, or subtle cultural "calls" to "events or people or tropes of the time and place the text was written", it's a far more personal practice to form one's own links in an inter-textual manner.
 
-I'm currently dedicating a large amount of space in my mind to the idea of cultivating concurrent groupings of people to learn amongst one another, from one another. What does it mean to formulate connective tissues amongst people's learning-desires? I ask myself this question every day.
+I'm currently dedicating a large amount of space in my mind to the idea of cultivating concurrent groupings of people to [learn amongst one another, from one another](http://learning-gardens.co). What does it mean to formulate connective tissues amongst people's learning-desires? I ask myself this question every day.
 
 Here's something related:
 

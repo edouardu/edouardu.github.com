@@ -2,7 +2,7 @@
 layout: post
 title:  "The Design of Sustainability"
 headine: "Previous Writing"
-date:   2017-04-15 03:05:32 -0400
+date:   2017-05-22 03:05:32 -0400
 ---
 
 ![Interface](https://d2w9rnfcy7mm78.cloudfront.net/769527/large_80b101cb7dc3cb61c621010c2a60e623.png)
