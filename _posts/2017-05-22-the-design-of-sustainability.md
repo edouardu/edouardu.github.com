@@ -9,7 +9,7 @@ date:   2017-05-22 03:05:32 -0400
 
 —
 
-_An essay written in my second year of undergraduate studies, reposted here while exploring personal archives_
+_An essay written in my second year of undergraduate studies (it is rough, folks), reposted here while exploring personal archives_
 
 —
 
