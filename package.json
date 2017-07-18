@@ -12,6 +12,7 @@
     "browser-sync": "^2.14.0",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.5.2",
-    "lodash": "^4.15.0"
+    "lodash": "^4.15.0",
+    "tachyons": "^4.7.0"
   }
 }
