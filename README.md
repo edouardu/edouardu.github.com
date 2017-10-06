@@ -1,32 +1,23 @@
-# gatsby-starter-blog-no-styles
-[Gatsby](https://www.gatsbyjs.org/) starter for creating a blog, without the CSS and typography included in the official [gatsby-starter-blog](https://github.com/gatsbyjs/gatsby-starter-blog).
+##### labs.edouard.us
+###### A personal web site, always under construction
 
-The gatsby-starter-blog makes some decisions about styling that you might not want (inline css, react-responsive-grid, gatsby-plugin-typography/compass-vertical-rhythm). 
+—
 
-In my case, I want to use [Styled Components](https://www.styled-components.com/) (which Gatsby also has a [plugin](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-styled-components) for), so I ousted the aforementioned libraries and styles first and thought this no-styles starter could be useful to others.
+Hi!
 
-## Get Blogging
+This is the source for [labs.edouard.us](http://labs.edouard.us/), which is in turn the staging-area-of-sorts for [edouard.us](https://edouard.us/). Some day these will be seperate entities, but for now, they are the same. This site was built with [Gatsby](https://www.gatsbyjs.org/).
 
-1) Install Gatsby-CLI
+—
 
-    `npm install --global gatsby-cli`
+If you'd like to view this site locally, or base your own work off of it, proceed with the following in your terminal of choice:
 
-2) Create new Gatsby project using this starter
+0. Install Gatsby CLI via `npm install --global gatsby-cli`
+1. `git clone` this repository
+2. `cd` to the cloned directory
+3. Type `npm install` to install any dependencies
+4. Type `gatsby develop` to start a development server
+4. type <kbd>control</kbd> + <kbd>C</kbd> to quit the process
 
-    `gatsby new my-gatsby-blog https://github.com/noahg/gatsby-starter-blog-no-styles`
+—
 
-3) Run Development Server
-
-    `gatsby develop`
-
-4) Add Posts
-    
-    See the example posts in the folder `src/pages` and use the same naming convention. e.g. `/2017-09-13-post-title/index.md`
-
-5) Deploy
-
-    Follow [the Gatsby docs](https://www.gatsbyjs.org/tutorial/part-one/#deploying-gatsbyjs-websites-on-the-web) for a super easy way to deploy using surge.sh  
-
-
-
-
+Have fun, have a good time.
