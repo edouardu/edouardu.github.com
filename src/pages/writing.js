@@ -8,6 +8,8 @@ import Header from '../components/Header'
 
 class BlogIndex extends React.Component {
   render() {
+
+    const siteTitle = 'Édouard U. — Writing'
     
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
     // Misc Components
@@ -47,6 +49,7 @@ class BlogIndex extends React.Component {
     return (
       <div>        
         <Content>
+        <Helmet title={`${siteTitle}`} />
         <Bubble>Writing</Bubble>
         <Offset1>On works<span class="serif">,</span> process<span class="serif">,</span> and other movements<span class="serif">.</span></Offset1> 
         <Offset2>To receive updates via email<span class="serif">,</span> <NormalLink href="https://tinyletter.com/edouerd" target="_blank">click here</NormalLink><span class="serif">.</span></Offset2>
