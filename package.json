@@ -24,7 +24,9 @@
     "gatsby-source-filesystem": "^1.4.3",
     "gatsby-transformer-remark": "^1.7.1",
     "gatsby-transformer-sharp": "^1.6.1",
-    "lodash": "^4.15.0"
+    "lodash": "^4.15.0",
+    "styled-system": "^1.0.7",
+    "tachyons-components": "^1.0.0-1"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",
