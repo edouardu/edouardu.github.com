@@ -1,21 +1,35 @@
 import React from 'react'
 import Link from "gatsby-link"
-import styled from 'tachyons-components'
+import styling from 'styled-components'
 
 class More extends React.Component {
   render() {
 
-    const Bubble = styled('p')`
-      lh-copy ml4 ml5-ns ph4 pv3 tc ba br-pill bw1 dib
+    const Bubble = styling.p `
+      display: inline-block;
+      padding-left: 2rem; padding-right: 2rem;
+      padding-top: 1rem; padding-bottom: 1rem;
+      margin-left: 2rem;
+      @media screen and (min-width: 30em) {
+        margin-left: 4rem;
+      }
+      text-align: center;
+      border-style: solid; border-width: 1px;
+      border-width: .125rem;
+      border-radius: 9999px;
     `
-    const List = styled('ol')`
-      lh-copy pl2 pb3
+    const List = styling.ol `
+      padding-left: 0;
+      padding-bottom: 1rem;
+      max-width: 34em;
     `
-    const NormalLink = styled('a')`
-      silver link
+    const NormalLink = styling.a `
+      text-decoration: none;
+      color: DarkGray;
     `
-    const NiceLink = styled(Link)`
-      silver link
+    const NiceLink = styling(Link) `
+      text-decoration: none;
+      color: DarkGray;
     `
     return (
       <div>

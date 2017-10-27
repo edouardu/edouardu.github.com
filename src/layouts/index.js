@@ -1,22 +1,31 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styled from "styled-components"
-import { color } from 'styled-system'
+import styling from 'styled-components'
 
 class Template extends React.Component {
   render() {
 
     const { location, children } = this.props
 
-    const Wrapper = styled.section  `
-    ${color}
+    const Wrapper = styling.section `
+    margin-right: auto;
+    margin-left: auto;
+    width:80%;
+    max-width:64rem;
+    margin-top: 4rem; 
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+    font-size: .875rem;
+    @media screen and (min-width: 30em) {
+      font-size: 1.5rem;
+    }
+    color: black;
     font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.5;
     `
 
     return (
-      <Wrapper
-      color='black'
-      >
+      <Wrapper>
         {children()}
       </Wrapper>
     )

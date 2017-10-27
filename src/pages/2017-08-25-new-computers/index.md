@@ -4,9 +4,9 @@ date: "2017-08-25T23:46:37.121Z"
 path: "/new-computers/"
 ---
 
-![Computer Obsolete](./computer-obsolete.png)
+![Computer Obsolete](./co.png)
 
-![Personal Server](./personal-server.png)
+![Personal Server](./ps.png)
 
 > TBD Haha
 > 

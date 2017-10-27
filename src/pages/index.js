@@ -2,32 +2,25 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import styled from 'tachyons-components'
+import styling from 'styled-components'
 
 import Bio from '../components/Bio'
-import Currently from '../components/Currently'
-import Previously from '../components/Previously'
 import Works from '../components/Works'
 import More from '../components/More'
 import Context from '../components/Context'
-import Contact from '../components/Contact'
 
 class Front extends React.Component {
   render() {
 
     const siteTitle = 'Édouard U.'
 
-    const Content = styled('section')`
-      center w-80 mw8 mv5 pb5 f6 f3-ns f2-xl
-    `
     return (
-      <Content>
+      <section>
         <Helmet>
           <meta charSet="utf-8"/>
           <title>{`${siteTitle}`}</title>
           <meta name="description" content="No brand, quality interfaces."/>
           <link rel="canonical" href="http://edouard.us/"/>
-
           <meta property="og:title" content="Édouard U."/>
           <meta property="og:locale" content="en_US"/>
           <meta property="og:description" content="No brand, quality interfaces."/>
@@ -35,13 +28,10 @@ class Front extends React.Component {
           <meta property="og:site_name" content="Édouard U."/>
         </Helmet>
         <Bio />
-        <Currently />
-        <Previously />
         <Works />
         <More />
         <Context />
-        <Contact />
-      </Content>
+      </section>
     )
   }
 }

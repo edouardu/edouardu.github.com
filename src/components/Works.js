@@ -1,34 +1,50 @@
 import React from 'react'
-import styled from 'tachyons-components'
+import styling from 'styled-components'
 
 import uc from './uc.gif'
 
 class Works extends React.Component {
   render() {
 
-    const Bubble = styled('p')`
-      lh-copy ml4 ml7-ns ph4 pv3 tc ba br-pill bw1 dib
+    const Bubble = styling.p `
+      display: inline-block;
+      padding-left: 2rem; padding-right: 2rem;
+      padding-top: 1rem; padding-bottom: 1rem;
+      margin-left: 2rem;
+      @media screen and (min-width: 30em) {
+        margin-left: 16rem;
+      }
+      text-align: center;
+      border-style: solid; border-width: 1px;
+      border-width: .125rem;
+      border-radius: 9999px;
     `
-    const Offset1 = styled('p')`
-      lh-copy pl5
+    const Offset1 = styling.p `
+      padding-left: 4rem;
     `
-    const Offset2 = styled('p')`
-      lh-copy pl2
+    const Offset3 = styling.p `
+      padding-left: 2rem;
+      @media screen and (min-width: 30em) {
+        padding-left: 16rem;
+      };
+      margin-bottom: 1rem;
     `
-    const Offset3 = styled('p')`
-      lh-copy pl4 pl7-ns mb3
+    const NormalLink = styling.a `
+      text-decoration: none;
+      color: DarkGray;
     `
-    const NormalLink = styled('a')`
-      silver link
-    `
-    const UnderConstruction = styled('img')`
-      w-100 w-40-ns pb3
+    const UnderConstruction = styling.img `
+      width: 100%;
+      @media screen and (min-width: 30em) {
+        width:  40%;
+      }
+      margin-bottom: 1rem;
     `
     return (
       <div>
         <Bubble>Works</Bubble>
         <Offset1>A sampling of works, sketches, and other interfaces.</Offset1>
-        <Offset2>Case studies: <NormalLink href="http://ux.edouard.us/" target="_blank">digital product design</NormalLink> ... <NormalLink href="http://id.edouard.us/" target="_blank">industrial design</NormalLink>.</Offset2>
+        <p>Case studies: <NormalLink href="http://ux.edouard.us/" target="_blank">digital product design</NormalLink> ... <NormalLink href="http://id.edouard.us/" target="_blank">industrial design</NormalLink>.</p>
         <Offset3>2017 — Ongoing</Offset3>
         <UnderConstruction
           src={uc}

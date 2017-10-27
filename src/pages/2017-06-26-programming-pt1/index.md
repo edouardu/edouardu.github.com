@@ -46,7 +46,7 @@ None of this is particularly revelatory, or new, or groundbreaking. It's such a 
 
 >_...there seemed to be no difference._
 
-![Spread One](./a.jpg)
+![Spread One](./1.jpg)
 
 >_It was as if the new arm was turning the knob..._
 
@@ -56,11 +56,11 @@ None of this is particularly revelatory, or new, or groundbreaking. It's such a 
 
 >_The buildings, the plants, bodies — seem to be made of the same things..._
 
-![Spread Two](./b.jpg)
+![Spread Two](./2.jpg)
 
 >_They seem to all be connected... Folding together and falling away —_
 
-![Spread Three](./c.jpg)
+![Spread Three](./3.jpg)
 
 —
 

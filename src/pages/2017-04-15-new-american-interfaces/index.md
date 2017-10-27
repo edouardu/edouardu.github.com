@@ -4,7 +4,7 @@ date: "2017-04-15T22:40:32.169Z"
 path: "/new-american-interfaces/"
 ---
 
-![New American Interface](./new-american.png)
+![New American Interface](./phone.png)
 
 Lately I have been concerned about the proliferation of digital product interfaces emerging from California.
 

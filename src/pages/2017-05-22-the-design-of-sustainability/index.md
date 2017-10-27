@@ -4,7 +4,7 @@ date: "2017-05-22T23:46:37.121Z"
 path: "/the-design-of-sustainability/"
 ---
 
-![A garden multi-plot](./garden.png)
+![A garden multi-plot](./plot.png)
 
 —
 

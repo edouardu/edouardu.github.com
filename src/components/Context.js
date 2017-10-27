@@ -1,27 +1,41 @@
 import React from 'react'
-import styled from 'tachyons-components'
+import styling from 'styled-components'
 
 class Context extends React.Component {
   render() {
 
-    const Bubble = styled('p')`
-      lh-copy ml2 ml5-ns ph4 pv3 tc ba br-pill bw1 dib
+    const Bubble = styling.p `
+      display: inline-block;
+      padding-left: 2rem; padding-right: 2rem;
+      padding-top: 1rem; padding-bottom: 1rem;
+      text-align: center;
+      border-style: solid; border-width: 1px;
+      border-width: .125rem;
+      border-radius: 9999px;
     `
-    const Offset1 = styled('p')`
-      lh-copy pl5
+    const Offset1 = styling.p `
+      padding-left: 4rem;
     `
-    const Offset2 = styled('p')`
-      lh-copy pl2 measure
+    const Offset2 = styling.p `
+      max-width: 30em;
     `
-    const Offset3 = styled('p')`
-      lh-copy ph2 pl4-ns measure
+    const Offset3 = styling.p `
+      @media screen and (min-width: 30em) {
+        padding-left: 2rem;
+      }
+      max-width: 30em;
     `
-    const Offset4 = styled('p')`
-      lh-copy pl4 pl7-ns
+    const Offset4 = styling.p `
+      padding-left: 2rem;
+      @media screen and (min-width: 30em) {
+        padding-left: 16rem;
+      }
     `
-    const NormalLink = styled('a')`
-      silver link
+    const NormalLink = styling.a `
+      text-decoration: none;
+      color: DarkGray;
     `
+
     return (
       <div>
         <Bubble>Context</Bubble>
@@ -33,6 +47,7 @@ class Context extends React.Component {
           I am oriented towards the future. I’d like to spend my life guiding complex product systems towards egalitarian ends. Heritage craft-works and nostalgia are uninteresting to me. New infrastructures and modes of being are very interesting to me.
         </Offset3>
         <Offset4>I can build any system, large or small.</Offset4>
+        <p>If you’d like, send an <NormalLink href="mailto:mail@edouard.us" target="_blank">e-mail</NormalLink> and/or <NormalLink href="https://twitter.com/edouerd" target="_blank">@</NormalLink> me. Thanks for visiting, stay a while.</p>
       </div>
     )
   }

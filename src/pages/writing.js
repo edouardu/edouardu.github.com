@@ -2,78 +2,90 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import styled from 'tachyons-components'
+import styling from 'styled-components'
 
 import Header from '../components/Header'
 
 class BlogIndex extends React.Component {
   render() {
-
     const siteTitle = 'Édouard U. — Writing'
-    
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
-    // Misc Components
-    const Content = styled('section')`
-      center w-80 mw8 mv5 pb5 f6 f3-ns f2-xl
+
+    const Bubble = styling.p`
+      display: inline-block;
+      padding-left: 2rem; padding-right: 2rem;
+      padding-top: 1rem; padding-bottom: 1rem;
+      text-align: center;
+      border-style: solid; border-width: 1px;
+      border-width: .125rem;
+      border-radius: 9999px;
     `
-    const Bubble = styled('p')`
-      lh-copy ph4 pv3 tc ba br-pill bw1 dib
+    const Offset1 = styling.p`
+      padding-left: 4rem;
     `
-    const Offset1 = styled('p')`
-      lh-copy pl5
+    const Offset3 = styling.p`
+      padding-left: 2rem;
+      @media screen and (min-width: 30em) {
+        padding-left: 16rem;
+      }
+      padding-bottom: 1rem;
     `
-    const Offset2 = styled('p')`
-      lh-copy pl2
+    const NormalLink = styling.a`
+      color: black;
     `
-    const Offset3 = styled('p')`
-      lh-copy pl4 pl7-ns pb3
+
+    const BlogTitle = styling.p`
+      margin-bottom: 0;
     `
-    const NormalLink = styled('a')`
-      black link underline
-    `
-    // Blog List Components
-    const BlogTitle = styled('p')`
-      lh-copy pl2 mb0
-    `
-    const NiceLink = styled(Link)`
-      link georgia silver db;
+    const NiceLink = styling(Link)`
+      display: block;
+      text-decoration: none;
+      color: DarkGray;
+      font-family: 'georgia';
       transform: scale(1,1.2);
       -webkit-transform: scale(1,1.2);
     `
-    const Date = styled('p')`
-      lh-copy sans-serif mt0 f6 silver
+    const Date = styling.p`
+      font-family: 'arial';
+      margin-top: 0;
+      font-size: .875rem;
+      color: DarkGray;
     `
-    const BlogText = styled('p')`
-      lh-copy pl2 mt0 f4 measure mid-gray
+    const BlogText = styling.p`
+      margin-top: 0;
+      font-size: 1.25rem;
+      max-width: 30em;
+      color: DarkGray;
     `
+
     return (
       <div>        
-        <Content>
-        <Helmet title={`${siteTitle}`} />
-        <Bubble>Writing</Bubble>
-        <Offset1>On works<span class="serif">,</span> process<span class="serif">,</span> and other movements<span class="serif">.</span></Offset1> 
-        <Offset2>To receive updates via email<span class="serif">,</span> <NormalLink href="https://tinyletter.com/edouerd" target="_blank">click here</NormalLink><span class="serif">.</span></Offset2>
-        <Offset3>2016 — Ongoing</Offset3>
+        <section>
+          <Helmet title={`${siteTitle}`} />
+          <Bubble>Writing</Bubble>
+          <Offset1>On works, process, and other movements.</Offset1> 
+          <p>To receive updates via email, <NormalLink href="https://tinyletter.com/edouerd" target="_blank">click here</NormalLink>.</p>
+          <Offset3>2016 — Ongoing</Offset3>
 
-        {posts.map(post => {
-          if (post.node.path !== '/404/') {
-            const title = get(post, 'node.frontmatter.title') || post.node.path
-            return (
-              <div key={post.node.frontmatter.path}>
-                <BlogTitle>
-                  <NiceLink to={post.node.frontmatter.path}>
-                    {post.node.frontmatter.title}
-                    <Date>{post.node.frontmatter.date}</Date>
-                  </NiceLink>
-                </BlogTitle>
-                
-                {/* <BlogText dangerouslySetInnerHTML={{ __html: post.node.excerpt }} /> */}
-              </div>
-            )
-          }
-        })}
+          {posts.map(post => {
+            if (post.node.path !== '/404/') {
+              const title = get(post, 'node.frontmatter.title') || post.node.path
+              return (
+                <div key={post.node.frontmatter.path}>
+                  <BlogTitle>
+                    <NiceLink to={post.node.frontmatter.path}>
+                      {post.node.frontmatter.title}
+                      <Date>{post.node.frontmatter.date}</Date>
+                    </NiceLink>
+                  </BlogTitle>
+                  
+                  {/* <BlogText dangerouslySetInnerHTML={{ __html: post.node.excerpt }} /> */}
+                </div>
+              )
+            }
+          })}
         <Header />
-        </Content>
+        </section>
       </div>
     )
   }
@@ -84,7 +96,6 @@ BlogIndex.propTypes = {
 }
 
 export default BlogIndex
-
 export const pageQuery = graphql`
   query IndexQuery {
     site {
