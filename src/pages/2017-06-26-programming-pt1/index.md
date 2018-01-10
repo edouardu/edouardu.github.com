@@ -1,5 +1,6 @@
 ---
 title: Programming I
+tags: ["writing"]
 date: "2017-06-26T23:46:37.121Z"
 path: "/programming-pt1/"
 ---
@@ -10,19 +11,19 @@ _First in a series of personal notes on learning programming_
 
 —
 
-The spirit of the computer.
+![Spread Three](./a.png)
 
-The spirit.
+The spirit of the computer?
 
-The spirit, an un-measurable thing.
+The spirit, an un-measurable thing?
 
-A year-old copy of Structure and Interpetation of Computer Programs had been sitting around on my bookshelf in a very unused state. While I had been working at IBM, I bumbled about obscure programming nooks and forums online, slowly receiving a drip-feed of best practices and good places to start with regards to "DIY Computer Science". After much aimless bookmarking and getting nowhere in my studies, I figured only the aquisition of a proper tome would do me any good, and force me to learn. Cut-away to the current scene: the legendary purple wizard book, unused and forgotten.
+A year-old copy of Structure and Interpetation of Computer Programs had been sitting around on my bookshelf in an unused state. While I had been working at IBM, I bumbled about obscure programming nooks and forums online, receiving a drip-feed of best practices and good places to start with regards to "DIY Computer Science". After much aimless bookmarking and getting nowhere in my studies, I figured only the aquisition of a proper tome would do me any good, and force me to learn. Cut-away to the current scene: the legendary purple wizard book, unused and forgotten.
 
 Three weeks ago, armed with a resolve to teach myself how to think like a programmer (in light of the further stagnation of most digital design practices and tooling), I picked the tome back up and have been attempting to read it on my daily morning commute. New York and the need to travel via public transport has proven to be an excellent catalyst to my recent ability to _actually_ consume texts that have been lying around for years, but when I think of this, I realize the problem is likely to reside within myself, and transportation is just an excuse. All things said, I heavily dislike the need to own and use personal transport in the American Southwest, but I digress.
 
 The spirit of the computer.
 
-What is the spirit of the computer? According to the *tome*:
+What is the spirit of the computer? According to SICP:
 
 `https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-9.html#%_chap_1`
 
@@ -46,7 +47,7 @@ None of this is particularly revelatory, or new, or groundbreaking. It's such a 
 
 >_...there seemed to be no difference._
 
-![Spread One](./1.jpg)
+![Spread One](./b.jpg)
 
 >_It was as if the new arm was turning the knob..._
 
@@ -56,11 +57,11 @@ None of this is particularly revelatory, or new, or groundbreaking. It's such a 
 
 >_The buildings, the plants, bodies — seem to be made of the same things..._
 
-![Spread Two](./2.jpg)
+![Spread Two](./c.jpg)
 
 >_They seem to all be connected... Folding together and falling away —_
 
-![Spread Three](./3.jpg)
+![Spread Three](./d.jpg)
 
 —
 

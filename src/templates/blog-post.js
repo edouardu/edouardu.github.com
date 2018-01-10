@@ -11,6 +11,9 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
+    const Wrapper = styling.section `
+      max-width: 64rem;
+    `
     const PostDate = styling.p `
       opacity: .20;
     `
@@ -20,7 +23,7 @@ class BlogPostTemplate extends React.Component {
     `
 
     return (
-      <section>
+      <Wrapper>
         <Helmet title={`${post.frontmatter.title}`} />
         <p>{post.frontmatter.title}</p>
         <PostDate>
@@ -28,7 +31,7 @@ class BlogPostTemplate extends React.Component {
         </PostDate>
         <BlogPost dangerouslySetInnerHTML={{ __html: post.html }} />
       <HeaderBlog />
-      </section>
+      </Wrapper>
     )
   }
 }

@@ -10,8 +10,8 @@ class Template extends React.Component {
     const Wrapper = styling.section `
     margin-right: auto;
     margin-left: auto;
-    width:80%;
-    max-width:64rem;
+    width: 80%;
+    max-width: 64rem;
     margin-top: 4rem; 
     margin-bottom: 4rem;
     padding-bottom: 4rem;

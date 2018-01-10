@@ -1,10 +1,11 @@
 ---
 title: American Interfaces
+tags: ["writing"]
 date: "2017-04-15T22:40:32.169Z"
 path: "/new-american-interfaces/"
 ---
 
-![New American Interface](./phone.png)
+![New American Interface](./1.png)
 
 Lately I have been concerned about the proliferation of digital product interfaces emerging from California.
 

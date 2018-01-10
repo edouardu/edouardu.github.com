@@ -1,10 +1,11 @@
 ---
 title: Pick Your Emergency
+tags: ["writing"]
 date: "2017-07-06T23:46:37.121Z"
 path: "/pick-your-emergency/"
 ---
 
-![A garden multi-plot](./arch-futures.png)
+![random graphic illu](./1.png)
 
 Context: I've been reading a lot about cities (among other urbanist works) and what do do about them — 
 

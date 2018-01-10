@@ -1,49 +1,62 @@
 ---
 title: New Computers
-date: "2017-08-25T23:46:37.121Z"
+tags: ["writing"]
+date: "2017-11-29T23:46:37.121Z"
 path: "/new-computers/"
 ---
 
-![Computer Obsolete](./co.png)
+Yeah, I think phones have failed us.
 
-![Personal Server](./ps.png)
+![Computer Obsolete](./1.png)
 
-> TBD Haha
-> 
-> — Nick Land
+Don't @ me!
 
-TBD
-TBA
+In the last couple of months, a few on-going streams of research and personal interest began to intertwine and hyperlink amongst one another.
 
-~TBA~
+![Thought Process Shapers as of Recent Times](./2.png)
 
-# TBA
-## TBA
-### TBA
-#### TBA
-##### TBA
-###### TBA
+Upon the utterance "New Computer", it was clear where things were going.
 
-_TBD_
-*TBD*
+What makes something a computer? What is the act of computing?
 
-* TBD
-    * TBD
+I think the best way to begin thinking along the lines of this subject is to consider why [random object in the room] is or is not a computer. I am starting to think more things are computers, and more types of computers should exist. I believe disentangling current notions of a computer and their representation in physical–digital space can be a key aspect of improving our relationship with technology and one another.
 
-- TBA
+![Personal Server](./3.png)
 
-- - -
+There can, and should be computers for eating, arguing, animal-care, carpentry, and knowledge-work. New Computers should accomodate and amplify and extend human activities of all sorts — from fucking to childbirth to end-of-life rites. New Computers should be soft, intimate, friendly ... or solid.
 
-TBA
-TBA
-TBA
-TBA
-TBA
-TBA
+It's your choice!
+
+The form and feel of a New Computer should be liquid and wholly arbitrary, yet perfectly suited to the context at hand. An ideal New Computer will be representative and one with its human user, an extension of one's will, mind, body, spirit. 
+
+A New Computer should be brandless, nameless, formless. 
+
+A brand–spanking New Computer should be a divergent experience most of the time, convergent only when a task requires focus. 
+
+Hopefully, a New Computer doesn't contain notifications as we know them now, but needing to know when a "meaningful event" occurs is important — I think we innately know what is important though. New Computers should understand this.
+
+A computer should be passed down from generation to generation, or shared amongst friends. Computers as "Wholly communal experiences set against time".
+
+Like things passed on from generation to generation, a New Computer should have settings which allow it to become more fuzzy, undefined, and romantic as time passes.
+
+Every single New Computer should be conceived and understood as networked infrastructure. This is incredibly important. Devices in total isolation is a luddite notion these days, and networking as a given should be afforded for.
+
+Despite the previous statement, I really do think New Computers are Personal Computers, Personal Servers. Networked Infrastructure can exist for an individual too.
+
+These are just a few thoughts. 
+
+We're assembling a working group [here](https://www.are.na/edouard-u/new-computer-working-group).
+
+![New Computers](./4.png)
+
+![New Computer Support Structures](./5.png)
 
 —
 
 Reading Network (consumed at time of writing):
 
-1. [The New Normal](https://www.are.na/edouard-u/the-new-normal)
-2. [Soldiers of Reason: The RAND Corporation and the Rise of the American Empire](https://www.are.na/edouard-u/soldiers-of-reason-the-rand-corporation-and-the-rise-of-the-american-empire)
+1. [A Thousand Plateaus](https://www.are.na/edouard-u/a-thousand-plateaus)
+2. [Fanged Noumena](https://www.are.na/edouard-u/fanged-noumena)
+3. https://meaningness.com/further-reading
+4. https://lhs.nu/archive
+5. http://www.katarxis3.com/Alexander_Eisenman_Debate.htm

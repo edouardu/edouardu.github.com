@@ -16,8 +16,11 @@ class BlogIndex extends React.Component {
       padding-left: 2rem; padding-right: 2rem;
       padding-top: 1rem; padding-bottom: 1rem;
       text-align: center;
-      border-style: solid; border-width: 1px;
-      border-width: .125rem;
+      border-style: solid; 
+      border-width: .09rem;
+      @media screen and (min-width: 30em) {
+        border-width: .125rem;
+      };
       border-radius: 9999px;
     `
     const Offset1 = styling.p`
@@ -32,6 +35,8 @@ class BlogIndex extends React.Component {
     `
     const NormalLink = styling.a`
       color: black;
+      text-decoration: underline;
+      text-decoration-skip: ink;
     `
 
     const BlogTitle = styling.p`

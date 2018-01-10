@@ -14,8 +14,11 @@ class More extends React.Component {
         margin-left: 4rem;
       }
       text-align: center;
-      border-style: solid; border-width: 1px;
-      border-width: .125rem;
+      border-style: solid; 
+      border-width: .09rem;
+      @media screen and (min-width: 30em) {
+        border-width: .125rem;
+      };
       border-radius: 9999px;
     `
     const List = styling.ol `
@@ -24,12 +27,14 @@ class More extends React.Component {
       max-width: 34em;
     `
     const NormalLink = styling.a `
-      text-decoration: none;
-      color: DarkGray;
+      text-decoration: underline;
+      text-decoration-skip: ink;
+      color: black;
     `
     const NiceLink = styling(Link) `
-      text-decoration: none;
-      color: DarkGray;
+      text-decoration: underline;
+      text-decoration-skip: ink;
+      color: black;
     `
     return (
       <div>

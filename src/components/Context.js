@@ -9,8 +9,11 @@ class Context extends React.Component {
       padding-left: 2rem; padding-right: 2rem;
       padding-top: 1rem; padding-bottom: 1rem;
       text-align: center;
-      border-style: solid; border-width: 1px;
-      border-width: .125rem;
+      border-style: solid; 
+      border-width: .09rem;
+      @media screen and (min-width: 30em) {
+        border-width: .125rem;
+      };
       border-radius: 9999px;
     `
     const Offset1 = styling.p `
@@ -32,8 +35,13 @@ class Context extends React.Component {
       }
     `
     const NormalLink = styling.a `
-      text-decoration: none;
-      color: DarkGray;
+      color: black;
+      text-decoration: underline;
+      text-decoration-skip: ink;
+    `
+    const Serif = styling.span `
+      font-family: 'georgia', serif;
+      font-style: italic;
     `
 
     return (
@@ -41,7 +49,7 @@ class Context extends React.Component {
         <Bubble>Context</Bubble>
         <Offset1>Interests and Expertise include:</Offset1>
         <Offset2>
-          <NormalLink href="https://www.are.na/edouard-u/digital-product-design" target="_blank">Product Design</NormalLink>, <NormalLink href="https://www.are.na/edouard-u/physical-product-design" target="_blank">Industrial Design</NormalLink>, <NormalLink href="https://www.are.na/edouard-u/products-systems" target="_blank">Systems Design</NormalLink>, <NormalLink href="https://www.are.na/edouard-u/organizational-design" target="_blank">Organizational Design</NormalLink>, <NormalLink href="https://www.are.na/edouard-u/mass-manufacture" target="_blank">Mass Manufacture</NormalLink>, and other <NormalLink href="https://www.are.na/edouard-u/after-earth" target="_blank">Large and <span>Wicked</span> Projects</NormalLink>.
+          <NormalLink href="https://www.are.na/edouard-u/digital-product-design" target="_blank">Product Design</NormalLink>, <NormalLink href="https://www.are.na/edouard-u/physical-product-design" target="_blank">Industrial Design</NormalLink>, <NormalLink href="https://www.are.na/edouard-u/products-systems" target="_blank">Systems Design</NormalLink>, <NormalLink href="https://www.are.na/edouard-u/organizational-design" target="_blank">Organizational Design</NormalLink>, <NormalLink href="https://www.are.na/edouard-u/mass-manufacture" target="_blank">Mass Manufacture</NormalLink>, and other <NormalLink href="https://www.are.na/edouard-u/after-earth" target="_blank">Large and <Serif>Wicked</Serif> Projects</NormalLink>.
         </Offset2>
         <Offset3>
           I am oriented towards the future. I’d like to spend my life guiding complex product systems towards egalitarian ends. Heritage craft-works and nostalgia are uninteresting to me. New infrastructures and modes of being are very interesting to me.

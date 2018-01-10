@@ -1,10 +1,11 @@
 ---
 title: The Design of Sustainability
+tags: ["writing"]
 date: "2017-05-22T23:46:37.121Z"
 path: "/the-design-of-sustainability/"
 ---
 
-![A garden multi-plot](./plot.png)
+![A garden multi-plot illustration](./1.png)
 
 —
 
