@@ -41,6 +41,7 @@ class More extends React.Component {
         <Bubble>More</Bubble>
         <List>
           <li>Writing in my <NiceLink to="/writing/">writing directory</NiceLink></li>
+          <li><NiceLink to="/teaching/">Teaching and workshopping</NiceLink></li>
           <li>Open sourcing projects on <NormalLink href="https://github.com/edouerd" target="_blank">Github</NormalLink></li>
           <li>Hyperlinking and researching on <NormalLink href="https://www.are.na/edouard-u/index" target="_blank">Are.na</NormalLink></li>
         </List>

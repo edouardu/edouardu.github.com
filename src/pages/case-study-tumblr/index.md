@@ -3,6 +3,7 @@ title: "Case Study: Tumblr"
 tags: ["case"]
 date: "2017-05-22T23:46:37.121Z"
 path: "/tumblr/"
+published: "false"
 ---
 
 ![Bubbles desribing what Tumblr is and is not](./intro1.png)
