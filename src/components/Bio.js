@@ -48,10 +48,9 @@ class Bio extends React.Component {
           <li>Wandering designer —</li>
             <ol type="a">
               {/* 
-              <li><NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink>: a truly new computer</li> 
-              <li>Futures of trust, dwelling, and well-being, with <NormalLink href="http://urbit.org/" target="_blank">Samara</NormalLink></li>
+              <li><NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink>: a truly new computer</li>
               */}
-              <li>TBA</li>
+              <li>Futures of trust, dwelling, and well-being, with <NormalLink href="http://urbit.org/" target="_blank">Samara</NormalLink></li>
             </ol>
           <li>Co-organizing a <NormalLink href="http://newcomputers.group/" target="_blank">New Computer Working Group</NormalLink></li>
           <li>Part-time faculty at <NormalLink href="https://www.newschool.edu/parsons/art-media-technology-school-amt/" target="_blank">Parsons School of Design</NormalLink></li>
