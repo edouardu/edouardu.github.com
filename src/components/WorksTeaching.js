@@ -59,82 +59,6 @@ class WorksTeaching extends React.Component {
       color: black;
     `
 
-    const ProjectOne = styling.div `
-      margin-top: 2rem;
-      width: 100%;
-      @media screen and (min-width: 30em) {
-        margin-top: 4rem;
-        width: 70%;
-        margin-left: 16rem;
-      };
-    `
-    const ProjectTwo = styling.div `
-      margin-top: 2rem;
-      width: 100%;
-      @media screen and (min-width: 30em) {
-        margin-top: 8rem;
-        width: 70%;
-        margin-left: 4rem;
-      };
-    `
-    const ProjectThree = styling.div `
-      margin-top: 2rem;
-      width: 100%;
-      @media screen and (min-width: 30em) {
-        margin-top: 8rem;
-        width: 70%;
-      };
-    `
-    const ProjectFour = styling.div `
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-      width: 100%;
-      @media screen and (min-width: 30em) {
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-        width: 70%;
-        margin-left: 16rem;
-      };
-    `
-
-    const ProjectImage = styling.img `
-      display: block;
-      width: 100%;
-      margin-top: 2rem;
-      border-radius: .25rem;
-      filter: grayscale(100%);
-      transition: filter .2s cubic-bezier(.55, .085, .68, .53);
-      &:hover {
-        filter: none;
-      }
-    `
-    const ProjectImageSm = styling.img `
-      display: inline-block;
-      width: 50%;
-      margin-top: 2rem;
-      border-radius: .25rem;
-      filter: grayscale(100%);
-      transition: filter .2s cubic-bezier(.55, .085, .68, .53);
-      &:hover {
-        filter: none;
-      }
-    `
-    const ProjectTitle = styling.a `
-      display: inline-block;
-      padding-top: 1rem;
-      font-size: .875rem;
-      @media screen and (min-width: 30em) {
-        font-size: 1rem;
-      };
-      text-decoration: none;
-      line-height: 1.25;
-      color: black;
-    `
-    const ProjectDescription = styling.small `
-      display: block;
-      font-size: .875rem;
-      color: DarkGray;
-    `
     const CollabText = styling.span`
       font-family: 'Georgia', serif;
       font-size: .8rem;
@@ -157,7 +81,7 @@ class WorksTeaching extends React.Component {
 
         <Bubble>Workshops</Bubble>
         <ul>
-          <li>Being a Body, <CollabText>with <NormalLink href="https://callil.com/">Cal</NormalLink> and <NormalLink href="https://sarahhamerman.com/">Sarah</NormalLink></CollabText></li>
+          <li><NormalLink href="https://www.are.na/edouard-u/being-a-body-infrastructure" target="_blank">Being a Body</NormalLink>, <CollabText>with <NormalLink href="https://callil.com/" target="_blank">Cal</NormalLink> and <NormalLink href="https://sarahhamerman.com/" target="_blank">Sarah</NormalLink></CollabText></li>
           <li>Sightseeing Interfaces</li>
           <li>Dream Studio</li>
         </ul>

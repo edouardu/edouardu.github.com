@@ -47,10 +47,10 @@ class Bio extends React.Component {
         <List>
           <li>Wandering designer —</li>
             <ol type="a">
-              {/* 
-              <li><NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink>: a truly new computer</li>
-              */}
-              <li>Futures of trust, dwelling, and well-being, with <NormalLink href="http://urbit.org/" target="_blank">Samara</NormalLink></li>
+              <li>New computers, with <NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink></li>
+              <li>Futures of trust, hospitality, and well-being, with <NormalLink href="https://samara.com/" target="_blank">Samara</NormalLink></li>
+              <li><NormalLink href="https://blockfront.github.io/" target="_blank">Blockfront</NormalLink>, with <em>Other</em> Internet</li>
+              <li>Spatial Token Curated Registries, with <NormalLink href="https://foam.space/" target="_blank">FOAM</NormalLink></li>
             </ol>
           <li>Co-organizing a <NormalLink href="http://newcomputers.group/" target="_blank">New Computer Working Group</NormalLink></li>
           <li>Part-time faculty at <NormalLink href="https://www.newschool.edu/parsons/art-media-technology-school-amt/" target="_blank">Parsons School of Design</NormalLink></li>
@@ -61,6 +61,12 @@ class Bio extends React.Component {
         <List start="5">
           <li>Designed a ˗ˏˋdazzlingˎˊ˗ array of digital product experiences for millions of creative people at <NormalLink href="https://www.tumblr.com/" target="_blank">Tumblr</NormalLink></li>
           <li>Built hyper-complex B<Serif>2</Serif>B software and started a popular intra-net radio station with friends at <NormalLink href="https://www.ibm.com/" target="_blank">International Business Machines</NormalLink></li>
+        </List>
+
+        <Offset1>Maybe:</Offset1>
+        <List start="7">
+          <li><NormalLink href="http://maybe.clothing/" target="_blank">Clothing</NormalLink></li>
+          <li>We can collab: <NormalLink href="mailto:mail@edouard.us" target="_blank">mail@edouard.us</NormalLink></li>
         </List>
       </div>
     )
