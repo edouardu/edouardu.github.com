@@ -47,7 +47,7 @@ class Bio extends React.Component {
         <List>
           <li>Wandering designer —</li>
             <ol type="a">
-              <li>New computers, with <NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink></li>
+              {/* <li>New computers, with <NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink></li> */}
               <li>Futures of trust, hospitality, and well-being, with <NormalLink href="https://samara.com/" target="_blank">Samara</NormalLink></li>
               <li><NormalLink href="https://blockfront.github.io/" target="_blank">Blockfront</NormalLink>, with <em>Other</em> Internet</li>
               <li>Spatial Token Curated Registries, with <NormalLink href="https://foam.space/" target="_blank">FOAM</NormalLink></li>
@@ -66,7 +66,7 @@ class Bio extends React.Component {
         <Offset1>Maybe:</Offset1>
         <List start="7">
           <li><NormalLink href="http://maybe.clothing/" target="_blank">Clothing</NormalLink></li>
-          <li>We can collab: <NormalLink href="mailto:mail@edouard.us" target="_blank">mail@edouard.us</NormalLink></li>
+          <li>We can think about the future...</li>
         </List>
       </div>
     )
