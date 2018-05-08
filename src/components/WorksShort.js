@@ -39,7 +39,7 @@ class WorksShort extends React.Component {
     return (
       <div>
         <Bubble>Works</Bubble>
-        <Offset1><NormalLink href="https://s3.amazonaws.com/edouard.us/RecentWorks.pdf" target="_blank">RecentWorks.pdf</NormalLink></Offset1>
+        <Offset1><NormalLink href="https://s3.amazonaws.com/edouard.us/CV.pdf" target="_blank">CV</NormalLink>.pdf, <NormalLink href="https://s3.amazonaws.com/edouard.us/Letter.pdf" target="_blank">Letter</NormalLink>.pdf, <NormalLink href="https://s3.amazonaws.com/edouard.us/Recent.pdf" target="_blank">Recent</NormalLink>.pdf</Offset1>
         <Offset1><NormalLink href="https://www.are.na/edouard-u/sketching" target="_blank">Sketching and In-progress</NormalLink></Offset1>
         <Offset3>2017 — Ongoing</Offset3>
       </div>

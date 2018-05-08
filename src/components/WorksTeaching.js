@@ -73,27 +73,31 @@ class WorksTeaching extends React.Component {
         
         <Bubble2>Projects</Bubble2>
         <ListOffset3>
-          <li>Text Adventures</li>
-          <li>Difference and Repetition</li>
-          <li>Little Free Network</li>
-          <li>Human–Computer Interfaces</li>
+          <li>Text Adventures <CollabText>Documentation Soon!</CollabText></li>
+          <li>Difference and Repetition <CollabText>Documentation Soon!</CollabText></li>
+          <li>Little Free Networks <CollabText>Documentation Soon!</CollabText></li>
+          <li>Human–Computer Interfaces <CollabText>Documentation Soon!</CollabText></li>
         </ListOffset3>
 
         <Bubble>Workshops</Bubble>
         <ul>
           <li><NormalLink href="https://www.are.na/edouard-u/being-a-body-infrastructure" target="_blank">Being a Body</NormalLink>, <CollabText>with <NormalLink href="https://callil.com/" target="_blank">Cal</NormalLink> and <NormalLink href="https://sarahhamerman.com/" target="_blank">Sarah</NormalLink></CollabText></li>
-          <li>Sightseeing Interfaces</li>
-          <li>Dream Studio</li>
+          <li><NormalLink href="https://www.are.na/block/1678076" target="_blank">Sightseeing Interfaces</NormalLink></li>
+          <li><NormalLink href="https://www.are.na/edouard-u/dream-studio" target="_blank">Dream Studio</NormalLink></li>
         </ul>
 
         <Bubble3>Courses</Bubble3>
+        <Offset1>Someday</Offset1>
+          <ListOffset1>
+            <li>20XX, <NormalLink href="https://products-systems.glitch.me/" target="_blank">Products, Systems</NormalLink>, Online</li>
+          </ListOffset1>
         <Offset1>Current</Offset1>
           <ListOffset1>
             <li>Spring 2018, <NormalLink href="https://csi-18.glitch.me/" target="_blank">Core Studio Interaction</NormalLink>, Parsons</li>
           </ListOffset1>
         <Offset1>Past</Offset1>
           <ListOffset1>
-            <li>Prototyping/Design Thinking <NormalLink href="https://www.youtube.com/watch?v=WwfC11NRPfQ" target="_blank">Workshop(s)</NormalLink>, IBM</li>
+            <li>2014–2015, Prototyping/Design Thinking <NormalLink href="https://www.youtube.com/watch?v=WwfC11NRPfQ" target="_blank">Workshop(s)</NormalLink>, IBM</li>
           </ListOffset1>
       </div>
     )

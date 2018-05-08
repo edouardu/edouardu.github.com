@@ -50,7 +50,7 @@ class Bio extends React.Component {
               {/* <li>New computers, with <NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink></li> */}
               <li>Futures of trust, hospitality, and well-being, with <NormalLink href="https://samara.com/" target="_blank">Samara</NormalLink></li>
               <li><NormalLink href="https://blockfront.github.io/" target="_blank">Blockfront</NormalLink>, with <em>Other</em> Internet</li>
-              <li>Spatial Token Curated Registries, with <NormalLink href="https://foam.space/" target="_blank">FOAM</NormalLink></li>
+              <li>New Maps, Points of Interest, with <NormalLink href="https://foam.space/" target="_blank">FOAM</NormalLink></li>
             </ol>
           <li>Co-organizing a <NormalLink href="http://newcomputers.group/" target="_blank">New Computer Working Group</NormalLink></li>
           <li>Part-time faculty at <NormalLink href="https://www.newschool.edu/parsons/art-media-technology-school-amt/" target="_blank">Parsons School of Design</NormalLink></li>
