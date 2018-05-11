@@ -34,7 +34,7 @@ class Bio extends React.Component {
     const NormalLink = styling.a `
       text-decoration: underline;
       text-decoration-skip: ink;
-      color: black;
+      color: #231E1E;
     `
     const Serif = styling.span `
       font-family: 'georgia', serif;
@@ -43,13 +43,13 @@ class Bio extends React.Component {
       <div>
         <Bubble>Ed</Bubble> <Bubble>Future–Optimist</Bubble>
 
-        <Offset1>Currently:</Offset1>
+        <Offset1>Currently</Offset1>
         <List>
-          <li>Wandering designer —</li>
+          <li>Wandering —</li>
             <ol type="a">
               {/* <li>New computers, with <NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink></li> */}
-              <li>Futures of trust, hospitality, and well-being, with <NormalLink href="https://samara.com/" target="_blank">Samara</NormalLink></li>
-              <li><NormalLink href="https://blockfront.github.io/" target="_blank">Blockfront</NormalLink>, with <em>Other</em> Internet</li>
+              <li>Futures of trust, hospitality, sharing, etc., with <NormalLink href="https://samara.com/" target="_blank">Samara</NormalLink></li>
+              <li><NormalLink href="https://blockfront.github.io/" target="_blank">EI3P/PUNN/PIPE</NormalLink>, with <em>Other</em> Internet</li>
               <li>New Maps, Points of Interest, with <NormalLink href="https://foam.space/" target="_blank">FOAM</NormalLink></li>
             </ol>
           <li>Co-organizing a <NormalLink href="http://newcomputers.group/" target="_blank">New Computer Working Group</NormalLink></li>
@@ -57,13 +57,13 @@ class Bio extends React.Component {
           <li>Custodian for <NormalLink href="http://learning-gardens.co/" target="_blank">Learning Gardens</NormalLink></li>
         </List>
         
-        <Offset2>Previously:</Offset2>
+        <Offset2>Previously</Offset2>
         <List start="5">
           <li>Designed a ˗ˏˋdazzlingˎˊ˗ array of digital product experiences for millions of creative people at <NormalLink href="https://www.tumblr.com/" target="_blank">Tumblr</NormalLink></li>
           <li>Built hyper-complex B<Serif>2</Serif>B software and started a popular intra-net radio station with friends at <NormalLink href="https://www.ibm.com/" target="_blank">International Business Machines</NormalLink></li>
         </List>
 
-        <Offset1>Maybe:</Offset1>
+        <Offset1>Maybe</Offset1>
         <List start="7">
           <li><NormalLink href="http://maybe.clothing/" target="_blank">Clothing</NormalLink></li>
           <li>We can think about the future...</li>

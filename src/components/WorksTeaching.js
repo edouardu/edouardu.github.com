@@ -93,10 +93,11 @@ class WorksTeaching extends React.Component {
           </ListOffset1>
         <Offset1>Current</Offset1>
           <ListOffset1>
-            <li>Spring 2018, <NormalLink href="https://csi-18.glitch.me/" target="_blank">Core Studio Interaction</NormalLink>, Parsons</li>
+            <li>TBA</li>
           </ListOffset1>
         <Offset1>Past</Offset1>
           <ListOffset1>
+          <li>Spring 2018, <NormalLink href="https://csi-18.glitch.me/" target="_blank">Core Studio Interaction</NormalLink>, Parsons</li>
             <li>2014–2015, Prototyping/Design Thinking <NormalLink href="https://www.youtube.com/watch?v=WwfC11NRPfQ" target="_blank">Workshop(s)</NormalLink>, IBM</li>
           </ListOffset1>
       </div>
