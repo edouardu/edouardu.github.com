@@ -47,9 +47,8 @@ class Bio extends React.Component {
         <List>
           <li>Wandering —</li>
             <ol type="a">
-              {/* <li>New computers, with <NormalLink href="http://urbit.org/" target="_blank">Urbit</NormalLink></li> */}
-              <li>Futures of trust, hospitality, sharing, etc., with <NormalLink href="https://samara.com/" target="_blank">Samara</NormalLink></li>
-              <li><NormalLink href="https://blockfront.github.io/" target="_blank">EI<Serif>3</Serif>P</NormalLink>, with Other Internet</li>
+            <li>Futures of trust, hospitality, sharing, etc., with <NormalLink href="https://samara.com/" target="_blank">Samara</NormalLink></li>
+              <li><NormalLink href="http://ei3p.org/">EI<Serif>3</Serif>P</NormalLink>, with Other Internet</li>
               <li>New Maps, Points of Interest, with <NormalLink href="https://foam.space/" target="_blank">FOAM</NormalLink></li>
             </ol>
           <li>Co-organizing a <NormalLink href="http://newcomputers.group/" target="_blank">New Computer Working Group</NormalLink></li>
@@ -57,14 +56,14 @@ class Bio extends React.Component {
           <li>Custodian for <NormalLink href="http://learning-gardens.co/" target="_blank">Learning Gardens</NormalLink></li>
         </List>
         
-        <Offset2>Previously</Offset2>
+        {/* <Offset2>Previously</Offset2>
         <List start="5">
           <li>Designed a ˗ˏˋdazzlingˎˊ˗ array of digital product experiences for millions of creative people at <NormalLink href="https://www.tumblr.com/" target="_blank">Tumblr</NormalLink></li>
           <li>Built hyper-complex B<Serif>2</Serif>B software and started a popular intra-net radio station with friends at <NormalLink href="https://www.ibm.com/" target="_blank">International Business Machines</NormalLink></li>
-        </List>
+        </List> */}
 
-        <Offset1>Maybe</Offset1>
-        <List start="7">
+        <Offset2>Maybe</Offset2>
+        <List start="5">
           <li><NormalLink href="http://maybe.clothing/" target="_blank">Clothing</NormalLink></li>
           <li>We can think about the future...</li>
         </List>
