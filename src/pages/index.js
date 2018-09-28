@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import styling from 'styled-components'
 
 import Bio from '../components/Bio'
+import Bio2 from '../components/Bio2'
 import WorksShort from '../components/WorksShort'
 import More from '../components/More'
 import Context from '../components/Context'
@@ -27,10 +28,11 @@ class Front extends React.Component {
           <meta property="og:url" content="http://edouard.us/"/>
           <meta property="og:site_name" content="Édouard U."/>
         </Helmet>
-        <Bio />
-        <WorksShort />
-        <More />
-        <Context />
+        <Bio2 />
+        {/* <Bio /> */}
+        {/* <WorksShort /> */}
+        {/* <More /> */}
+        {/* <Context /> */}
       </section>
     )
   }
