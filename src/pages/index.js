@@ -28,11 +28,11 @@ class Front extends React.Component {
           <meta property="og:url" content="http://edouard.us/"/>
           <meta property="og:site_name" content="Édouard U."/>
         </Helmet>
-        <Bio2 />
-        {/* <Bio /> */}
+        {/* <Bio2 /> */}
+        <Bio />
         {/* <WorksShort /> */}
-        {/* <More /> */}
-        {/* <Context /> */}
+        <More />
+        <Context />
       </section>
     )
   }
