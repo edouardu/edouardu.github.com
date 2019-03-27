@@ -29,12 +29,12 @@ class More extends React.Component {
     const NormalLink = styling.a `
       text-decoration: underline;
       text-decoration-skip: ink;
-      color: #231E1E;
+      color: black;
     `
     const NiceLink = styling(Link) `
       text-decoration: underline;
       text-decoration-skip: ink;
-      color: #231E1E;
+      color: black;
     `
     return (
       <div>

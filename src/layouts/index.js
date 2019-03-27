@@ -19,7 +19,7 @@ class Template extends React.Component {
     @media screen and (min-width: 30em) {
       font-size: 1.25rem;
     }
-    color: #231E1E;
+    color: black;
     font-family: 'Arial', 'Helvetica', sans-serif;
     line-height: 1.5;
     `

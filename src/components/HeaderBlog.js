@@ -19,7 +19,7 @@ class HeaderBlog extends React.Component {
     `
     const NiceLink = styling(Link) `
       text-decoration: none;
-      color: #231E1E;
+      color: black;
     `
 
     return (
