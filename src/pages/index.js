@@ -30,11 +30,19 @@ class Front extends React.Component {
           <meta property="og:url" content="http://edouard.us/" />
           <meta property="og:site_name" content="Édouard U." />
         </Helmet>
+<<<<<<< HEAD
         {/* <Bio2 /> */}
         <Bio />
         <WorksShort />
         <More />
         <Context />
+=======
+        <Bio2 />
+        {/* <Bio /> */}
+        {/* <WorksShort /> */}
+        {/* <More /> */}
+        {/* <Context /> */}
+>>>>>>> parent of ad60f12... old menu revival
       </section>
     );
   }
