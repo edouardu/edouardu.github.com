@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "gatsby-link"
 import styling from 'styled-components'
 
 class Bio2 extends React.Component {
@@ -14,6 +15,11 @@ class Bio2 extends React.Component {
       padding-left: 4rem;
     `
     const NormalLink = styling.a `
+      text-decoration: none;
+      text-decoration-skip: ink;
+      color: #231E1E;
+    `
+    const NiceLink = styling(Link) `
       text-decoration: none;
       text-decoration-skip: ink;
       color: #231E1E;
@@ -49,7 +55,7 @@ class Bio2 extends React.Component {
           <p>I've been thinking a lot about the future.</p>
           <p>Send news: <NormalLink href="mailto:mail@edouard.us" target="_blank">mail@edouard.us</NormalLink></p>
           <Offset2><NormalLink href="https://news.edouard.us/" target="_blank">Newsletter</NormalLink></Offset2>
-          <Offset1><NormalLink href="#" target="_blank">Works</NormalLink></Offset1>
+          <Offset1><NiceLink to="/writing/">Writing</NiceLink></Offset1>
         </Encircle>
         </Serif>
       </div>
